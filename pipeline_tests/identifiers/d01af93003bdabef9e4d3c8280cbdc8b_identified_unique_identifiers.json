@@ -1,0 +1,97 @@
+{
+    "content": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <?xml-stylesheet type=\"text/xsl\" href=\"/xsl/oairepository/oai2.xsl.v1.0\" ?> <OAI-PMH xmlns=\"http://www.openarchives.org/OAI/2.0/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd\"> <responseDate>2014-10-30T01:04:52Z</responseDate><request verb=\"ListRecords\" set=\"user-coar\" metadataPrefix=\"oai_dc\">http://zenodo.org/oai2d</request><ListRecords> <record><header><identifier>oai:zenodo.org:12384</identifier><datestamp>2014-10-27T18:16:38Z</datestamp><setSpec>user-coar</setSpec><setSpec>user-zenodo</setSpec><setSpec>openaire</setSpec></header><metadata><oai_dc:dc xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:oai_dc=\"http://www.openarchives.org/OAI/2.0/oai_dc/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd\"> <dc:creator>McCutcheon, Valerie</dc:creator> <dc:creator>Nixon, William</dc:creator> <dc:title>Repository Profile: University of Glasgow: \"Enlighten\" IR &amp; Research System. COAR Repository Observatory</dc:title> <dc:date>2014-10-16</dc:date> <dc:subject>cc-by</dc:subject> <dc:identifier>http://zenodo.org/record/12384</dc:identifier> <dc:identifier> doi:10.5281/zenodo.12384</dc:identifier> <dc:description>&lt;p&gt;The University of Glasgow has established the &amp;ldquo;Enlighten&amp;rdquo; IR and Research system. The IR holds 72,000 items for institutional peer-reviewed journal articles, published conference papers, books and book chapters.&lt;/p&gt; &lt;p&gt;The Research System is an in-house-built system holding research information for institutional research activity, including people, organisations, projects and outputs. It is dynamically linked to the Enlighten IR.&lt;/p&gt;</dc:description> <dc:rights> info:eu-repo/semantics/openAccess </dc:rights> <dc:type> info:eu-repo/semantics/article </dc:type> </oai_dc:dc> </metadata></record><record><header><identifier>oai:zenodo.org:12475</identifier><datestamp>2014-10-29T15:19:00Z</datestamp><setSpec>openaire</setSpec><setSpec>user-coar</setSpec></header><metadata><oai_dc:dc xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:oai_dc=\"http://www.openarchives.org/OAI/2.0/oai_dc/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd\"> <dc:creator>Ribeiro, L gia Maria</dc:creator> <dc:title>Repository Profile: Repository and CRIS at the University of Porto. COAR Repository Observatory</dc:title> <dc:date>2014-10-16</dc:date> <dc:subject>cc-by</dc:subject> <dc:identifier>http://zenodo.org/record/12475</dc:identifier> <dc:identifier> doi:10.5281/zenodo.12475</dc:identifier> <dc:description>&lt;p&gt;At the University of Porto (U.Porto) both repository and CRIS are being used as part of the local e-infrastructure. U.Porto Open Repository is the largest institutional repository on RCAAP, the Portuguese Open Access Scientific Repository, hosting 32.616 full text CC-BY works as of September 2014.&lt;/p&gt; &lt;p&gt;SIGARRA-CRIS and U.Porto Open Repository are interoperable. When on the SIGARRA-CRIS the full text of a publication is registered and available on a CC BY basis both the corresponding metadata and the digital object are automatically transferred to the U.Porto Open Repository.&lt;/p&gt;</dc:description> <dc:rights> info:eu-repo/semantics/openAccess </dc:rights> <dc:type> info:eu-repo/semantics/article </dc:type> </oai_dc:dc> </metadata></record><record><header><identifier>oai:zenodo.org:12477</identifier><datestamp>2014-10-29T15:19:00Z</datestamp><setSpec>openaire</setSpec><setSpec>user-coar</setSpec></header><metadata><oai_dc:dc xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:oai_dc=\"http://www.openarchives.org/OAI/2.0/oai_dc/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd\"> <dc:creator>Moreira, Jo o</dc:creator> <dc:title>Repository Profile: RCAAP &amp; PTCRIS. COAR Repository Observatory</dc:title> <dc:date>2014-10-16</dc:date> <dc:subject>cc-by</dc:subject> <dc:identifier>http://zenodo.org/record/12477</dc:identifier> <dc:identifier> doi:10.5281/zenodo.12477</dc:identifier> <dc:description>&lt;p&gt;RCAAP (Reposit&amp;oacute;rio Cientifico de Acesso Aberto de Portugal) is the main instrument for open access development in Portugal. It is a national open access initiative with 42 Institutional Repositories, one shared repository with 30 institutions, 30 Scientific journals and ore than 185.000 OA docs.&lt;/p&gt; &lt;p&gt;PTCRIS is a program that aims to ensure the creation and sustained development of a national integrated information ecosystem (PTCRIS) to support research management.&lt;/p&gt;</dc:description> <dc:rights> info:eu-repo/semantics/openAccess </dc:rights> <dc:type> info:eu-repo/semantics/article </dc:type> </oai_dc:dc> </metadata></record></ListRecords> </OAI-PMH>", 
+    "sha": "967082f6d9463f4dead53e3423a1693a943a66cf9fcd86b54448ff48", 
+    "identity": {
+        "is_error": false, 
+        "protocol": "OAI-PMH", 
+        "language": "", 
+        "service": "", 
+        "has_dataset": false, 
+        "has_metadata": false, 
+        "subtype": "service", 
+        "version": ""
+    }, 
+    "identifiers": [
+        [
+            [
+                "url", 
+                "http://zenodo.org/record/12475"
+            ], 
+            [
+                "urn", 
+                "oai:zenodo.org:12384"
+            ], 
+            [
+                "url", 
+                "http://zenodo.org/record/12477"
+            ], 
+            [
+                "url", 
+                "http://zenodo.org/record/12384"
+            ], 
+            [
+                "uri", 
+                "http://zenodo.org/record/12384"
+            ], 
+            [
+                "url", 
+                "http://zenodo.org/oai2d"
+            ], 
+            [
+                "uri", 
+                "http://zenodo.org/record/12477"
+            ], 
+            [
+                "urn", 
+                "info:eu-repo/semantics/openAccess"
+            ], 
+            [
+                "urn", 
+                "info:eu-repo/semantics/article"
+            ], 
+            [
+                "urn", 
+                "doi:10.5281/zenodo.12475"
+            ], 
+            [
+                "uri", 
+                "http://zenodo.org/record/12475"
+            ], 
+            [
+                "urn", 
+                "doi:10.5281/zenodo.12384"
+            ], 
+            [
+                "doi", 
+                "10.5281/zenodo.12384"
+            ], 
+            [
+                "doi", 
+                "10.5281/zenodo.12475"
+            ], 
+            [
+                "urn", 
+                "doi:10.5281/zenodo.12477"
+            ], 
+            [
+                "urn", 
+                "oai:zenodo.org:12475"
+            ], 
+            [
+                "doi", 
+                "10.5281/zenodo.12477"
+            ], 
+            [
+                "url", 
+                "http://www.zenodo.org/oai2d"
+            ], 
+            [
+                "urn", 
+                "oai:zenodo.org:12477"
+            ]
+        ], 
+        []
+    ], 
+    "digest": "d01af93003bdabef9e4d3c8280cbdc8b", 
+    "source_url": "http://www.zenodo.org/oai2d?verb=ListRecords&metadataPrefix=oai_dc&set=user-coar"
+}

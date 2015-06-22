@@ -1,0 +1,20 @@
+{
+    "content": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <OpenSearchDescription xmlns=\"http://a9.com/-/spec/opensearch/1.1/\"> <ShortName>ERDDAP</ShortName> <Description>The ERDDAP at NOAA NMFS SWFSC Environmental Research Division is a data server that gives you a simple, consistent way to download subsets of scientific datasets in common file formats and make graphs and maps.</Description> <Url type=\"application/atom+xml\" template=\"http://coastwatch.pfeg.noaa.gov/erddap/opensearch1.1/search?searchTerms={searchTerms}&#x26;page={startPage?}&#x26;itemsPerPage={count?}&#x26;format=atom\"/> <Url type=\"application/rss+xml\" template=\"http://coastwatch.pfeg.noaa.gov/erddap/opensearch1.1/search?searchTerms={searchTerms}&#x26;page={startPage?}&#x26;itemsPerPage={count?}&#x26;format=rss\"/> <Contact>bob.simons@noaa.gov</Contact> <Tags>atmosphere biology biosphere earth environment ocean science</Tags> <LongName>ERDDAP</LongName> <Image height=\"56\" width=\"55\">http://coastwatch.pfeg.noaa.gov/erddap/images/nlogo.gif</Image> <Image height=\"313\" width=\"313\">http://coastwatch.pfeg.noaa.gov/erddap/images/noaa_simple.gif</Image> <Image height=\"20\" width=\"20\">http://coastwatch.pfeg.noaa.gov/erddap/images/noaa20.gif</Image> <Query role=\"example\" searchTerms=\"temperature\" /> <Developer>Bob Simons (bob.simons at noaa.gov)</Developer> <Attribution>NOAA NMFS SWFSC Environmental Research Division</Attribution> <SyndicationRight>open</SyndicationRight> <AdultContent>false</AdultContent> <Language>en-us</Language> <InputEncoding>UTF-8</InputEncoding> <OutputEncoding>UTF-8</OutputEncoding> </OpenSearchDescription>", 
+    "sha": "6986f8e38053c9af35feef1d150bb5e51652cab1b5b91e267d4006ba", 
+    "identity": {
+        "is_error": false, 
+        "protocol": "OpenSearch", 
+        "language": "en-us", 
+        "service": "OpenSearchDescription", 
+        "has_dataset": false, 
+        "has_metadata": false, 
+        "subtype": "service", 
+        "version": "1.1"
+    }, 
+    "identifiers": [
+        [], 
+        []
+    ], 
+    "digest": "0ed9bbe3f052e60dc3dd7145fe39245f", 
+    "source_url": "http://coastwatch.pfeg.noaa.gov/erddap/opensearch1.1/description.xml"
+}

@@ -1,0 +1,6 @@
+{
+    "content": "<?xml version=\"1.0\" encoding=\"utf-8\"?> <OpenSearchDescription xmlns=\"http://a9.com/-/spec/opensearch/1.1/\"> <ShortName>Department of Economics</ShortName> <Description>Department of Economics - University of Oxford</Description> <InputEncoding>UTF-8</InputEncoding> <Image type=\"image/vnd.microsoft.icon\" width=\"16\" height=\"16\">http://www.economics.ox.ac.uk/templates/ja_nex/favicon.ico</Image> <Url type=\"application/opensearchdescription+xml\" rel=\"self\" template=\"http://www.economics.ox.ac.uk/Search?format=opensearch&amp;id=12170\"/> <Url type=\"text/html\" template=\"http://www.economics.ox.ac.uk/index.php?option=com_search&amp;searchword={searchTerms}\"/> </OpenSearchDescription>", 
+    "sha": "3ff2538d2d72d477e79029b6136baa39132ee26947ae6cdb3031a57d", 
+    "digest": "cc15011a8e0aaa60df499e8c91084c47", 
+    "source_url": "http://www.economics.ox.ac.uk/Search?format=opensearch&id=12170"
+}

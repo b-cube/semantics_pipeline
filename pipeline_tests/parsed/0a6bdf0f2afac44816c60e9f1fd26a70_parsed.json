@@ -1,0 +1,141 @@
+{
+    "source_url": "http://ladsweb.nascom.nasa.gov/opendap/allData/3000/NPP_MSRBTVIS_L3/catalog.xml", 
+    "sha": "b6852ed9ef449b15bddd11b13e2770dabe2f005e464c3f6088463f9c", 
+    "identity": {
+        "is_error": false, 
+        "protocol": "UNIDATA", 
+        "language": "", 
+        "service": "THREDDS-Catalog", 
+        "has_dataset": true, 
+        "has_metadata": true, 
+        "subtype": "service", 
+        "version": "1.0"
+    }, 
+    "service_description": {
+        "solr_identifier": "0a6bdf0f2afac44816c60e9f1fd26a70", 
+        "service": {
+            "endpoints": [
+                {
+                    "name": "dap", 
+                    "url": "http://ladsweb.nascom.nasa.gov/opendap/allData/3000/NPP_MSRBTVIS_L3/catalog.xml", 
+                    "actionable": 2, 
+                    "source": "service", 
+                    "type": "OPeNDAP", 
+                    "ID": "31fcff4c"
+                }, 
+                {
+                    "name": "file", 
+                    "url": "http://ladsweb.nascom.nasa.gov/opendap/allData/3000/NPP_MSRBTVIS_L3/catalog.xml", 
+                    "actionable": 2, 
+                    "source": "service", 
+                    "type": "HTTPServer", 
+                    "ID": "02c55e54"
+                }
+            ]
+        }, 
+        "source_url": "http://ladsweb.nascom.nasa.gov/opendap/allData/3000/NPP_MSRBTVIS_L3/catalog.xml", 
+        "dataset": {
+            "endpoints": [
+                {
+                    "source": "dataset", 
+                    "parentOf": [
+                        "/opendap/hyrax/allData/3000/NPP_MSRBTVIS_L3/NOTICE", 
+                        "/opendap/hyrax/allData/3000/NPP_MSRBTVIS_L3/NOTICE", 
+                        "/opendap/hyrax/allData/3000/NPP_MSRBTVIS_L3/2013/", 
+                        "/opendap/hyrax/allData/3000/NPP_MSRBTVIS_L3/NOTICE", 
+                        "/opendap/hyrax/allData/3000/NPP_MSRBTVIS_L3/2013/", 
+                        "/opendap/hyrax/allData/3000/NPP_MSRBTVIS_L3/2014/"
+                    ], 
+                    "children": [
+                        {
+                            "name": "2013", 
+                            "title": "2013", 
+                            "url": "http://ladsweb.nascom.nasa.gov/opendap/allData/3000/NPP_MSRBTVIS_L3/catalog.xml", 
+                            "actionable": 2, 
+                            "type": "simple", 
+                            "ID": "/opendap/hyrax/allData/3000/NPP_MSRBTVIS_L3/2013/"
+                        }, 
+                        {
+                            "name": "2014", 
+                            "title": "2014", 
+                            "url": "http://ladsweb.nascom.nasa.gov/opendap/allData/3000/NPP_MSRBTVIS_L3/catalog.xml", 
+                            "actionable": 2, 
+                            "type": "simple", 
+                            "ID": "/opendap/hyrax/allData/3000/NPP_MSRBTVIS_L3/2014/"
+                        }, 
+                        {
+                            "name": "2015", 
+                            "title": "2015", 
+                            "url": "http://ladsweb.nascom.nasa.gov/opendap/allData/3000/NPP_MSRBTVIS_L3/catalog.xml", 
+                            "actionable": 2, 
+                            "type": "simple", 
+                            "ID": "/opendap/hyrax/allData/3000/NPP_MSRBTVIS_L3/2015/"
+                        }, 
+                        {
+                            "name": "NOTICE", 
+                            "url": "http://ladsweb.nascom.nasa.gov/opendap/allData/3000/NPP_MSRBTVIS_L3/catalog.xml", 
+                            "dataSize_units": "bytes", 
+                            "date_type": "modified", 
+                            "actionable": 2, 
+                            "date": "2014-08-04T15:22:14", 
+                            "access_serviceName": "file", 
+                            "access_url": "/allData/3000/NPP_MSRBTVIS_L3/NOTICE", 
+                            "dataSize": "1409", 
+                            "ID": "/opendap/hyrax/allData/3000/NPP_MSRBTVIS_L3/NOTICE"
+                        }
+                    ], 
+                    "name": "/allData/3000/NPP_MSRBTVIS_L3", 
+                    "ID": "/opendap/hyrax/allData/3000/NPP_MSRBTVIS_L3/"
+                }, 
+                {
+                    "name": "NOTICE", 
+                    "url": "http://ladsweb.nascom.nasa.gov/opendap/allData/3000/NPP_MSRBTVIS_L3/catalog.xml", 
+                    "dataSize_units": "bytes", 
+                    "date_type": "modified", 
+                    "actionable": 2, 
+                    "source": "dataset", 
+                    "childOf": "/opendap/hyrax/allData/3000/NPP_MSRBTVIS_L3/", 
+                    "date": "2014-08-04T15:22:14", 
+                    "access_serviceName": "file", 
+                    "access_url": "/allData/3000/NPP_MSRBTVIS_L3/NOTICE", 
+                    "dataSize": "1409", 
+                    "ID": "/opendap/hyrax/allData/3000/NPP_MSRBTVIS_L3/NOTICE"
+                }, 
+                {
+                    "name": "2013", 
+                    "title": "2013", 
+                    "url": "http://ladsweb.nascom.nasa.gov/opendap/allData/3000/NPP_MSRBTVIS_L3/catalog.xml", 
+                    "childOf": "/opendap/hyrax/allData/3000/NPP_MSRBTVIS_L3/", 
+                    "actionable": 2, 
+                    "source": "catalogRef", 
+                    "type": "simple", 
+                    "ID": "/opendap/hyrax/allData/3000/NPP_MSRBTVIS_L3/2013/"
+                }, 
+                {
+                    "name": "2014", 
+                    "title": "2014", 
+                    "url": "http://ladsweb.nascom.nasa.gov/opendap/allData/3000/NPP_MSRBTVIS_L3/catalog.xml", 
+                    "childOf": "/opendap/hyrax/allData/3000/NPP_MSRBTVIS_L3/", 
+                    "actionable": 2, 
+                    "source": "catalogRef", 
+                    "type": "simple", 
+                    "ID": "/opendap/hyrax/allData/3000/NPP_MSRBTVIS_L3/2014/"
+                }, 
+                {
+                    "name": "2015", 
+                    "title": "2015", 
+                    "url": "http://ladsweb.nascom.nasa.gov/opendap/allData/3000/NPP_MSRBTVIS_L3/catalog.xml", 
+                    "childOf": "/opendap/hyrax/allData/3000/NPP_MSRBTVIS_L3/", 
+                    "actionable": 2, 
+                    "source": "catalogRef", 
+                    "type": "simple", 
+                    "ID": "/opendap/hyrax/allData/3000/NPP_MSRBTVIS_L3/2015/"
+                }
+            ]
+        }, 
+        "metadata": {
+            "endpoints": []
+        }
+    }, 
+    "digest": "0a6bdf0f2afac44816c60e9f1fd26a70"
+}

@@ -1,0 +1,173 @@
+{
+    "source_url": "http://ndgishub.nd.gov/arcgis/services/Features/Communications/MapServer/WFSServer?request=GetCapabilities&service=WFS", 
+    "sha": "7f9e4915b56d86f9acd21ec58fbee165ad581a501369fb4a3d75124c", 
+    "identity": {
+        "is_error": false, 
+        "protocol": "OGC:WFS", 
+        "language": "", 
+        "service": "GetCapabilities", 
+        "has_dataset": false, 
+        "has_metadata": false, 
+        "subtype": "service", 
+        "version": "1.1.0"
+    }, 
+    "service_description": {
+        "solr_identifier": "d8d88cfb2fb558be7646f36aceb3e703", 
+        "service": {
+            "endpoints": [
+                {
+                    "mimeType": [
+                        "text/xml"
+                    ], 
+                    "protocol": "HTTP GET", 
+                    "name": "GetCapabilities", 
+                    "parameters": [
+                        {
+                            "type": "string", 
+                            "name": "service"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "request"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "version"
+                        }
+                    ], 
+                    "url": "http://ndgishub.nd.gov/arcgis/services/Features/Communications/MapServer/WFSServer?SERVICE=WFS&VERSION=1.1.0&REQUEST=GetCapabilities", 
+                    "actionable": 1
+                }, 
+                {
+                    "mimeType": [
+                        "text/xml"
+                    ], 
+                    "protocol": "HTTP POST", 
+                    "name": "GetCapabilities", 
+                    "parameters": [
+                        {
+                            "type": "string", 
+                            "name": "service"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "request"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "version"
+                        }
+                    ], 
+                    "url": "http://ndgishub.nd.gov/arcgis/services/Features/Communications/MapServer/WFSServer?SERVICE=WFS&VERSION=1.1.0&REQUEST=GetCapabilities", 
+                    "actionable": 1
+                }, 
+                {
+                    "mimeType": [
+                        "text/xml"
+                    ], 
+                    "protocol": "HTTP GET", 
+                    "name": "DescribeFeatureType", 
+                    "parameters": [
+                        {
+                            "type": "string", 
+                            "name": "service"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "request"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "version"
+                        }
+                    ], 
+                    "url": "http://ndgishub.nd.gov/arcgis/services/Features/Communications/MapServer/WFSServer?SERVICE=WFS&VERSION=1.1.0&REQUEST=DescribeFeatureType", 
+                    "actionable": 2
+                }, 
+                {
+                    "mimeType": [
+                        "text/xml"
+                    ], 
+                    "protocol": "HTTP POST", 
+                    "name": "DescribeFeatureType", 
+                    "parameters": [
+                        {
+                            "type": "string", 
+                            "name": "service"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "request"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "version"
+                        }
+                    ], 
+                    "url": "http://ndgishub.nd.gov/arcgis/services/Features/Communications/MapServer/WFSServer?SERVICE=WFS&VERSION=1.1.0&REQUEST=DescribeFeatureType", 
+                    "actionable": 2
+                }, 
+                {
+                    "mimeType": [
+                        "text/xml"
+                    ], 
+                    "protocol": "HTTP GET", 
+                    "name": "GetFeature", 
+                    "parameters": [
+                        {
+                            "type": "string", 
+                            "name": "service"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "request"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "version"
+                        }
+                    ], 
+                    "url": "http://ndgishub.nd.gov/arcgis/services/Features/Communications/MapServer/WFSServer?SERVICE=WFS&VERSION=1.1.0&REQUEST=GetFeature", 
+                    "actionable": 2
+                }, 
+                {
+                    "mimeType": [
+                        "text/xml"
+                    ], 
+                    "protocol": "HTTP POST", 
+                    "name": "GetFeature", 
+                    "parameters": [
+                        {
+                            "type": "string", 
+                            "name": "service"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "request"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "version"
+                        }
+                    ], 
+                    "url": "http://ndgishub.nd.gov/arcgis/services/Features/Communications/MapServer/WFSServer?SERVICE=WFS&VERSION=1.1.0&REQUEST=GetFeature", 
+                    "actionable": 2
+                }
+            ], 
+            "abstract": [
+                null
+            ], 
+            "rights": [
+                null
+            ], 
+            "contact": [
+                null
+            ], 
+            "title": [
+                "NDGISHUB_WFS_Communications"
+            ]
+        }, 
+        "source_url": "http://ndgishub.nd.gov/arcgis/services/Features/Communications/MapServer/WFSServer?request=GetCapabilities&service=WFS"
+    }, 
+    "digest": "d8d88cfb2fb558be7646f36aceb3e703"
+}

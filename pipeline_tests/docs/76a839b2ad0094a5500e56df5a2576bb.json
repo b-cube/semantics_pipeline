@@ -1,0 +1,21 @@
+{
+    "xml_namespaces": [
+        "xmlns:thredds=\"http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0\"", 
+        "xmlns:xlink=\"http://www.w3.org/1999/xlink\"", 
+        "xmlns:bes=\"http://xml.opendap.org/ns/bes/1.0#\""
+    ], 
+    "url": "http://ladsweb.nascom.nasa.gov/opendap/geoMeta/5/catalog.xml", 
+    "segment": "20150318210844", 
+    "contentLength": "957", 
+    "tstamp": "2015-03-18T21:46:47.678Z", 
+    "content": "", 
+    "boost": 0.0074494956, 
+    "date": "2015-03-18T21:46:47.678Z", 
+    "_version_": 1496024899513221120, 
+    "raw_content": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n    <thredds:catalog xmlns:thredds=\"http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0\"\n                 xmlns:xlink=\"http://www.w3.org/1999/xlink\"\n                 xmlns:bes=\"http://xml.opendap.org/ns/bes/1.0#\">\n   <thredds:service name=\"dap\" serviceType=\"OPeNDAP\" base=\"/opendap/hyrax\"/>\n   <thredds:service name=\"file\" serviceType=\"HTTPServer\" base=\"/opendap/hyrax\"/>\n        <thredds:dataset name=\"/geoMeta/5\" ID=\"/opendap/hyrax/geoMeta/5/\">\n            <thredds:catalogRef name=\"AQUA\" xlink:href=\"AQUA/catalog.xml\" xlink:title=\"AQUA\"\n                          xlink:type=\"simple\"\n                          ID=\"/opendap/hyrax/geoMeta/5/AQUA/\"/>\n            <thredds:catalogRef name=\"TERRA\" xlink:href=\"TERRA/catalog.xml\" xlink:title=\"TERRA\"\n                          xlink:type=\"simple\"\n                          ID=\"/opendap/hyrax/geoMeta/5/TERRA/\"/>\n        </thredds:dataset>\n    </thredds:catalog>\n", 
+    "type": [
+        "application/xml"
+    ], 
+    "id": "http://ladsweb.nascom.nasa.gov/opendap/geoMeta/5/catalog.xml", 
+    "digest": "76a839b2ad0094a5500e56df5a2576bb"
+}

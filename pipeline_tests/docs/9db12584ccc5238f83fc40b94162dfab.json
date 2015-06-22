@@ -1,0 +1,24 @@
+{
+    "xml_namespaces": [
+        "xmlns=\"http://www.opengis.net/wcs/1.1\"", 
+        "xmlns:ows=\"http://www.opengis.net/ows\"", 
+        "xmlns:owcs=\"http://www.opengis.net/wcs/1.1/ows\"", 
+        "xmlns:xlink=\"http://www.w3.org/1999/xlink\"", 
+        "xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\""
+    ], 
+    "url": "http://geobrain.laits.gmu.edu/cgi-bin/wcs-all?service=wcs&version=1.1.0&request=getcapabilities&sections=ServiceProvider", 
+    "segment": "20141028155306", 
+    "tstamp": "2014-10-28T16:01:14.903Z", 
+    "content": "Center for Spatial Information Science and Systems(CSISS), George Mason University Liping Di Director +1 703-993-6114 +1 703-993-6127 10517 Braddock Road, Suite 2700 Fairfax VA 22032 USA lpd@rattler.gsfc.nasa.gov", 
+    "type": [
+        "application/xml", 
+        "application", 
+        "xml"
+    ], 
+    "date": "2014-10-28T16:01:14.903Z", 
+    "_version_": 1483231674430914560, 
+    "raw_content": "<![CDATA[<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<Capabilities xmlns=\"http://www.opengis.net/wcs/1.1\"\nxmlns:ows=\"http://www.opengis.net/ows\"\nxmlns:owcs=\"http://www.opengis.net/wcs/1.1/ows\"\nxmlns:xlink=\"http://www.w3.org/1999/xlink\"\nxmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\nxsi:schemaLocation=\"http://www.opengis.net/wcs/1.1 http://schemas.opengis.net/wcs/1.1.0/wcsGetCapabilities.xsd\nhttp://www.opengis.net/wcs/1.1/ows http://schemas.opengis.net/wcs/1.1.0/owsDataIdentification.xsd\" version=\"1.1.0\" updateSequence=\"1.0\">\n\t<!-- ***************************************************** -->\n\t<!-- * SERVICE PROVIDER SECTION                          * -->\n\t<!-- ***************************************************** -->\n\t<ows:ServiceProvider>\n\t\t<ows:ProviderName>Center for Spatial Information Science and Systems(CSISS), George Mason University</ows:ProviderName>\n\t\t<ows:ProviderSite xlink:href=\"http://geobrain.laits.gmu.edu/cgi-bin/wcs-all?/\"/>\n\t\t<ows:ServiceContact>\n\t\t\t<ows:IndividualName>Liping Di</ows:IndividualName>\n\t\t\t<ows:PositionName>Director</ows:PositionName>\n\t    \t<ows:ContactInfo>\n\t    \t\t<ows:Phone>\n\t        \t\t<ows:Voice>+1 703-993-6114</ows:Voice>\n\t            \t<ows:Facsimile>+1 703-993-6127</ows:Facsimile>\n\t        \t</ows:Phone>\n\t        \t<ows:Address>\n\t        \t\t<ows:DeliveryPoint>10517 Braddock Road, Suite 2700</ows:DeliveryPoint>\n\t            \t<ows:City>Fairfax</ows:City>\n\t            \t<ows:AdministrativeArea>VA</ows:AdministrativeArea>\n\t            \t<ows:PostalCode>22032</ows:PostalCode>\n\t            \t<ows:Country>USA</ows:Country>\n\t   \t\t\t\t<ows:ElectronicMailAddress>lpd@rattler.gsfc.nasa.gov</ows:ElectronicMailAddress>\n\t        \t</ows:Address>\n\t\t\t</ows:ContactInfo>\n\t\t</ows:ServiceContact>\n\t</ows:ServiceProvider>\n</Capabilities>\n\n]]>", 
+    "boost": 5.6350054e-05, 
+    "id": "http://geobrain.laits.gmu.edu/cgi-bin/wcs-all?service=wcs&version=1.1.0&request=getcapabilities&sections=ServiceProvider", 
+    "digest": "9db12584ccc5238f83fc40b94162dfab"
+}

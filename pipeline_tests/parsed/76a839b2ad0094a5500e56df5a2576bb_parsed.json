@@ -1,0 +1,92 @@
+{
+    "source_url": "http://ladsweb.nascom.nasa.gov/opendap/geoMeta/5/catalog.xml", 
+    "sha": "b5c69fe10862d8c3652e23d75f46ad6c5ef50c97ca049f34e2a3503a", 
+    "identity": {
+        "is_error": false, 
+        "protocol": "UNIDATA", 
+        "language": "", 
+        "service": "THREDDS-Catalog", 
+        "has_dataset": true, 
+        "has_metadata": true, 
+        "subtype": "service", 
+        "version": "1.0"
+    }, 
+    "service_description": {
+        "solr_identifier": "76a839b2ad0094a5500e56df5a2576bb", 
+        "service": {
+            "endpoints": [
+                {
+                    "name": "dap", 
+                    "url": "http://ladsweb.nascom.nasa.gov/opendap/geoMeta/5/catalog.xml", 
+                    "actionable": 2, 
+                    "source": "service", 
+                    "type": "OPeNDAP", 
+                    "ID": "692764fa"
+                }, 
+                {
+                    "name": "file", 
+                    "url": "http://ladsweb.nascom.nasa.gov/opendap/geoMeta/5/catalog.xml", 
+                    "actionable": 2, 
+                    "source": "service", 
+                    "type": "HTTPServer", 
+                    "ID": "06c3c34e"
+                }
+            ]
+        }, 
+        "source_url": "http://ladsweb.nascom.nasa.gov/opendap/geoMeta/5/catalog.xml", 
+        "dataset": {
+            "endpoints": [
+                {
+                    "source": "dataset", 
+                    "parentOf": [
+                        "/opendap/hyrax/geoMeta/5/AQUA/"
+                    ], 
+                    "children": [
+                        {
+                            "name": "AQUA", 
+                            "title": "AQUA", 
+                            "url": "http://ladsweb.nascom.nasa.gov/opendap/geoMeta/5/catalog.xml", 
+                            "actionable": 2, 
+                            "type": "simple", 
+                            "ID": "/opendap/hyrax/geoMeta/5/AQUA/"
+                        }, 
+                        {
+                            "name": "TERRA", 
+                            "title": "TERRA", 
+                            "url": "http://ladsweb.nascom.nasa.gov/opendap/geoMeta/5/catalog.xml", 
+                            "actionable": 2, 
+                            "type": "simple", 
+                            "ID": "/opendap/hyrax/geoMeta/5/TERRA/"
+                        }
+                    ], 
+                    "name": "/geoMeta/5", 
+                    "ID": "/opendap/hyrax/geoMeta/5/"
+                }, 
+                {
+                    "name": "AQUA", 
+                    "title": "AQUA", 
+                    "url": "http://ladsweb.nascom.nasa.gov/opendap/geoMeta/5/catalog.xml", 
+                    "childOf": "/opendap/hyrax/geoMeta/5/", 
+                    "actionable": 2, 
+                    "source": "catalogRef", 
+                    "type": "simple", 
+                    "ID": "/opendap/hyrax/geoMeta/5/AQUA/"
+                }, 
+                {
+                    "name": "TERRA", 
+                    "title": "TERRA", 
+                    "url": "http://ladsweb.nascom.nasa.gov/opendap/geoMeta/5/catalog.xml", 
+                    "childOf": "/opendap/hyrax/geoMeta/5/", 
+                    "actionable": 2, 
+                    "source": "catalogRef", 
+                    "type": "simple", 
+                    "ID": "/opendap/hyrax/geoMeta/5/TERRA/"
+                }
+            ]
+        }, 
+        "metadata": {
+            "endpoints": []
+        }
+    }, 
+    "digest": "76a839b2ad0094a5500e56df5a2576bb"
+}

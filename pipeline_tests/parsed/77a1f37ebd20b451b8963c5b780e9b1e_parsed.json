@@ -1,0 +1,61 @@
+{
+    "source_url": "http://www.ituc-csi.org/oembed.api/?format=xml&url=http%3A%2F%2Fwww.ituc-csi.org%2Fcreating-quality-jobs-and", 
+    "sha": "34f9f38e802e493cf8e29eed0d8cc2c3198e066b7ef2a21014ab186d", 
+    "identity": {
+        "is_error": false, 
+        "protocol": "", 
+        "language": "", 
+        "service": "", 
+        "has_dataset": false, 
+        "has_metadata": false, 
+        "subtype": "", 
+        "version": ""
+    }, 
+    "service_description": {
+        "remainder": [
+            {
+                "xpath": "oembed/version", 
+                "text": "1.0"
+            }, 
+            {
+                "xpath": "oembed/type", 
+                "text": "rich"
+            }, 
+            {
+                "xpath": "oembed/provider_name", 
+                "text": "Confederaci\u00f3n Sindical Internacional"
+            }, 
+            {
+                "xpath": "oembed/provider_url", 
+                "text": "http://www.ituc-csi.org"
+            }, 
+            {
+                "xpath": "oembed/title", 
+                "text": "Creating quality jobs and Inclusive growth: the role of G20 leadership"
+            }, 
+            {
+                "xpath": "oembed/author_name", 
+                "text": "Mathieu Debroux"
+            }, 
+            {
+                "xpath": "oembed/width", 
+                "text": "480"
+            }, 
+            {
+                "xpath": "oembed/height", 
+                "text": "295"
+            }, 
+            {
+                "xpath": "oembed/url", 
+                "text": "http://www.ituc-csi.org/creating-quality-jobs-and"
+            }, 
+            {
+                "xpath": "oembed/html", 
+                "text": "Creating quality jobs and Inclusive growth: the role of G20 leadership Creating quality jobs and Inclusive growth: the role Of g20 leadership descargar abrir"
+            }
+        ], 
+        "solr_identifier": "77a1f37ebd20b451b8963c5b780e9b1e", 
+        "source_url": "http://www.ituc-csi.org/oembed.api/?format=xml&url=http%3A%2F%2Fwww.ituc-csi.org%2Fcreating-quality-jobs-and"
+    }, 
+    "digest": "77a1f37ebd20b451b8963c5b780e9b1e"
+}

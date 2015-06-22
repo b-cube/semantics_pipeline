@@ -1,0 +1,25 @@
+{
+    "content": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <thredds:catalog xmlns:thredds=\"http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" xmlns:bes=\"http://xml.opendap.org/ns/bes/1.0#\"> <thredds:service name=\"dap\" serviceType=\"OPeNDAP\" base=\"/opendap/hyrax\"/> <thredds:service name=\"file\" serviceType=\"HTTPServer\" base=\"/opendap/hyrax\"/> <thredds:dataset name=\"/geoMeta/5\" ID=\"/opendap/hyrax/geoMeta/5/\"> <thredds:catalogRef name=\"AQUA\" xlink:href=\"AQUA/catalog.xml\" xlink:title=\"AQUA\" xlink:type=\"simple\" ID=\"/opendap/hyrax/geoMeta/5/AQUA/\"/> <thredds:catalogRef name=\"TERRA\" xlink:href=\"TERRA/catalog.xml\" xlink:title=\"TERRA\" xlink:type=\"simple\" ID=\"/opendap/hyrax/geoMeta/5/TERRA/\"/> </thredds:dataset> </thredds:catalog>", 
+    "sha": "b5c69fe10862d8c3652e23d75f46ad6c5ef50c97ca049f34e2a3503a", 
+    "identity": {
+        "is_error": false, 
+        "protocol": "UNIDATA", 
+        "language": "", 
+        "service": "THREDDS-Catalog", 
+        "has_dataset": true, 
+        "has_metadata": true, 
+        "subtype": "service", 
+        "version": "1.0"
+    }, 
+    "identifiers": [
+        [
+            [
+                "url", 
+                "http://ladsweb.nascom.nasa.gov/opendap/geoMeta/5/catalog.xml"
+            ]
+        ], 
+        []
+    ], 
+    "digest": "76a839b2ad0094a5500e56df5a2576bb", 
+    "source_url": "http://ladsweb.nascom.nasa.gov/opendap/geoMeta/5/catalog.xml"
+}

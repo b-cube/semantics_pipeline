@@ -1,0 +1,19 @@
+{
+    "xml_namespaces": [
+        "xmlns=\"http://a9.com/-/spec/opensearch/1.1/\""
+    ], 
+    "url": "http://www.economics.ox.ac.uk/Search?format=opensearch&id=12170", 
+    "segment": "20150320011317", 
+    "contentLength": "696", 
+    "tstamp": "2015-03-20T01:35:52.033Z", 
+    "content": "Department of Economics Department of Economics - University of Oxford UTF-8 http://www.economics.ox.ac.uk/templates/ja_nex/favicon.ico", 
+    "boost": 1.93221e-05, 
+    "date": "2015-03-20T01:35:52.033Z", 
+    "_version_": 1496132675175448577, 
+    "raw_content": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<OpenSearchDescription xmlns=\"http://a9.com/-/spec/opensearch/1.1/\">\n  <ShortName>Department of Economics</ShortName>\n  <Description>Department of Economics - University of Oxford</Description>\n  <InputEncoding>UTF-8</InputEncoding>\n  <Image type=\"image/vnd.microsoft.icon\" width=\"16\" height=\"16\">http://www.economics.ox.ac.uk/templates/ja_nex/favicon.ico</Image>\n  <Url type=\"application/opensearchdescription+xml\" rel=\"self\" template=\"http://www.economics.ox.ac.uk/Search?format=opensearch&amp;id=12170\"/>\n  <Url type=\"text/html\" template=\"http://www.economics.ox.ac.uk/index.php?option=com_search&amp;searchword={searchTerms}\"/>\n</OpenSearchDescription>\n", 
+    "type": [
+        "application/opensearchdescription+xml"
+    ], 
+    "id": "http://www.economics.ox.ac.uk/Search?format=opensearch&id=12170", 
+    "digest": "cc15011a8e0aaa60df499e8c91084c47"
+}

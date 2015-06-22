@@ -1,0 +1,67 @@
+{
+    "source_url": "http://ladsweb.nascom.nasa.gov/data/dataset_opensearch.xml", 
+    "sha": "50728bfa25843c8dfef341ff13d2c5cc1010fd5bfa517c20dd2dbb26", 
+    "identity": {
+        "is_error": false, 
+        "protocol": "OpenSearch", 
+        "language": "", 
+        "service": "OpenSearchDescription", 
+        "has_dataset": false, 
+        "has_metadata": false, 
+        "subtype": "service", 
+        "version": "1.1"
+    }, 
+    "service_description": {
+        "remainder": [
+            {
+                "xpath": "{http://a9.com/-/spec/opensearch/1.1/}OpenSearchDescription/{http://a9.com/-/spec/opensearch/1.1/}Contact", 
+                "text": "MODAPSUSO@lists.nasa.gov"
+            }, 
+            {
+                "xpath": "{http://a9.com/-/spec/opensearch/1.1/}OpenSearchDescription/{http://a9.com/-/spec/opensearch/1.1/}Query", 
+                "attributes": [
+                    {
+                        "xpath": "{http://a9.com/-/spec/opensearch/1.1/}OpenSearchDescription/{http://a9.com/-/spec/opensearch/1.1/}Query/@role", 
+                        "text": "example"
+                    }, 
+                    {
+                        "xpath": "{http://a9.com/-/spec/opensearch/1.1/}OpenSearchDescription/{http://a9.com/-/spec/opensearch/1.1/}Query/@searchTerms", 
+                        "text": "adjusted reflectance"
+                    }
+                ]
+            }
+        ], 
+        "solr_identifier": "f901fe49f3dccc649b2195911047407f", 
+        "service": {
+            "endpoints": [
+                {
+                    "url": "http://modwebsrv.modaps.eosdis.nasa.gov/axis2/services/MODAPSservices/searchDatasets?pattern={searchTerms}", 
+                    "protocol": "application/atom+xml", 
+                    "parameters": [
+                        {
+                            "type": "{searchTerms}", 
+                            "name": "pattern", 
+                            "namespaces": {
+                                "xml": "http://www.w3.org/XML/1998/namespace", 
+                                "default": "http://a9.com/-/spec/opensearch/1.1/", 
+                                "geo": "http://a9.com/-/opensearch/extensions/geo/1.0/", 
+                                "time": "http://a9.com/-/opensearch/extensions/time/1.0/"
+                            }
+                        }
+                    ]
+                }
+            ], 
+            "abstract": [
+                "Use MODAPS Dataset Search to obtain a list of Earth Science Data Sets"
+            ], 
+            "subject": [
+                "MODAPS Dataset Search"
+            ], 
+            "title": [
+                "MODAPS Dataset Search"
+            ]
+        }, 
+        "source_url": "http://ladsweb.nascom.nasa.gov/data/dataset_opensearch.xml"
+    }, 
+    "digest": "f901fe49f3dccc649b2195911047407f"
+}

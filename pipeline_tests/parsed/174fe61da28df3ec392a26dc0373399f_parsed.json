@@ -1,0 +1,295 @@
+{
+    "source_url": "http://ebolageonode.org/catalogue/csw?service=CSW&version=2.0.2&request=GetCapabilities", 
+    "sha": "83d7fa273923b92a28cf048dbc74448b9d392e32bb23b71f1fa2377b", 
+    "identity": {
+        "is_error": false, 
+        "protocol": "OGC:CSW", 
+        "language": "", 
+        "service": "GetCapabilities", 
+        "has_dataset": false, 
+        "has_metadata": false, 
+        "subtype": "service", 
+        "version": "2.0.2"
+    }, 
+    "service_description": {
+        "solr_identifier": "174fe61da28df3ec392a26dc0373399f", 
+        "service": {
+            "rights": [
+                "None"
+            ], 
+            "abstract": [
+                "GeoNode is an open source platform that facilitates the creation, sharing, and collaborative use of geospatial data"
+            ], 
+            "title": [
+                "GeoNode Catalogue"
+            ], 
+            "contact": [
+                "Lastname, Firstname"
+            ], 
+            "endpoints": [
+                {
+                    "mimeType": [
+                        "text/xml"
+                    ], 
+                    "protocol": "HTTP GET", 
+                    "name": "GetCapabilities", 
+                    "parameters": [
+                        {
+                            "type": "string", 
+                            "name": "service"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "request"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "version"
+                        }
+                    ], 
+                    "url": "http://ebolageonode.org/catalogue/csw?SERVICE=CSW&VERSION=2.0.2&REQUEST=GetCapabilities", 
+                    "actionable": 1
+                }, 
+                {
+                    "mimeType": [
+                        "text/xml"
+                    ], 
+                    "protocol": "HTTP POST", 
+                    "name": "GetCapabilities", 
+                    "parameters": [
+                        {
+                            "type": "string", 
+                            "name": "service"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "request"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "version"
+                        }
+                    ], 
+                    "url": "http://ebolageonode.org/catalogue/csw?SERVICE=CSW&VERSION=2.0.2&REQUEST=GetCapabilities", 
+                    "actionable": 1
+                }, 
+                {
+                    "mimeType": [
+                        "text/xml"
+                    ], 
+                    "protocol": "HTTP GET", 
+                    "name": "GetRepositoryItem", 
+                    "parameters": [
+                        {
+                            "type": "string", 
+                            "name": "service"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "request"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "version"
+                        }
+                    ], 
+                    "url": "http://ebolageonode.org/catalogue/csw?SERVICE=CSW&VERSION=2.0.2&REQUEST=GetRepositoryItem", 
+                    "actionable": 2
+                }, 
+                {
+                    "mimeType": [
+                        "text/xml"
+                    ], 
+                    "protocol": "HTTP GET", 
+                    "name": "DescribeRecord", 
+                    "parameters": [
+                        {
+                            "type": "string", 
+                            "name": "service"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "request"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "version"
+                        }
+                    ], 
+                    "url": "http://ebolageonode.org/catalogue/csw?SERVICE=CSW&VERSION=2.0.2&REQUEST=DescribeRecord", 
+                    "actionable": 2
+                }, 
+                {
+                    "mimeType": [
+                        "text/xml"
+                    ], 
+                    "protocol": "HTTP POST", 
+                    "name": "DescribeRecord", 
+                    "parameters": [
+                        {
+                            "type": "string", 
+                            "name": "service"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "request"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "version"
+                        }
+                    ], 
+                    "url": "http://ebolageonode.org/catalogue/csw?SERVICE=CSW&VERSION=2.0.2&REQUEST=DescribeRecord", 
+                    "actionable": 2
+                }, 
+                {
+                    "mimeType": [
+                        "text/xml"
+                    ], 
+                    "protocol": "HTTP GET", 
+                    "name": "GetDomain", 
+                    "parameters": [
+                        {
+                            "type": "string", 
+                            "name": "service"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "request"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "version"
+                        }
+                    ], 
+                    "url": "http://ebolageonode.org/catalogue/csw?SERVICE=CSW&VERSION=2.0.2&REQUEST=GetDomain", 
+                    "actionable": 2
+                }, 
+                {
+                    "mimeType": [
+                        "text/xml"
+                    ], 
+                    "protocol": "HTTP POST", 
+                    "name": "GetDomain", 
+                    "parameters": [
+                        {
+                            "type": "string", 
+                            "name": "service"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "request"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "version"
+                        }
+                    ], 
+                    "url": "http://ebolageonode.org/catalogue/csw?SERVICE=CSW&VERSION=2.0.2&REQUEST=GetDomain", 
+                    "actionable": 2
+                }, 
+                {
+                    "mimeType": [
+                        "text/xml"
+                    ], 
+                    "protocol": "HTTP GET", 
+                    "name": "GetRecordById", 
+                    "parameters": [
+                        {
+                            "type": "string", 
+                            "name": "service"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "request"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "version"
+                        }
+                    ], 
+                    "url": "http://ebolageonode.org/catalogue/csw?SERVICE=CSW&VERSION=2.0.2&REQUEST=GetRecordById", 
+                    "actionable": 2
+                }, 
+                {
+                    "mimeType": [
+                        "text/xml"
+                    ], 
+                    "protocol": "HTTP POST", 
+                    "name": "GetRecordById", 
+                    "parameters": [
+                        {
+                            "type": "string", 
+                            "name": "service"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "request"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "version"
+                        }
+                    ], 
+                    "url": "http://ebolageonode.org/catalogue/csw?SERVICE=CSW&VERSION=2.0.2&REQUEST=GetRecordById", 
+                    "actionable": 2
+                }, 
+                {
+                    "mimeType": [
+                        "text/xml"
+                    ], 
+                    "protocol": "HTTP GET", 
+                    "name": "GetRecords", 
+                    "parameters": [
+                        {
+                            "type": "string", 
+                            "name": "service"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "request"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "version"
+                        }
+                    ], 
+                    "url": "http://ebolageonode.org/catalogue/csw?SERVICE=CSW&VERSION=2.0.2&REQUEST=GetRecords", 
+                    "actionable": 2
+                }, 
+                {
+                    "mimeType": [
+                        "text/xml"
+                    ], 
+                    "protocol": "HTTP POST", 
+                    "name": "GetRecords", 
+                    "parameters": [
+                        {
+                            "type": "string", 
+                            "name": "service"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "request"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "version"
+                        }
+                    ], 
+                    "url": "http://ebolageonode.org/catalogue/csw?SERVICE=CSW&VERSION=2.0.2&REQUEST=GetRecords", 
+                    "actionable": 2
+                }
+            ], 
+            "subject": [
+                "sdi", 
+                "catalogue", 
+                "discovery", 
+                "metadata", 
+                "GeoNode"
+            ]
+        }, 
+        "source_url": "http://ebolageonode.org/catalogue/csw?service=CSW&version=2.0.2&request=GetCapabilities"
+    }, 
+    "digest": "174fe61da28df3ec392a26dc0373399f"
+}

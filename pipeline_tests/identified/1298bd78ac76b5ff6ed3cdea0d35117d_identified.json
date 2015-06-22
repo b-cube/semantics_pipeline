@@ -1,0 +1,16 @@
+{
+    "content": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <thredds:catalog xmlns:fn=\"http://www.w3.org/2005/02/xpath-functions\" xmlns:thredds=\"http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" xmlns:bes=\"http://xml.opendap.org/ns/bes/1.0#\"> <thredds:service name=\"dap\" serviceType=\"OPeNDAP\" base=\"/opendap\"/> <thredds:service name=\"file\" serviceType=\"HTTPServer\" base=\"/opendap\"/> <thredds:dataset name=\"/CC_MISC\" ID=\"/opendap/CC_MISC/\"> <thredds:dataset name=\"2011-A.cdf\" ID=\"/opendap/CC_MISC/2011-A.cdf\"> <thredds:dataSize units=\"bytes\">50916</thredds:dataSize> <thredds:date type=\"modified\">2013-02-12T11:07:40</thredds:date> <thredds:access serviceName=\"dap\" urlPath=\"/CC_MISC/2011-A.cdf\"/> </thredds:dataset> <thredds:dataset name=\"2021-A.cdf\" ID=\"/opendap/CC_MISC/2021-A.cdf\"> <thredds:dataSize units=\"bytes\">49324</thredds:dataSize> <thredds:date type=\"modified\">2013-02-12T11:07:40</thredds:date> <thredds:access serviceName=\"dap\" urlPath=\"/CC_MISC/2021-A.cdf\"/> </thredds:dataset> </thredds:dataset> </thredds:catalog>", 
+    "sha": "59090f54dbccfeed4f2959bc34e9655a0e3af92d06d5d43338fdb314", 
+    "identity": {
+        "subtype": "service", 
+        "is_error": false, 
+        "version": "1.0", 
+        "protocol": "UNIDATA", 
+        "language": "", 
+        "service": "THREDDS-Catalog", 
+        "has_dataset": true, 
+        "has_metadata": true
+    }, 
+    "digest": "1298bd78ac76b5ff6ed3cdea0d35117d", 
+    "source_url": "http://stellwagen.er.usgs.gov/opendap/CC_MISC/catalog.xml"
+}

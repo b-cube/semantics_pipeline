@@ -1,0 +1,19 @@
+{
+    "source_url": "https://catalog.data.gov/dataset/1ed9dffd-c30d-4eab-a300-7c8b5692c210.rdf", 
+    "sha": "b253c9c45be42ff1f5dcef6981a590fe60bb259306ce17f8d3af3956", 
+    "identity": {
+        "is_error": false, 
+        "protocol": "RDF", 
+        "language": "", 
+        "service": "", 
+        "has_dataset": true, 
+        "has_metadata": false, 
+        "subtype": "dataset", 
+        "version": ""
+    }, 
+    "service_description": {
+        "solr_identifier": "bdea2d2370b78302b0b0e9116af4d5c0", 
+        "source_url": "https://catalog.data.gov/dataset/1ed9dffd-c30d-4eab-a300-7c8b5692c210.rdf"
+    }, 
+    "digest": "bdea2d2370b78302b0b0e9116af4d5c0"
+}

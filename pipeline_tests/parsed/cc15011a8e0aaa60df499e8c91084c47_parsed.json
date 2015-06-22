@@ -1,0 +1,98 @@
+{
+    "source_url": "http://www.economics.ox.ac.uk/Search?format=opensearch&id=12170", 
+    "sha": "3ff2538d2d72d477e79029b6136baa39132ee26947ae6cdb3031a57d", 
+    "identity": {
+        "is_error": false, 
+        "protocol": "OpenSearch", 
+        "language": "", 
+        "service": "OpenSearchDescription", 
+        "has_dataset": false, 
+        "has_metadata": false, 
+        "subtype": "service", 
+        "version": "1.1"
+    }, 
+    "service_description": {
+        "remainder": [
+            {
+                "xpath": "{http://a9.com/-/spec/opensearch/1.1/}OpenSearchDescription/{http://a9.com/-/spec/opensearch/1.1/}InputEncoding", 
+                "text": "UTF-8"
+            }, 
+            {
+                "xpath": "{http://a9.com/-/spec/opensearch/1.1/}OpenSearchDescription/{http://a9.com/-/spec/opensearch/1.1/}Image", 
+                "text": "http://www.economics.ox.ac.uk/templates/ja_nex/favicon.ico", 
+                "attributes": [
+                    {
+                        "xpath": "{http://a9.com/-/spec/opensearch/1.1/}OpenSearchDescription/{http://a9.com/-/spec/opensearch/1.1/}Image/@type", 
+                        "text": "image/vnd.microsoft.icon"
+                    }, 
+                    {
+                        "xpath": "{http://a9.com/-/spec/opensearch/1.1/}OpenSearchDescription/{http://a9.com/-/spec/opensearch/1.1/}Image/@width", 
+                        "text": "16"
+                    }, 
+                    {
+                        "xpath": "{http://a9.com/-/spec/opensearch/1.1/}OpenSearchDescription/{http://a9.com/-/spec/opensearch/1.1/}Image/@height", 
+                        "text": "16"
+                    }
+                ]
+            }
+        ], 
+        "solr_identifier": "cc15011a8e0aaa60df499e8c91084c47", 
+        "service": {
+            "abstract": [
+                "Department of Economics - University of Oxford"
+            ], 
+            "endpoints": [
+                {
+                    "url": "http://www.economics.ox.ac.uk/Search?format=opensearch&id=12170", 
+                    "actionable": 2, 
+                    "protocol": "application/opensearchdescription+xml", 
+                    "parameters": [
+                        {
+                            "type": "12170", 
+                            "name": "id", 
+                            "namespaces": {
+                                "xml": "http://www.w3.org/XML/1998/namespace", 
+                                "default": "http://a9.com/-/spec/opensearch/1.1/"
+                            }
+                        }, 
+                        {
+                            "type": "opensearch", 
+                            "name": "format", 
+                            "namespaces": {
+                                "xml": "http://www.w3.org/XML/1998/namespace", 
+                                "default": "http://a9.com/-/spec/opensearch/1.1/"
+                            }
+                        }
+                    ]
+                }, 
+                {
+                    "url": "http://www.economics.ox.ac.uk/index.php?option=com_search&searchword={searchTerms}", 
+                    "protocol": "text/html", 
+                    "parameters": [
+                        {
+                            "type": "com_search", 
+                            "name": "option", 
+                            "namespaces": {
+                                "xml": "http://www.w3.org/XML/1998/namespace", 
+                                "default": "http://a9.com/-/spec/opensearch/1.1/"
+                            }
+                        }, 
+                        {
+                            "type": "{searchTerms}", 
+                            "name": "searchword", 
+                            "namespaces": {
+                                "xml": "http://www.w3.org/XML/1998/namespace", 
+                                "default": "http://a9.com/-/spec/opensearch/1.1/"
+                            }
+                        }
+                    ]
+                }
+            ], 
+            "title": [
+                "Department of Economics"
+            ]
+        }, 
+        "source_url": "http://www.economics.ox.ac.uk/Search?format=opensearch&id=12170"
+    }, 
+    "digest": "cc15011a8e0aaa60df499e8c91084c47"
+}

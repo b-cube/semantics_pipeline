@@ -1,0 +1,38 @@
+{
+    "content": "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?> <oembed> <version>1.0</version> <type>rich</type> <provider_name>Confederaci&#243;n Sindical Internacional</provider_name> <provider_url>http://www.ituc-csi.org</provider_url> <title>Creating quality jobs and Inclusive growth: the role of G20 leadership</title> <author_name>Mathieu Debroux</author_name> <width>480</width> <height>295</height> <url>http://www.ituc-csi.org/creating-quality-jobs-and</url> <html>&lt;h4 class='title'&gt;&lt;a href='http://www.ituc-csi.org/creating-quality-jobs-and'&gt;Creating quality jobs and Inclusive growth: the role of G20 leadership&lt;/a&gt;&lt;/h4&gt;&lt;blockquote class='spip'&gt; &lt;p&gt;Creating quality jobs and Inclusive growth: the role Of g20 leadership descargar abrir&lt;/p&gt; &lt;/blockquote&gt; </html> </oembed>", 
+    "sha": "34f9f38e802e493cf8e29eed0d8cc2c3198e066b7ef2a21014ab186d", 
+    "identity": {
+        "is_error": false, 
+        "protocol": "", 
+        "language": "", 
+        "service": "", 
+        "has_dataset": false, 
+        "has_metadata": false, 
+        "subtype": "", 
+        "version": ""
+    }, 
+    "identifiers": [
+        [
+            [
+                "url", 
+                "http://www.ituc-csi.org"
+            ], 
+            [
+                "url", 
+                "http://www.ituc-csi.org/creating-quality-jobs-and"
+            ], 
+            [
+                "url", 
+                "http://www.ituc-csi.org/oembed.api/"
+            ]
+        ], 
+        [
+            [
+                "url", 
+                "http://www.ituc-csi.org/creating-quality-jobs-and"
+            ]
+        ]
+    ], 
+    "digest": "77a1f37ebd20b451b8963c5b780e9b1e", 
+    "source_url": "http://www.ituc-csi.org/oembed.api/?format=xml&url=http%3A%2F%2Fwww.ituc-csi.org%2Fcreating-quality-jobs-and"
+}

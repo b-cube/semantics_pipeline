@@ -1,0 +1,194 @@
+{
+    "source_url": "http://mrdata.usgs.gov/wfs/nuresed?request=getcapabilities&service=WFS&version=1.1.0", 
+    "sha": "9706942dae954861e2eff884c45f1c6efb58b068b49a7220e6dcd124", 
+    "identity": {
+        "is_error": false, 
+        "protocol": "OGC:WFS", 
+        "language": "", 
+        "service": "GetCapabilities", 
+        "has_dataset": true, 
+        "has_metadata": true, 
+        "subtype": "service", 
+        "version": "1.1.0"
+    }, 
+    "service_description": {
+        "solr_identifier": "1f5fe8e5dc07669d9801746f3266a168", 
+        "service": {
+            "rights": [
+                "none"
+            ], 
+            "abstract": [
+                "National-scale geochemical analysis of stream sediments and soils in the US collected and analyzed under the National Uranium Resource Evaluation program."
+            ], 
+            "title": [
+                "NURE_Sediment_Geochemistry"
+            ], 
+            "contact": [
+                "Peter N. Schweitzer"
+            ], 
+            "endpoints": [
+                {
+                    "mimeType": [
+                        "text/xml"
+                    ], 
+                    "protocol": "HTTP GET", 
+                    "name": "GetCapabilities", 
+                    "parameters": [
+                        {
+                            "values": [
+                                "WFS"
+                            ], 
+                            "type": "string", 
+                            "name": "service"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "request"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "version"
+                        }
+                    ], 
+                    "url": "http://mrdata.usgs.gov/wfs/nuresed?SERVICE=WFS&VERSION=1.1.0&REQUEST=GetCapabilities", 
+                    "actionable": 1
+                }, 
+                {
+                    "mimeType": [
+                        "text/xml"
+                    ], 
+                    "protocol": "HTTP POST", 
+                    "name": "GetCapabilities", 
+                    "parameters": [
+                        {
+                            "values": [
+                                "WFS"
+                            ], 
+                            "type": "string", 
+                            "name": "service"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "request"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "version"
+                        }
+                    ], 
+                    "url": "http://mrdata.usgs.gov/wfs/nuresed?SERVICE=WFS&VERSION=1.1.0&REQUEST=GetCapabilities", 
+                    "actionable": 1
+                }, 
+                {
+                    "mimeType": [
+                        "text/xml"
+                    ], 
+                    "protocol": "HTTP GET", 
+                    "name": "DescribeFeatureType", 
+                    "parameters": [
+                        {
+                            "values": [
+                                "WFS"
+                            ], 
+                            "type": "string", 
+                            "name": "service"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "request"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "version"
+                        }
+                    ], 
+                    "url": "http://mrdata.usgs.gov/wfs/nuresed?SERVICE=WFS&VERSION=1.1.0&REQUEST=DescribeFeatureType", 
+                    "actionable": 2
+                }, 
+                {
+                    "mimeType": [
+                        "text/xml"
+                    ], 
+                    "protocol": "HTTP POST", 
+                    "name": "DescribeFeatureType", 
+                    "parameters": [
+                        {
+                            "values": [
+                                "WFS"
+                            ], 
+                            "type": "string", 
+                            "name": "service"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "request"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "version"
+                        }
+                    ], 
+                    "url": "http://mrdata.usgs.gov/wfs/nuresed?SERVICE=WFS&VERSION=1.1.0&REQUEST=DescribeFeatureType", 
+                    "actionable": 2
+                }, 
+                {
+                    "mimeType": [
+                        "text/xml"
+                    ], 
+                    "protocol": "HTTP GET", 
+                    "name": "GetFeature", 
+                    "parameters": [
+                        {
+                            "values": [
+                                "WFS"
+                            ], 
+                            "type": "string", 
+                            "name": "service"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "request"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "version"
+                        }
+                    ], 
+                    "url": "http://mrdata.usgs.gov/wfs/nuresed?SERVICE=WFS&VERSION=1.1.0&REQUEST=GetFeature", 
+                    "actionable": 2
+                }, 
+                {
+                    "mimeType": [
+                        "text/xml"
+                    ], 
+                    "protocol": "HTTP POST", 
+                    "name": "GetFeature", 
+                    "parameters": [
+                        {
+                            "values": [
+                                "WFS"
+                            ], 
+                            "type": "string", 
+                            "name": "service"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "request"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "version"
+                        }
+                    ], 
+                    "url": "http://mrdata.usgs.gov/wfs/nuresed?SERVICE=WFS&VERSION=1.1.0&REQUEST=GetFeature", 
+                    "actionable": 2
+                }
+            ], 
+            "subject": [
+                "geochemistry; unconsolidated deposits; chemical analysis"
+            ]
+        }, 
+        "source_url": "http://mrdata.usgs.gov/wfs/nuresed?request=getcapabilities&service=WFS&version=1.1.0"
+    }, 
+    "digest": "1f5fe8e5dc07669d9801746f3266a168"
+}

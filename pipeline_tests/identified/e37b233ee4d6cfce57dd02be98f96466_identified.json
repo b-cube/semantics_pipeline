@@ -1,0 +1,16 @@
+{
+    "content": "<?xml version=\"1.0\"?> <!DOCTYPE dlib-meta0.1 SYSTEM \"http://www.dlib.org/dlib/dlib-meta01.dtd\"> <dlib-meta0.1> <title>Resource Harvesting within the OAI-PMH Framework</title> <creator>Herbert Van de Sompel</creator> <creator>Michael L. Nelson</creator> <creator>Carl Lagoze</creator> <creator>Simeon Warner</creator> <publisher>Corporation for National Research Initiatives</publisher> <date date-type = \"publication\">December 2004</date> <type resource-type = \"work\">article</type> <identifier uri-type = \"DOI\">10.1045/december2004-vandesompel</identifier> <identifier uri-type = \"URL\">http://www.dlib.org/dlib/december04/vandesompel/12vandesompel.html</identifier> <language>English</language> <relation rel-type = \"InSerial\"> <serial-name>D-Lib Magazine</serial-name> <issn>1082-9873</issn> <volume>10</volume> <issue>12</issue> </relation> <rights>Copyright Herbert Van de Sompel, Michael L. Nelson, Carl Lagoze, and Simeon Warner</rights> </dlib-meta0.1>", 
+    "sha": "0e2ee4b16dc36889c897075db68eccf3c36a870dfd696b128bd17365", 
+    "identity": {
+        "subtype": "", 
+        "is_error": false, 
+        "version": "", 
+        "protocol": "", 
+        "language": "", 
+        "service": "", 
+        "has_dataset": false, 
+        "has_metadata": false
+    }, 
+    "digest": "e37b233ee4d6cfce57dd02be98f96466", 
+    "source_url": "http://www.dlib.org/dlib/december04/vandesompel/12vandesompel.meta.xml"
+}

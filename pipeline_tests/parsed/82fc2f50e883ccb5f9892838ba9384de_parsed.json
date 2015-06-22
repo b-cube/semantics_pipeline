@@ -1,0 +1,19 @@
+{
+    "source_url": "http://eidchub.ceh.ac.uk/metadata/bad1514f-119e-44a4-8e1e-442735bb9797/@@rdf", 
+    "sha": "1a7ef399d07a8af87a6e3e44b1a180545ce559078eaf6f90e1670f46", 
+    "identity": {
+        "is_error": false, 
+        "protocol": "RDF", 
+        "language": "", 
+        "service": "", 
+        "has_dataset": false, 
+        "has_metadata": false, 
+        "subtype": "dataset", 
+        "version": ""
+    }, 
+    "service_description": {
+        "solr_identifier": "82fc2f50e883ccb5f9892838ba9384de", 
+        "source_url": "http://eidchub.ceh.ac.uk/metadata/bad1514f-119e-44a4-8e1e-442735bb9797/@@rdf"
+    }, 
+    "digest": "82fc2f50e883ccb5f9892838ba9384de"
+}

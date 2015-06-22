@@ -1,0 +1,18 @@
+{
+    "url": "http://www.ncdc.noaa.gov/temp-and-precip/climatological-rankings/download.xml?parameter=tmax&state=110&div=0&month=9&periods[]=1&year=2014", 
+    "segment": "20141028014939", 
+    "contentLength": "342", 
+    "tstamp": "2014-10-28T02:27:29.558Z", 
+    "content": "Contiguous U.S. Maximum Temperature Rankings, September 2014 Degrees Fahrenheit 1 78.26 77.81 0.45 68 53 1965 1998 2008 2013 normal", 
+    "type": [
+        "application/xml", 
+        "application", 
+        "xml"
+    ], 
+    "date": "2014-10-28T02:27:29.558Z", 
+    "_version_": 1483177707704418306, 
+    "raw_content": "<![CDATA[<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<dataCollection>\n  <title>Contiguous U.S. Maximum Temperature Rankings, September 2014</title>\n  <units>Degrees Fahrenheit</units>\n  <data>\n    <period>1</period>\n    <value>78.26</value>\n    <twentiethCenturyMean>77.81</twentiethCenturyMean>\n    <departure>0.45</departure>\n    <lowRank>68</lowRank>\n    <highRank>53</highRank>\n    <recordLow>1965</recordLow>\n    <recordHigh>1998</recordHigh>\n    <lowestSince>2008</lowestSince>\n    <highestSince>2013</highestSince>\n    <percentile>normal</percentile>\n    <ties></ties>\n  </data>\n</dataCollection>\n]]>", 
+    "boost": 0.00012872141, 
+    "id": "http://www.ncdc.noaa.gov/temp-and-precip/climatological-rankings/download.xml?parameter=tmax&state=110&div=0&month=9&periods[]=1&year=2014", 
+    "digest": "0b4bdef43b044034fd34ae0ed1ec0c9d"
+}

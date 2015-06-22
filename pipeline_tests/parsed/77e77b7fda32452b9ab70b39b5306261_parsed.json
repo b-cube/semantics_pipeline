@@ -1,0 +1,59 @@
+{
+    "source_url": "http://ladsweb.nascom.nasa.gov/opendap/subsets/ab_GC-NET_NASA-E/2013/catalog.xml", 
+    "sha": "8bb229ec78a86c1a502ce67e46336fe205a0deb4530d6be73dd56641", 
+    "identity": {
+        "is_error": false, 
+        "protocol": "UNIDATA", 
+        "language": "", 
+        "service": "THREDDS-Catalog", 
+        "has_dataset": true, 
+        "has_metadata": true, 
+        "subtype": "service", 
+        "version": "1.0"
+    }, 
+    "service_description": {
+        "solr_identifier": "77e77b7fda32452b9ab70b39b5306261", 
+        "service": {
+            "endpoints": [
+                {
+                    "name": "dap", 
+                    "url": "http://ladsweb.nascom.nasa.gov/opendap/subsets/ab_GC-NET_NASA-E/2013/catalog.xml", 
+                    "actionable": 2, 
+                    "source": "service", 
+                    "type": "OPeNDAP", 
+                    "ID": "57f1e104"
+                }, 
+                {
+                    "name": "file", 
+                    "url": "http://ladsweb.nascom.nasa.gov/opendap/subsets/ab_GC-NET_NASA-E/2013/catalog.xml", 
+                    "actionable": 2, 
+                    "source": "service", 
+                    "type": "HTTPServer", 
+                    "ID": "fbf1fe25"
+                }
+            ]
+        }, 
+        "source_url": "http://ladsweb.nascom.nasa.gov/opendap/subsets/ab_GC-NET_NASA-E/2013/catalog.xml", 
+        "dataset": {
+            "endpoints": [
+                {
+                    "name": "subsets/ab_GC-NET_NASA-E/2013", 
+                    "url": "http://ladsweb.nascom.nasa.gov/opendap/subsets/ab_GC-NET_NASA-E/2013/catalog.xml", 
+                    "dataSize_units": "bytes", 
+                    "date_type": "modified", 
+                    "actionable": 2, 
+                    "source": "dataset", 
+                    "date": "2014-07-31T14:51:01", 
+                    "access_serviceName": "file", 
+                    "access_url": "//subsets/ab_GC-NET_NASA-E/2013", 
+                    "dataSize": "1", 
+                    "ID": "/opendap/hyrax//subsets/ab_GC-NET_NASA-E/2013"
+                }
+            ]
+        }, 
+        "metadata": {
+            "endpoints": []
+        }
+    }, 
+    "digest": "77e77b7fda32452b9ab70b39b5306261"
+}

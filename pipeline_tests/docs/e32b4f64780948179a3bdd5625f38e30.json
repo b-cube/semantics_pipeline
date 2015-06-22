@@ -1,0 +1,19 @@
+{
+    "xml_namespaces": [
+        "xmlns=\"http://a9.com/-/spec/opensearch/1.1/\"", 
+        "xmlns:geo=\"http://a9.com/-/opensearch/extensions/geo/1.0/\""
+    ], 
+    "url": "http://ngdc.noaa.gov/geoportal/openSearchDescription", 
+    "segment": "20150319143831", 
+    "raw_content": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><!--\n See the NOTICE file distributed with\n this work for additional information regarding copyright ownership.\n Esri Inc. licenses this file to You under the Apache License, Version 2.0\n (the \"License\"); you may not use this file except in compliance with\n the License.  You may obtain a copy of the License at\n\n     http://www.apache.org/licenses/LICENSE-2.0\n\n Unless required by applicable law or agreed to in writing, software\n distributed under the License is distributed on an \"AS IS\" BASIS,\n WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n See the License for the specific language governing permissions and\n limitations under the License.\n--><OpenSearchDescription xmlns=\"http://a9.com/-/spec/opensearch/1.1/\" xmlns:geo=\"http://a9.com/-/opensearch/extensions/geo/1.0/\">\n  <ShortName>Geoportal Search</ShortName>\n  <Description>Geospatial metadata search.</Description>\n  <Tags>geospatial metadata</Tags>\n  <Contact/>\n  <Url type=\"application/rss+xml\" indexOffset=\"1\" pageOffset=\"1\" template=\"http://ngdc.noaa.gov/geoportal/rest/find/document?searchText={searchTerms}&amp;start={startIndex?}&amp;max={count?}&amp;bbox={geo:box?}&amp;f=georss\"/>\n  <Url type=\"text/html\" indexOffset=\"1\" pageOffset=\"1\" template=\"http://ngdc.noaa.gov/geoportal/rest/find/document?searchText={searchTerms}&amp;start={startIndex?}&amp;max={count?}&amp;bbox={geo:box?}&amp;f=html\"/>\n    \n  <Image height=\"16\" width=\"16\" type=\"image/png\">http://ngdc.noaa.gov/geoportal/catalog/images/openSearch.png</Image>\n  <Query role=\"example\" searchTerms=\"land\"/>\n  <OutputEncoding>UTF-8</OutputEncoding>\n  <InputEncoding>UTF-8</InputEncoding>\n  \n  <!-- \n  <LongName>Example.com Web Search</LongName>\n  <Image height=\"64\" width=\"64\" type=\"image/png\">http://ngdc.noaa.gov/geoportal/catalog/images/websearch.png</Image>\n  <Developer>Example.com Development Team</Developer>\n  <Attribution>Search data Copyright 2005, Example.com, Inc., All Rights Reserved</Attribution>\n  <SyndicationRight>open</SyndicationRight>\n  <AdultContent>false</AdultContent>\n  <Language>en-us</Language>\n  -->\n  \n</OpenSearchDescription>", 
+    "content": "Geoportal Search Geospatial metadata search. geospatial metadata http://ngdc.noaa.gov/geoportal/catalog/images/openSearch.png UTF-8 UTF-8", 
+    "type": [
+        "application/opensearchdescription+xml"
+    ], 
+    "date": "2015-03-19T15:00:24.015Z", 
+    "_version_": 1496093800026603520, 
+    "tstamp": "2015-03-19T15:00:24.015Z", 
+    "boost": 7.5063275e-05, 
+    "id": "http://ngdc.noaa.gov/geoportal/openSearchDescription", 
+    "digest": "e32b4f64780948179a3bdd5625f38e30"
+}

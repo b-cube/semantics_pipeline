@@ -1,0 +1,362 @@
+{
+    "source_url": "http://geo.prgap.org/geoserver/ows?service=wfs&version=1.1.0&request=GetCapabilities", 
+    "sha": "329d37a98431415c65857a992cb66856b0994a31577ce74bcbe26c41", 
+    "identity": {
+        "is_error": false, 
+        "protocol": "OGC:WFS", 
+        "language": "", 
+        "service": "GetCapabilities", 
+        "has_dataset": true, 
+        "has_metadata": false, 
+        "subtype": "service", 
+        "version": "1.1.0"
+    }, 
+    "service_description": {
+        "solr_identifier": "5cbdc00032f6e0cfe21f7b70139cac11", 
+        "service": {
+            "rights": [
+                "NONE"
+            ], 
+            "abstract": [
+                "This is the reference implementation of WFS 1.0.0 and WFS 1.1.0, supports all WFS operations including Transaction."
+            ], 
+            "title": [
+                "GeoServer Web Feature Service"
+            ], 
+            "contact": [
+                "William A Gould"
+            ], 
+            "endpoints": [
+                {
+                    "mimeType": [
+                        "text/xml"
+                    ], 
+                    "protocol": "HTTP GET", 
+                    "name": "GetCapabilities", 
+                    "parameters": [
+                        {
+                            "type": "string", 
+                            "name": "service"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "request"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "version"
+                        }
+                    ], 
+                    "url": "http://geo.prgap.org:80/geoserver/wfs?SERVICE=WFS&VERSION=1.1.0&REQUEST=GetCapabilities", 
+                    "actionable": 1
+                }, 
+                {
+                    "mimeType": [
+                        "text/xml"
+                    ], 
+                    "protocol": "HTTP POST", 
+                    "name": "GetCapabilities", 
+                    "parameters": [
+                        {
+                            "type": "string", 
+                            "name": "service"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "request"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "version"
+                        }
+                    ], 
+                    "url": "http://geo.prgap.org:80/geoserver/wfs?SERVICE=WFS&VERSION=1.1.0&REQUEST=GetCapabilities", 
+                    "actionable": 1
+                }, 
+                {
+                    "mimeType": [
+                        "text/xml"
+                    ], 
+                    "protocol": "HTTP GET", 
+                    "name": "DescribeFeatureType", 
+                    "parameters": [
+                        {
+                            "type": "string", 
+                            "name": "service"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "request"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "version"
+                        }
+                    ], 
+                    "url": "http://geo.prgap.org:80/geoserver/wfs?SERVICE=WFS&VERSION=1.1.0&REQUEST=DescribeFeatureType", 
+                    "actionable": 2
+                }, 
+                {
+                    "mimeType": [
+                        "text/xml"
+                    ], 
+                    "protocol": "HTTP POST", 
+                    "name": "DescribeFeatureType", 
+                    "parameters": [
+                        {
+                            "type": "string", 
+                            "name": "service"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "request"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "version"
+                        }
+                    ], 
+                    "url": "http://geo.prgap.org:80/geoserver/wfs?SERVICE=WFS&VERSION=1.1.0&REQUEST=DescribeFeatureType", 
+                    "actionable": 2
+                }, 
+                {
+                    "mimeType": [
+                        "text/xml"
+                    ], 
+                    "protocol": "HTTP GET", 
+                    "name": "GetFeature", 
+                    "parameters": [
+                        {
+                            "type": "string", 
+                            "name": "service"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "request"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "version"
+                        }
+                    ], 
+                    "url": "http://geo.prgap.org:80/geoserver/wfs?SERVICE=WFS&VERSION=1.1.0&REQUEST=GetFeature", 
+                    "actionable": 2
+                }, 
+                {
+                    "mimeType": [
+                        "text/xml"
+                    ], 
+                    "protocol": "HTTP POST", 
+                    "name": "GetFeature", 
+                    "parameters": [
+                        {
+                            "type": "string", 
+                            "name": "service"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "request"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "version"
+                        }
+                    ], 
+                    "url": "http://geo.prgap.org:80/geoserver/wfs?SERVICE=WFS&VERSION=1.1.0&REQUEST=GetFeature", 
+                    "actionable": 2
+                }, 
+                {
+                    "mimeType": [
+                        "text/xml"
+                    ], 
+                    "protocol": "HTTP GET", 
+                    "name": "GetGmlObject", 
+                    "parameters": [
+                        {
+                            "type": "string", 
+                            "name": "service"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "request"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "version"
+                        }
+                    ], 
+                    "url": "http://geo.prgap.org:80/geoserver/wfs?SERVICE=WFS&VERSION=1.1.0&REQUEST=GetGmlObject", 
+                    "actionable": 2
+                }, 
+                {
+                    "mimeType": [
+                        "text/xml"
+                    ], 
+                    "protocol": "HTTP POST", 
+                    "name": "GetGmlObject", 
+                    "parameters": [
+                        {
+                            "type": "string", 
+                            "name": "service"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "request"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "version"
+                        }
+                    ], 
+                    "url": "http://geo.prgap.org:80/geoserver/wfs?SERVICE=WFS&VERSION=1.1.0&REQUEST=GetGmlObject", 
+                    "actionable": 2
+                }, 
+                {
+                    "mimeType": [
+                        "text/xml"
+                    ], 
+                    "protocol": "HTTP GET", 
+                    "name": "LockFeature", 
+                    "parameters": [
+                        {
+                            "type": "string", 
+                            "name": "service"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "request"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "version"
+                        }
+                    ], 
+                    "url": "http://geo.prgap.org:80/geoserver/wfs?SERVICE=WFS&VERSION=1.1.0&REQUEST=LockFeature", 
+                    "actionable": 2
+                }, 
+                {
+                    "mimeType": [
+                        "text/xml"
+                    ], 
+                    "protocol": "HTTP POST", 
+                    "name": "LockFeature", 
+                    "parameters": [
+                        {
+                            "type": "string", 
+                            "name": "service"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "request"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "version"
+                        }
+                    ], 
+                    "url": "http://geo.prgap.org:80/geoserver/wfs?SERVICE=WFS&VERSION=1.1.0&REQUEST=LockFeature", 
+                    "actionable": 2
+                }, 
+                {
+                    "mimeType": [
+                        "text/xml"
+                    ], 
+                    "protocol": "HTTP GET", 
+                    "name": "GetFeatureWithLock", 
+                    "parameters": [
+                        {
+                            "type": "string", 
+                            "name": "service"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "request"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "version"
+                        }
+                    ], 
+                    "url": "http://geo.prgap.org:80/geoserver/wfs?SERVICE=WFS&VERSION=1.1.0&REQUEST=GetFeatureWithLock", 
+                    "actionable": 2
+                }, 
+                {
+                    "mimeType": [
+                        "text/xml"
+                    ], 
+                    "protocol": "HTTP POST", 
+                    "name": "GetFeatureWithLock", 
+                    "parameters": [
+                        {
+                            "type": "string", 
+                            "name": "service"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "request"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "version"
+                        }
+                    ], 
+                    "url": "http://geo.prgap.org:80/geoserver/wfs?SERVICE=WFS&VERSION=1.1.0&REQUEST=GetFeatureWithLock", 
+                    "actionable": 2
+                }, 
+                {
+                    "mimeType": [
+                        "text/xml"
+                    ], 
+                    "protocol": "HTTP GET", 
+                    "name": "Transaction", 
+                    "parameters": [
+                        {
+                            "type": "string", 
+                            "name": "service"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "request"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "version"
+                        }
+                    ], 
+                    "url": "http://geo.prgap.org:80/geoserver/wfs?SERVICE=WFS&VERSION=1.1.0&REQUEST=Transaction", 
+                    "actionable": 2
+                }, 
+                {
+                    "mimeType": [
+                        "text/xml"
+                    ], 
+                    "protocol": "HTTP POST", 
+                    "name": "Transaction", 
+                    "parameters": [
+                        {
+                            "type": "string", 
+                            "name": "service"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "request"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "version"
+                        }
+                    ], 
+                    "url": "http://geo.prgap.org:80/geoserver/wfs?SERVICE=WFS&VERSION=1.1.0&REQUEST=Transaction", 
+                    "actionable": 2
+                }
+            ], 
+            "subject": [
+                "WFS", 
+                "WMS", 
+                "GEOSERVER"
+            ]
+        }, 
+        "source_url": "http://geo.prgap.org/geoserver/ows?service=wfs&version=1.1.0&request=GetCapabilities"
+    }, 
+    "digest": "5cbdc00032f6e0cfe21f7b70139cac11"
+}

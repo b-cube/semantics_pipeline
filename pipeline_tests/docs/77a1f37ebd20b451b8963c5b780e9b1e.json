@@ -1,0 +1,16 @@
+{
+    "url": "http://www.ituc-csi.org/oembed.api/?format=xml&url=http%3A%2F%2Fwww.ituc-csi.org%2Fcreating-quality-jobs-and", 
+    "segment": "20150313072242", 
+    "contentLength": "412", 
+    "raw_content": "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>\n<oembed>\n\t<version>1.0</version>\n\t<type>rich</type>\n\t<provider_name>Confederaci&#243;n Sindical Internacional</provider_name>\n\t<provider_url>http://www.ituc-csi.org</provider_url>\n\t<title>Creating quality jobs and Inclusive growth: the role of G20 leadership</title>\n\t<author_name>Mathieu Debroux</author_name>\n\t<width>480</width>\n\t<height>295</height>\n\t<url>http://www.ituc-csi.org/creating-quality-jobs-and</url>\n\t<html>&lt;h4 class='title'&gt;&lt;a href='http://www.ituc-csi.org/creating-quality-jobs-and'&gt;Creating quality jobs and Inclusive growth: the role of G20 leadership&lt;/a&gt;&lt;/h4&gt;&lt;blockquote class='spip'&gt;\n&lt;p&gt;Creating quality jobs and Inclusive growth: the role Of g20 leadership descargar abrir&lt;/p&gt;\n&lt;/blockquote&gt;\n</html>\n</oembed>\n", 
+    "content": "1.0 rich Confederaci\u00f3n Sindical Internacional http://www.ituc-csi.org Creating quality jobs and Inclusive growth: the role of G20 leadership Mathieu Debroux 480 295 http://www.ituc-csi.org/creating-quality-jobs-and <h4 class='title'><a href='http://www.ituc-csi.org/creating-quality-jobs-and'>Creating quality jobs and Inclusive growth: the role of G20 leadership</a></h4><blockquote class='spip'> <p>Creating quality jobs and Inclusive growth: the role Of g20 leadership descargar abrir</p> </blockquote>", 
+    "type": [
+        "application/xml"
+    ], 
+    "date": "2015-03-13T07:30:43.336Z", 
+    "_version_": 1495520262734479360, 
+    "tstamp": "2015-03-13T07:30:43.336Z", 
+    "boost": 1.0, 
+    "id": "http://www.ituc-csi.org/oembed.api/?format=xml&url=http%3A%2F%2Fwww.ituc-csi.org%2Fcreating-quality-jobs-and", 
+    "digest": "77a1f37ebd20b451b8963c5b780e9b1e"
+}

@@ -1,0 +1,20 @@
+{
+    "xml_namespaces": [
+        "xmlns=\"http://a9.com/-/spec/opensearch/1.1/\""
+    ], 
+    "title": "OpenSearchDescription.xml", 
+    "url": "http://coastwatch.pfeg.noaa.gov/erddap/opensearch1.1/description.xml", 
+    "segment": "20150319013614", 
+    "contentLength": "698", 
+    "tstamp": "2015-03-19T01:48:40.233Z", 
+    "content": "ERDDAP The ERDDAP at NOAA NMFS SWFSC Environmental Research Division is a data server that gives you a simple, consistent way to download subsets of scientific datasets in common file formats and make graphs and maps. bob.simons@noaa.gov atmosphere biology biosphere earth environment ocean science ERDDAP http://coastwatch.pfeg.noaa.gov/erddap/images/nlogo.gif http://coastwatch.pfeg.noaa.gov/erddap/images/noaa_simple.gif http://coastwatch.pfeg.noaa.gov/erddap/images/noaa20.gif Bob Simons (bob.simons at noaa.gov) NOAA NMFS SWFSC Environmental Research Division open false en-us UTF-8 UTF-8", 
+    "boost": 8.615209e-05, 
+    "date": "2015-03-19T01:48:40.233Z", 
+    "_version_": 1496042084218437632, 
+    "raw_content": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<OpenSearchDescription xmlns=\"http://a9.com/-/spec/opensearch/1.1/\">\n  <ShortName>ERDDAP</ShortName>\n  <Description>The ERDDAP at NOAA NMFS SWFSC Environmental Research Division is a data server that gives you a simple, consistent way to download subsets of scientific datasets in common file formats and make graphs and maps.</Description>\n  <Url type=\"application/atom+xml\"\n       template=\"http://coastwatch.pfeg.noaa.gov/erddap/opensearch1.1/search?searchTerms={searchTerms}&#x26;page={startPage?}&#x26;itemsPerPage={count?}&#x26;format=atom\"/>\n  <Url type=\"application/rss+xml\"\n       template=\"http://coastwatch.pfeg.noaa.gov/erddap/opensearch1.1/search?searchTerms={searchTerms}&#x26;page={startPage?}&#x26;itemsPerPage={count?}&#x26;format=rss\"/>\n  <Contact>bob.simons@noaa.gov</Contact>\n  <Tags>atmosphere biology biosphere earth environment ocean science</Tags>\n  <LongName>ERDDAP</LongName>\n  <Image height=\"56\" width=\"55\">http://coastwatch.pfeg.noaa.gov/erddap/images/nlogo.gif</Image>\n  <Image height=\"313\" width=\"313\">http://coastwatch.pfeg.noaa.gov/erddap/images/noaa_simple.gif</Image>\n  <Image height=\"20\" width=\"20\">http://coastwatch.pfeg.noaa.gov/erddap/images/noaa20.gif</Image>\n  <Query role=\"example\" searchTerms=\"temperature\" />\n  <Developer>Bob Simons (bob.simons at noaa.gov)</Developer>\n  <Attribution>NOAA NMFS SWFSC Environmental Research Division</Attribution>\n  <SyndicationRight>open</SyndicationRight>\n  <AdultContent>false</AdultContent>\n  <Language>en-us</Language>\n  <InputEncoding>UTF-8</InputEncoding>\n  <OutputEncoding>UTF-8</OutputEncoding>\n</OpenSearchDescription>\n", 
+    "type": [
+        "application/opensearchdescription+xml"
+    ], 
+    "id": "http://coastwatch.pfeg.noaa.gov/erddap/opensearch1.1/description.xml", 
+    "digest": "0ed9bbe3f052e60dc3dd7145fe39245f"
+}

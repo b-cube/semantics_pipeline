@@ -1,0 +1,86 @@
+{
+    "source_url": "http://coastalmap.marine.usgs.gov/cmgp/services/GoMex/Chandeleur2010_Lidar/MapServer/WMSServer?request=GetCapabilities&service=WMS", 
+    "sha": "273c407af45a025161e1f3378c9a238b23c7deec14b3a6227b290856", 
+    "identity": {
+        "is_error": false, 
+        "protocol": "OGC:WMS", 
+        "language": "", 
+        "service": "GetCapabilities", 
+        "has_dataset": false, 
+        "has_metadata": false, 
+        "subtype": "service", 
+        "version": "1.3.0"
+    }, 
+    "service_description": {
+        "solr_identifier": "ea8a56174abc492bf94ff19281f04a8a", 
+        "service": {
+            "endpoints": [
+                {
+                    "mimeType": [
+                        "application/vnd.ogc.wms_xml", 
+                        "text/xml"
+                    ], 
+                    "protocol": "HTTP GET", 
+                    "name": "GetCapabilities", 
+                    "url": "http://coastalmap.marine.usgs.gov/cmgp/services/GoMex/Chandeleur2010_Lidar/MapServer/WmsServer?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetCapabilities", 
+                    "actionable": 1
+                }, 
+                {
+                    "mimeType": [
+                        "image/bmp", 
+                        "image/jpeg", 
+                        "image/tiff", 
+                        "image/png", 
+                        "image/png8", 
+                        "image/png24", 
+                        "image/png32", 
+                        "image/gif", 
+                        "image/svg+xml"
+                    ], 
+                    "protocol": "HTTP GET", 
+                    "name": "GetMap", 
+                    "url": "http://coastalmap.marine.usgs.gov/cmgp/services/GoMex/Chandeleur2010_Lidar/MapServer/WmsServer?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap", 
+                    "actionable": 2
+                }, 
+                {
+                    "mimeType": [
+                        "application/vnd.esri.wms_raw_xml", 
+                        "application/vnd.esri.wms_featureinfo_xml", 
+                        "application/vnd.ogc.wms_xml", 
+                        "application/geojson", 
+                        "text/xml", 
+                        "text/html", 
+                        "text/plain"
+                    ], 
+                    "protocol": "HTTP GET", 
+                    "name": "GetFeatureInfo", 
+                    "url": "http://coastalmap.marine.usgs.gov/cmgp/services/GoMex/Chandeleur2010_Lidar/MapServer/WmsServer?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetFeatureInfo", 
+                    "actionable": 2
+                }, 
+                {
+                    "mimeType": [
+                        "application/vnd.ogc.sld+xml"
+                    ], 
+                    "protocol": "HTTP GET", 
+                    "name": "GetStyles", 
+                    "url": "http://coastalmap.marine.usgs.gov/cmgp/services/GoMex/Chandeleur2010_Lidar/MapServer/WmsServer?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetStyles", 
+                    "actionable": 2
+                }
+            ], 
+            "abstract": [
+                "WMS"
+            ], 
+            "rights": [
+                "None"
+            ], 
+            "contact": [
+                ""
+            ], 
+            "title": [
+                "GoMex_Chandeleur2010_Lidar"
+            ]
+        }, 
+        "source_url": "http://coastalmap.marine.usgs.gov/cmgp/services/GoMex/Chandeleur2010_Lidar/MapServer/WMSServer?request=GetCapabilities&service=WMS"
+    }, 
+    "digest": "ea8a56174abc492bf94ff19281f04a8a"
+}

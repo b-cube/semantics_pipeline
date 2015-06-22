@@ -1,0 +1,1357 @@
+{
+    "source_url": "http://www.nodc.noaa.gov/oceanacidification/data/0117506.xml", 
+    "sha": "048d2274b3cc44fa59bf44107fc4eb93f055f7adcf16c11b742fd7ca", 
+    "identity": {
+        "is_error": false, 
+        "protocol": "", 
+        "language": "", 
+        "service": "", 
+        "has_dataset": false, 
+        "has_metadata": false, 
+        "subtype": "", 
+        "version": ""
+    }, 
+    "service_description": {
+        "remainder": [
+            {
+                "xpath": "metadata/submissiondate", 
+                "text": "4/15/2014"
+            }, 
+            {
+                "xpath": "metadata/accn", 
+                "text": "0117506"
+            }, 
+            {
+                "xpath": "metadata/doi", 
+                "text": "10.7289/V5H70CRK"
+            }, 
+            {
+                "xpath": "metadata/type", 
+                "text": "laboratory experiment"
+            }, 
+            {
+                "xpath": "metadata/person/name", 
+                "text": "Dean M. Perry"
+            }, 
+            {
+                "xpath": "metadata/person/organization", 
+                "text": "Northeast Fisheries Science Center, National Marine Fisheries Service, National Oceanic and Atmospheric Administration"
+            }, 
+            {
+                "xpath": "metadata/person/deliverypoint1", 
+                "text": "212 Rogers Ave."
+            }, 
+            {
+                "xpath": "metadata/person/city", 
+                "text": "Milford"
+            }, 
+            {
+                "xpath": "metadata/person/administrativeArea", 
+                "text": "CT"
+            }, 
+            {
+                "xpath": "metadata/person/zip", 
+                "text": "06418"
+            }, 
+            {
+                "xpath": "metadata/person/country", 
+                "text": "USA"
+            }, 
+            {
+                "xpath": "metadata/person/phone", 
+                "text": "(203) 882-6520"
+            }, 
+            {
+                "xpath": "metadata/person/email", 
+                "text": "Dean.Perry@noaa.gov"
+            }, 
+            {
+                "xpath": "metadata/person/role", 
+                "text": "principal investigator"
+            }, 
+            {
+                "xpath": "metadata/person/link", 
+                "text": "http://www.nodc.noaa.gov/cgi-bin/OAS/prd/person/details/4685"
+            }, 
+            {
+                "xpath": "metadata/person/name", 
+                "text": "Dylan H. Redman"
+            }, 
+            {
+                "xpath": "metadata/person/organization", 
+                "text": "Northeast Fisheries Science Center, National Marine Fisheries Service, National Oceanic and Atmospheric Administration"
+            }, 
+            {
+                "xpath": "metadata/person/deliverypoint1", 
+                "text": "212 Rogers Ave."
+            }, 
+            {
+                "xpath": "metadata/person/city", 
+                "text": "Milford"
+            }, 
+            {
+                "xpath": "metadata/person/administrativeArea", 
+                "text": "CT"
+            }, 
+            {
+                "xpath": "metadata/person/zip", 
+                "text": "06418"
+            }, 
+            {
+                "xpath": "metadata/person/country", 
+                "text": "USA"
+            }, 
+            {
+                "xpath": "metadata/person/phone", 
+                "text": "(203) 882-6518"
+            }, 
+            {
+                "xpath": "metadata/person/email", 
+                "text": "Dylan.Redman@noaa.gov"
+            }, 
+            {
+                "xpath": "metadata/person/role", 
+                "text": "principal investigator"
+            }, 
+            {
+                "xpath": "metadata/person/name", 
+                "text": "James C. Widman"
+            }, 
+            {
+                "xpath": "metadata/person/deliverypoint1", 
+                "text": "15 Myrtlewood Dr."
+            }, 
+            {
+                "xpath": "metadata/person/city", 
+                "text": "Milford"
+            }, 
+            {
+                "xpath": "metadata/person/administrativeArea", 
+                "text": "CT"
+            }, 
+            {
+                "xpath": "metadata/person/zip", 
+                "text": "06460"
+            }, 
+            {
+                "xpath": "metadata/person/country", 
+                "text": "USA"
+            }, 
+            {
+                "xpath": "metadata/person/email", 
+                "text": "widmanjames@yahoo.com"
+            }, 
+            {
+                "xpath": "metadata/person/role", 
+                "text": "principal investigator"
+            }, 
+            {
+                "xpath": "metadata/person/name", 
+                "text": "Shannon L. Meseck"
+            }, 
+            {
+                "xpath": "metadata/person/organization", 
+                "text": "Northeast Fisheries Science Center, National Marine Fisheries Service, National Oceanic and Atmospheric Administration"
+            }, 
+            {
+                "xpath": "metadata/person/deliverypoint1", 
+                "text": "212 Rogers Ave."
+            }, 
+            {
+                "xpath": "metadata/person/city", 
+                "text": "Milford"
+            }, 
+            {
+                "xpath": "metadata/person/administrativeArea", 
+                "text": "CT"
+            }, 
+            {
+                "xpath": "metadata/person/zip", 
+                "text": "06418"
+            }, 
+            {
+                "xpath": "metadata/person/country", 
+                "text": "USA"
+            }, 
+            {
+                "xpath": "metadata/person/phone", 
+                "text": "(203) 882-6528"
+            }, 
+            {
+                "xpath": "metadata/person/email", 
+                "text": "Shannon.Meseck@noaa.gov"
+            }, 
+            {
+                "xpath": "metadata/person/role", 
+                "text": "principal investigator"
+            }, 
+            {
+                "xpath": "metadata/person/name", 
+                "text": "Andrew King"
+            }, 
+            {
+                "xpath": "metadata/person/country", 
+                "text": "USA"
+            }, 
+            {
+                "xpath": "metadata/person/email", 
+                "text": "andrew.king@gmail.com"
+            }, 
+            {
+                "xpath": "metadata/person/role", 
+                "text": "principal investigator"
+            }, 
+            {
+                "xpath": "metadata/person/name", 
+                "text": "Jose Pereira"
+            }, 
+            {
+                "xpath": "metadata/person/organization", 
+                "text": "Northeast Fisheries Science Center, National Marine Fisheries Service, National Oceanic and Atmospheric Administration"
+            }, 
+            {
+                "xpath": "metadata/person/deliverypoint1", 
+                "text": "212 Rogers Ave."
+            }, 
+            {
+                "xpath": "metadata/person/city", 
+                "text": "Milford"
+            }, 
+            {
+                "xpath": "metadata/person/administrativeArea", 
+                "text": "CT"
+            }, 
+            {
+                "xpath": "metadata/person/zip", 
+                "text": "06418"
+            }, 
+            {
+                "xpath": "metadata/person/country", 
+                "text": "USA"
+            }, 
+            {
+                "xpath": "metadata/person/phone", 
+                "text": "(203) 882-6538"
+            }, 
+            {
+                "xpath": "metadata/person/email", 
+                "text": "Jose.Pereira@noaa.gov"
+            }, 
+            {
+                "xpath": "metadata/person/role", 
+                "text": "principal investigator"
+            }, 
+            {
+                "xpath": "metadata/datasubmitter/name", 
+                "text": "Dylan H. Redman"
+            }, 
+            {
+                "xpath": "metadata/datasubmitter/organization", 
+                "text": "Northeast Fisheries Science Center, National Marine Fisheries Service, National Oceanic and Atmospheric Administration"
+            }, 
+            {
+                "xpath": "metadata/datasubmitter/deliverypoint1", 
+                "text": "212 Rogers Ave."
+            }, 
+            {
+                "xpath": "metadata/datasubmitter/city", 
+                "text": "Milford"
+            }, 
+            {
+                "xpath": "metadata/datasubmitter/administrativeArea", 
+                "text": "CT"
+            }, 
+            {
+                "xpath": "metadata/datasubmitter/zip", 
+                "text": "06418"
+            }, 
+            {
+                "xpath": "metadata/datasubmitter/country", 
+                "text": "USA"
+            }, 
+            {
+                "xpath": "metadata/datasubmitter/phone", 
+                "text": "203-882-6518"
+            }, 
+            {
+                "xpath": "metadata/datasubmitter/email", 
+                "text": "Dylan.Redman@noaa.gov"
+            }, 
+            {
+                "xpath": "metadata/title", 
+                "text": "The effects of ocean acidification on growth and otolith condition of juvenile scup, Stenotomus chrysops from laboratory experiment studies from 2011-08-24 to 2011-10-19 (NODC Accession 0117506)"
+            }, 
+            {
+                "xpath": "metadata/abstract", 
+                "text": "This archival package contains laboratory experiment data that were collected to examine the effects of elevated levels of CO2 on the growth, survival, otolith (ear bone) condition and the skeleton of juvenile scup, Stenotomus chrysops, a species that supports both commercial and recreational fisheries. Increasing amounts of atmospheric carbon dioxide from human industrial activities are causing changes in global ocean carbon chemistry resulting in a reduction in pH, a process termed ocean acidification. Studies have demonstrated adverse effects on calcifying organisms, particularly some invertebrates, corals, sea urchins, pteropods, and coccolithophores. It is important to determine which species are sensitive to elevated levels of CO2 because of the potential impacts to ecosystems, marine resources, biodiversity, food webs, populations and effects on human communities and economies. There have been few studies examining the effects of ocean acidification on marine fish, particularly the juvenile stages of species that support important fisheries. These data demonstrated that elevated levels of pCO2 (>1300 micro-atm) had no statistically significant effect on growth, survival, or otolith condition after 8 weeks of rearing. There was a trend towards a greater gain in weight and length in scup exposed to the mid-level (1726 micro-atm) and the high level (2614 micro-atm) treatments of pCO2 when compared to the fish in the control (1205 micro-atm) treatments, but these differences were not statistically significant. X-ray analysis of the fish revealed a slightly higher incidence of hyper-ossification in the vertebrae of a few scup from the highest treatments compared to fish from the control treatments. The results show that juvenile scup are tolerant to increases in levels of environmental pCO2, possibly due to conditions this species encounters in their naturally variable environment."
+            }, 
+            {
+                "xpath": "metadata/purpose", 
+                "text": "To determine whether varying levels of PCO2 have any effect on length, weight, otolith size, otolith shape or otolith mass of juvenile scup."
+            }, 
+            {
+                "xpath": "metadata/startdate", 
+                "text": "8/24/2011"
+            }, 
+            {
+                "xpath": "metadata/enddate", 
+                "text": "10/19/2011"
+            }, 
+            {
+                "xpath": "metadata/westbd", 
+                "text": "-73.05"
+            }, 
+            {
+                "xpath": "metadata/eastbd", 
+                "text": "-73.05"
+            }, 
+            {
+                "xpath": "metadata/northbd", 
+                "text": "41.21"
+            }, 
+            {
+                "xpath": "metadata/southbd", 
+                "text": "41.21"
+            }, 
+            {
+                "xpath": "metadata/spatialReference", 
+                "text": "WGS 84"
+            }, 
+            {
+                "xpath": "metadata/geographicName", 
+                "text": "Long Island Sound"
+            }, 
+            {
+                "xpath": "metadata/geographicName", 
+                "text": "Wepawaug River"
+            }, 
+            {
+                "xpath": "metadata/fundingAgency/agency", 
+                "text": "NOAA's Ocean Acidification Program"
+            }, 
+            {
+                "xpath": "metadata/fundingAgency/title", 
+                "text": "Otolith Condition and Growth of Juvenile Scup, Stenotomus chrysops,and Embryonic and Larval Development in the Black Sea Bass (Centriopristis striat spp.)"
+            }, 
+            {
+                "xpath": "metadata/fundingAgency/ID", 
+                "text": "OAPFY13.03.NEFSC.004"
+            }, 
+            {
+                "xpath": "metadata/citation", 
+                "text": "Perry, Dean M.; Redman, Dylan H.; Widman, James C. Jr.; Meseck, Shannon L.; King, Andrew; and Pereira, Jose J. (2014). The effects of ocean acidification on growth and otolith condition of juvenile scup, Stenotomus chrysops from laboratory experiment studies from 2011-08-24 to 2011-10-19 (NODC Accession 0117506). National Oceanographic Data Center, NOAA. Dataset. doi:10.7289/V5H70CRK"
+            }, 
+            {
+                "xpath": "metadata/link_landing", 
+                "text": "http://data.nodc.noaa.gov/cgi-bin/iso?id=gov.noaa.nodc:0117506"
+            }, 
+            {
+                "xpath": "metadata/link_download", 
+                "text": "http://www.nodc.noaa.gov/archive/arc0063/0117506/2.3/data/0-data/"
+            }, 
+            {
+                "xpath": "metadata/dissolvedInorganicCarbon/abbrev", 
+                "text": "DIC"
+            }, 
+            {
+                "xpath": "metadata/dissolvedInorganicCarbon/observationType", 
+                "text": "Laboratory experiment"
+            }, 
+            {
+                "xpath": "metadata/dissolvedInorganicCarbon/insitu", 
+                "text": "Manipulation condition"
+            }, 
+            {
+                "xpath": "metadata/dissolvedInorganicCarbon/unit", 
+                "text": "umol/kg"
+            }, 
+            {
+                "xpath": "metadata/dissolvedInorganicCarbon/measured", 
+                "text": "Calculated"
+            }, 
+            {
+                "xpath": "metadata/alkalinity/abbrev", 
+                "text": "TA"
+            }, 
+            {
+                "xpath": "metadata/alkalinity/observationType", 
+                "text": "Laboratory experiment"
+            }, 
+            {
+                "xpath": "metadata/alkalinity/insitu", 
+                "text": "Manipulation condition"
+            }, 
+            {
+                "xpath": "metadata/alkalinity/unit", 
+                "text": "umol/kg"
+            }, 
+            {
+                "xpath": "metadata/alkalinity/measured", 
+                "text": "Measured"
+            }, 
+            {
+                "xpath": "metadata/alkalinity/samplingInstrument", 
+                "text": "Amber 250 ml polyproplene bottles"
+            }, 
+            {
+                "xpath": "metadata/alkalinity/analyzingInstrument", 
+                "text": "Alkalinity titrator"
+            }, 
+            {
+                "xpath": "metadata/alkalinity/cellType", 
+                "text": "Open"
+            }, 
+            {
+                "xpath": "metadata/alkalinity/standard/crm/manufacturer", 
+                "text": "Andrew Dickson's lab at Scripps Institute of Oceanography"
+            }, 
+            {
+                "xpath": "metadata/alkalinity/standard/crm/batch", 
+                "text": "CRM 112 and CRM 98"
+            }, 
+            {
+                "xpath": "metadata/alkalinity/poison/correction", 
+                "text": "no correction."
+            }, 
+            {
+                "xpath": "metadata/alkalinity/methodReference", 
+                "text": "Used spectrometric method from Dickson, A.G., Sabine, C.L. and Christian, J.R. (Eds.) 2007. Guide to best practices for ocean CO2 measurements. PICES Special Publication 3, 191 pp."
+            }, 
+            {
+                "xpath": "metadata/alkalinity/researcherName", 
+                "text": "Andrew King"
+            }, 
+            {
+                "xpath": "metadata/alkalinity/researcherInstitution", 
+                "text": "Northeast Fisheries Science Center, National Marine Fisheries Service, National Oceanic and Atmospheric Administration"
+            }, 
+            {
+                "xpath": "metadata/ph/abbrev", 
+                "text": "pH"
+            }, 
+            {
+                "xpath": "metadata/ph/observationType", 
+                "text": "Laboratory experiment"
+            }, 
+            {
+                "xpath": "metadata/ph/insitu", 
+                "text": "Manipulation condition"
+            }, 
+            {
+                "xpath": "metadata/ph/measured", 
+                "text": "Measured"
+            }, 
+            {
+                "xpath": "metadata/ph/samplingInstrument", 
+                "text": "Amber 250 ml polyproplene bottles"
+            }, 
+            {
+                "xpath": "metadata/ph/analyzingInstrument", 
+                "text": "Varian Cary 100 Spectrometer"
+            }, 
+            {
+                "xpath": "metadata/ph/phscale", 
+                "text": "Total"
+            }, 
+            {
+                "xpath": "metadata/ph/temperatureMeasure", 
+                "text": "20 C"
+            }, 
+            {
+                "xpath": "metadata/ph/detailedInfo", 
+                "text": "Varian Cary 100 Spectrometer, M-cresol purple Lot #1080-253"
+            }, 
+            {
+                "xpath": "metadata/ph/uncertainty", 
+                "text": "Values were not corrected for the dye"
+            }, 
+            {
+                "xpath": "metadata/ph/methodReference", 
+                "text": "Used spectrometric method from Dickson, A.G., Sabine, C.L. and Christian, J.R. (Eds.) 2007. Guide to best practices for ocean CO2 measurements. PICES Special Publication 3, 191 pp."
+            }, 
+            {
+                "xpath": "metadata/ph/researcherName", 
+                "text": "Andrew King"
+            }, 
+            {
+                "xpath": "metadata/ph/researcherInstitution", 
+                "text": "Northeast Fisheries Science Center, National Marine Fisheries Service, National Oceanic and Atmospheric Administration"
+            }, 
+            {
+                "xpath": "metadata/pCO2autonomous/abbrev", 
+                "text": "pCO2"
+            }, 
+            {
+                "xpath": "metadata/pCO2autonomous/observationType", 
+                "text": "Laboratory experiment"
+            }, 
+            {
+                "xpath": "metadata/pCO2autonomous/insitu", 
+                "text": "Manipulation condition"
+            }, 
+            {
+                "xpath": "metadata/pCO2autonomous/unit", 
+                "text": "uatm"
+            }, 
+            {
+                "xpath": "metadata/pCO2autonomous/measured", 
+                "text": "Calculated"
+            }, 
+            {
+                "xpath": "metadata/variable/abbrev", 
+                "text": "Initial number of fish"
+            }, 
+            {
+                "xpath": "metadata/variable/fullname", 
+                "text": "Number of fish each tank was initially stocked with"
+            }, 
+            {
+                "xpath": "metadata/variable/observationType", 
+                "text": "Laboratory experiment"
+            }, 
+            {
+                "xpath": "metadata/variable/insitu", 
+                "text": "Response variable"
+            }, 
+            {
+                "xpath": "metadata/variable/unit", 
+                "text": "Number of individual fish"
+            }, 
+            {
+                "xpath": "metadata/variable/measured", 
+                "text": "Measured"
+            }, 
+            {
+                "xpath": "metadata/variable/samplingInstrument", 
+                "text": "Counting"
+            }, 
+            {
+                "xpath": "metadata/variable/duration", 
+                "text": "56 days"
+            }, 
+            {
+                "xpath": "metadata/variable/detailedInfo", 
+                "text": "This variable describes the number of fish stocked into each tank at the start of the experiment"
+            }, 
+            {
+                "xpath": "metadata/variable/replicate", 
+                "text": "Fish were stocked into each tank once at the beginning of the experiment"
+            }, 
+            {
+                "xpath": "metadata/variable/biologicalSubject", 
+                "text": "Scup"
+            }, 
+            {
+                "xpath": "metadata/variable/speciesID", 
+                "text": "Stenotomus chrysops"
+            }, 
+            {
+                "xpath": "metadata/variable/researcherName", 
+                "text": "Dean Perry"
+            }, 
+            {
+                "xpath": "metadata/variable/researcherInstitution", 
+                "text": "National Marine Fisheries Service"
+            }, 
+            {
+                "xpath": "metadata/variable/abbrev", 
+                "text": "Number of fish sampled"
+            }, 
+            {
+                "xpath": "metadata/variable/fullname", 
+                "text": "Number of live fish remaining in each tank at time of sampling"
+            }, 
+            {
+                "xpath": "metadata/variable/observationType", 
+                "text": "Laboratory experiment"
+            }, 
+            {
+                "xpath": "metadata/variable/insitu", 
+                "text": "Reponse variable"
+            }, 
+            {
+                "xpath": "metadata/variable/unit", 
+                "text": "Number of individual fish"
+            }, 
+            {
+                "xpath": "metadata/variable/measured", 
+                "text": "Measured"
+            }, 
+            {
+                "xpath": "metadata/variable/samplingInstrument", 
+                "text": "Counting"
+            }, 
+            {
+                "xpath": "metadata/variable/duration", 
+                "text": "56 days"
+            }, 
+            {
+                "xpath": "metadata/variable/detailedInfo", 
+                "text": "each fish was individually counted while being weighed and measured"
+            }, 
+            {
+                "xpath": "metadata/variable/replicate", 
+                "text": "All live fish were sampled weekly for the duration of the experiment"
+            }, 
+            {
+                "xpath": "metadata/variable/biologicalSubject", 
+                "text": "Scup"
+            }, 
+            {
+                "xpath": "metadata/variable/speciesID", 
+                "text": "Stenotomus chrysops"
+            }, 
+            {
+                "xpath": "metadata/variable/researcherName", 
+                "text": "Dean Perry"
+            }, 
+            {
+                "xpath": "metadata/variable/researcherInstitution", 
+                "text": "National Marine Fisheries Service"
+            }, 
+            {
+                "xpath": "metadata/variable/abbrev", 
+                "text": "Fish length mean (mm)"
+            }, 
+            {
+                "xpath": "metadata/variable/fullname", 
+                "text": "mean total length of fish in each tank"
+            }, 
+            {
+                "xpath": "metadata/variable/observationType", 
+                "text": "Laboratory experiment"
+            }, 
+            {
+                "xpath": "metadata/variable/insitu", 
+                "text": "Response variable"
+            }, 
+            {
+                "xpath": "metadata/variable/unit", 
+                "text": "millimeters (mm)"
+            }, 
+            {
+                "xpath": "metadata/variable/measured", 
+                "text": "measured"
+            }, 
+            {
+                "xpath": "metadata/variable/samplingInstrument", 
+                "text": "Metric fish measuring board"
+            }, 
+            {
+                "xpath": "metadata/variable/analyzingInstrument", 
+                "text": "Microsoft Excel was used to determine means"
+            }, 
+            {
+                "xpath": "metadata/variable/duration", 
+                "text": "56 days"
+            }, 
+            {
+                "xpath": "metadata/variable/replicate", 
+                "text": "All live fish were sampled weekly for the duration of the experiment"
+            }, 
+            {
+                "xpath": "metadata/variable/biologicalSubject", 
+                "text": "Scup"
+            }, 
+            {
+                "xpath": "metadata/variable/speciesID", 
+                "text": "Stenotomus chrysops"
+            }, 
+            {
+                "xpath": "metadata/variable/researcherName", 
+                "text": "Dean Perry"
+            }, 
+            {
+                "xpath": "metadata/variable/researcherInstitution", 
+                "text": "National Marine Fisheries Service"
+            }, 
+            {
+                "xpath": "metadata/variable/abbrev", 
+                "text": "Fish weight (g)"
+            }, 
+            {
+                "xpath": "metadata/variable/fullname", 
+                "text": "mean weight of the fish in each tank"
+            }, 
+            {
+                "xpath": "metadata/variable/observationType", 
+                "text": "Laboratory experiment"
+            }, 
+            {
+                "xpath": "metadata/variable/insitu", 
+                "text": "Response variable"
+            }, 
+            {
+                "xpath": "metadata/variable/unit", 
+                "text": "grams (g)"
+            }, 
+            {
+                "xpath": "metadata/variable/measured", 
+                "text": "measured"
+            }, 
+            {
+                "xpath": "metadata/variable/analyzingInstrument", 
+                "text": "Mettler PM4600 balance"
+            }, 
+            {
+                "xpath": "metadata/variable/duration", 
+                "text": "56 days"
+            }, 
+            {
+                "xpath": "metadata/variable/replicate", 
+                "text": "All live fish were sampled weekly for the duration of the experiment"
+            }, 
+            {
+                "xpath": "metadata/variable/biologicalSubject", 
+                "text": "Scup"
+            }, 
+            {
+                "xpath": "metadata/variable/speciesID", 
+                "text": "Stenotomus chrysops"
+            }, 
+            {
+                "xpath": "metadata/variable/researcherName", 
+                "text": "Dean Perry"
+            }, 
+            {
+                "xpath": "metadata/variable/researcherInstitution", 
+                "text": "National Marine Fisheries Service"
+            }, 
+            {
+                "xpath": "metadata/variable/abbrev", 
+                "text": "D.O.% saturation"
+            }, 
+            {
+                "xpath": "metadata/variable/fullname", 
+                "text": "Dissolved Oxygen as a percent of saturation"
+            }, 
+            {
+                "xpath": "metadata/variable/observationType", 
+                "text": "Laboratory experiment"
+            }, 
+            {
+                "xpath": "metadata/variable/insitu", 
+                "text": "Manipulation condition"
+            }, 
+            {
+                "xpath": "metadata/variable/unit", 
+                "text": "Percentage of saturation"
+            }, 
+            {
+                "xpath": "metadata/variable/measured", 
+                "text": "Measured"
+            }, 
+            {
+                "xpath": "metadata/variable/samplingInstrument", 
+                "text": "Placed YSI probe in each tank"
+            }, 
+            {
+                "xpath": "metadata/variable/analyzingInstrument", 
+                "text": "YSI 85, Microsoft Excel was used to deterine means"
+            }, 
+            {
+                "xpath": "metadata/variable/duration", 
+                "text": "56 days"
+            }, 
+            {
+                "xpath": "metadata/variable/detailedInfo", 
+                "text": "YSI 85 was calibrated daily to an air temperature which matched the water temp being sampled +/- 1 degrees."
+            }, 
+            {
+                "xpath": "metadata/variable/replicate", 
+                "text": "YSI readings were taken daily"
+            }, 
+            {
+                "xpath": "metadata/variable/biologicalSubject", 
+                "text": "Scup"
+            }, 
+            {
+                "xpath": "metadata/variable/speciesID", 
+                "text": "Stenotomus chrysops"
+            }, 
+            {
+                "xpath": "metadata/variable/researcherName", 
+                "text": "Dean Perry"
+            }, 
+            {
+                "xpath": "metadata/variable/researcherInstitution", 
+                "text": "National Marine Fisheries Service"
+            }, 
+            {
+                "xpath": "metadata/variable/abbrev", 
+                "text": "D.O. mg/L"
+            }, 
+            {
+                "xpath": "metadata/variable/fullname", 
+                "text": "Dissolved Oxygen in millgrams per liter"
+            }, 
+            {
+                "xpath": "metadata/variable/observationType", 
+                "text": "Laboratory experiment"
+            }, 
+            {
+                "xpath": "metadata/variable/insitu", 
+                "text": "Manipulation condition"
+            }, 
+            {
+                "xpath": "metadata/variable/unit", 
+                "text": "Percentage of saturation"
+            }, 
+            {
+                "xpath": "metadata/variable/measured", 
+                "text": "Measured"
+            }, 
+            {
+                "xpath": "metadata/variable/samplingInstrument", 
+                "text": "Placed YSI probe in each tank"
+            }, 
+            {
+                "xpath": "metadata/variable/analyzingInstrument", 
+                "text": "YSI 85, Microsoft Excel was used to deterine means"
+            }, 
+            {
+                "xpath": "metadata/variable/duration", 
+                "text": "56 days"
+            }, 
+            {
+                "xpath": "metadata/variable/detailedInfo", 
+                "text": "YSI 85 was calibrated daily to an air temperature which matched the water temp being sampled +/- 1 degrees."
+            }, 
+            {
+                "xpath": "metadata/variable/replicate", 
+                "text": "YSI readings were taken daily"
+            }, 
+            {
+                "xpath": "metadata/variable/biologicalSubject", 
+                "text": "Scup"
+            }, 
+            {
+                "xpath": "metadata/variable/speciesID", 
+                "text": "Stenotomus chrysops"
+            }, 
+            {
+                "xpath": "metadata/variable/researcherName", 
+                "text": "Dean Perry"
+            }, 
+            {
+                "xpath": "metadata/variable/researcherInstitution", 
+                "text": "National Marine Fisheries Service"
+            }, 
+            {
+                "xpath": "metadata/variable/abbrev", 
+                "text": "Temp C"
+            }, 
+            {
+                "xpath": "metadata/variable/fullname", 
+                "text": "Temperature in degrees Celcius"
+            }, 
+            {
+                "xpath": "metadata/variable/observationType", 
+                "text": "Laboratory experiment"
+            }, 
+            {
+                "xpath": "metadata/variable/insitu", 
+                "text": "Manipulation condition"
+            }, 
+            {
+                "xpath": "metadata/variable/unit", 
+                "text": "Degrees celsius"
+            }, 
+            {
+                "xpath": "metadata/variable/measured", 
+                "text": "Measured"
+            }, 
+            {
+                "xpath": "metadata/variable/samplingInstrument", 
+                "text": "Placed YSI probe in each tank"
+            }, 
+            {
+                "xpath": "metadata/variable/analyzingInstrument", 
+                "text": "YSI 85, Microsoft Excel was used to deterine means"
+            }, 
+            {
+                "xpath": "metadata/variable/duration", 
+                "text": "56 days"
+            }, 
+            {
+                "xpath": "metadata/variable/detailedInfo", 
+                "text": "No calibration is required for this measurement"
+            }, 
+            {
+                "xpath": "metadata/variable/replicate", 
+                "text": "YSI readings were taken daily"
+            }, 
+            {
+                "xpath": "metadata/variable/biologicalSubject", 
+                "text": "Scup"
+            }, 
+            {
+                "xpath": "metadata/variable/speciesID", 
+                "text": "Stenotomus chrysops"
+            }, 
+            {
+                "xpath": "metadata/variable/researcherName", 
+                "text": "Dean Perry"
+            }, 
+            {
+                "xpath": "metadata/variable/researcherInstitution", 
+                "text": "National Marine Fisheries Service"
+            }, 
+            {
+                "xpath": "metadata/variable/abbrev", 
+                "text": "Salinity"
+            }, 
+            {
+                "xpath": "metadata/variable/fullname", 
+                "text": "Salinity"
+            }, 
+            {
+                "xpath": "metadata/variable/observationType", 
+                "text": "Laboratory experiment"
+            }, 
+            {
+                "xpath": "metadata/variable/insitu", 
+                "text": "Manipulation condition"
+            }, 
+            {
+                "xpath": "metadata/variable/unit", 
+                "text": "Salinity units"
+            }, 
+            {
+                "xpath": "metadata/variable/measured", 
+                "text": "Measured"
+            }, 
+            {
+                "xpath": "metadata/variable/samplingInstrument", 
+                "text": "Placed YSI probe in each tank"
+            }, 
+            {
+                "xpath": "metadata/variable/analyzingInstrument", 
+                "text": "YSI 85, Microsoft Excel was used to deterine means"
+            }, 
+            {
+                "xpath": "metadata/variable/duration", 
+                "text": "56 days"
+            }, 
+            {
+                "xpath": "metadata/variable/detailedInfo", 
+                "text": "No calibration is required for this measurement"
+            }, 
+            {
+                "xpath": "metadata/variable/replicate", 
+                "text": "YSI readings were taken daily"
+            }, 
+            {
+                "xpath": "metadata/variable/biologicalSubject", 
+                "text": "Scup"
+            }, 
+            {
+                "xpath": "metadata/variable/speciesID", 
+                "text": "Stenotomus chrysops"
+            }, 
+            {
+                "xpath": "metadata/variable/researcherName", 
+                "text": "Dean Perry"
+            }, 
+            {
+                "xpath": "metadata/variable/researcherInstitution", 
+                "text": "National Marine Fisheries Service"
+            }, 
+            {
+                "xpath": "metadata/variable/abbrev", 
+                "text": "pH probe"
+            }, 
+            {
+                "xpath": "metadata/variable/fullname", 
+                "text": "pH measurement tanken with handheld meter"
+            }, 
+            {
+                "xpath": "metadata/variable/observationType", 
+                "text": "Laboratory experiment"
+            }, 
+            {
+                "xpath": "metadata/variable/insitu", 
+                "text": "Manipulation condition"
+            }, 
+            {
+                "xpath": "metadata/variable/unit", 
+                "text": "millivolts"
+            }, 
+            {
+                "xpath": "metadata/variable/measured", 
+                "text": "Measured"
+            }, 
+            {
+                "xpath": "metadata/variable/analyzingInstrument", 
+                "text": "Hach HQ11D"
+            }, 
+            {
+                "xpath": "metadata/variable/duration", 
+                "text": "56 days"
+            }, 
+            {
+                "xpath": "metadata/variable/detailedInfo", 
+                "text": "Hach HQ11D was used with probe PHC28101. It was calibrated once a day prior to use with 4.01 and 10.01 buffer solutions"
+            }, 
+            {
+                "xpath": "metadata/variable/replicate", 
+                "text": "pH reading were taken daily"
+            }, 
+            {
+                "xpath": "metadata/variable/biologicalSubject", 
+                "text": "Scup"
+            }, 
+            {
+                "xpath": "metadata/variable/speciesID", 
+                "text": "Stenotomus chrysops"
+            }, 
+            {
+                "xpath": "metadata/variable/researcherName", 
+                "text": "Dean Perry"
+            }, 
+            {
+                "xpath": "metadata/variable/researcherInstitution", 
+                "text": "National Marine Fisheries Service"
+            }, 
+            {
+                "xpath": "metadata/variable/abbrev", 
+                "text": "Silicate"
+            }, 
+            {
+                "xpath": "metadata/variable/fullname", 
+                "text": "Dissolved Silicate"
+            }, 
+            {
+                "xpath": "metadata/variable/insitu", 
+                "text": "in-situ observation"
+            }, 
+            {
+                "xpath": "metadata/variable/unit", 
+                "text": "umol/Kg"
+            }, 
+            {
+                "xpath": "metadata/variable/measured", 
+                "text": "measured"
+            }, 
+            {
+                "xpath": "metadata/variable/analyzingInstrument", 
+                "text": "Quattro, Test range0-20umol/L, 10 mm flowcell with LED photometer at 820 nm, 60 samples/hr, standard deviation is 0.05 umol/L, detetion limit is 0.01 umol/L"
+            }, 
+            {
+                "xpath": "metadata/variable/detailedInfo", 
+                "text": "Samples were taken in 250 ml amber polypropylene bottles and ran immediately after collection"
+            }, 
+            {
+                "xpath": "metadata/variable/methodReference", 
+                "text": "Method NO Q-066-05 Rev. 3 for QuAAtro Applications developed by the Royal Netherlands Institute for Sea Research"
+            }, 
+            {
+                "xpath": "metadata/variable/biologicalSubject", 
+                "text": "Scup"
+            }, 
+            {
+                "xpath": "metadata/variable/speciesID", 
+                "text": "Stenotomus chrysops"
+            }, 
+            {
+                "xpath": "metadata/variable/researcherName", 
+                "text": "Shannon Meseck"
+            }, 
+            {
+                "xpath": "metadata/variable/researcherInstitution", 
+                "text": "National Marine Fisheries Service"
+            }, 
+            {
+                "xpath": "metadata/variable/abbrev", 
+                "text": "Phosphate"
+            }, 
+            {
+                "xpath": "metadata/variable/fullname", 
+                "text": "Dissolved Phosphate"
+            }, 
+            {
+                "xpath": "metadata/variable/insitu", 
+                "text": "in-situ observation"
+            }, 
+            {
+                "xpath": "metadata/variable/unit", 
+                "text": "umol/Kg"
+            }, 
+            {
+                "xpath": "metadata/variable/measured", 
+                "text": "Measured"
+            }, 
+            {
+                "xpath": "metadata/variable/analyzingInstrument", 
+                "text": "Quattro, Test range 0-4 umol/L, 10 mm flowcell with LED photometer at 880 nm, 60 samples/hr, standard deviation is 0.01 umol/L, detetion limit is 0.004umol/L"
+            }, 
+            {
+                "xpath": "metadata/variable/detailedInfo", 
+                "text": "Samples were taken in 250 ml amber polypropylene bottles and ran immediately after collection"
+            }, 
+            {
+                "xpath": "metadata/variable/methodReference", 
+                "text": "Method NO Q-064-05 Rev. 3 for QuAAtro Applications developed by the Royal Netherlands Institute for Sea Research"
+            }, 
+            {
+                "xpath": "metadata/variable/biologicalSubject", 
+                "text": "Scup"
+            }, 
+            {
+                "xpath": "metadata/variable/speciesID", 
+                "text": "Stenotomus chrysops"
+            }, 
+            {
+                "xpath": "metadata/variable/researcherName", 
+                "text": "Shannon Meseck"
+            }, 
+            {
+                "xpath": "metadata/variable/researcherInstitution", 
+                "text": "National Marine Fisheries Service"
+            }, 
+            {
+                "xpath": "metadata/variable/abbrev", 
+                "text": "Otolith #1 area mm2"
+            }, 
+            {
+                "xpath": "metadata/variable/fullname", 
+                "text": "Area in square millimeters of the first otolith that was removed from each fish after the experiment was terminated"
+            }, 
+            {
+                "xpath": "metadata/variable/observationType", 
+                "text": "Laboratory experiment"
+            }, 
+            {
+                "xpath": "metadata/variable/insitu", 
+                "text": "Response variable"
+            }, 
+            {
+                "xpath": "metadata/variable/unit", 
+                "text": "Square millimeters"
+            }, 
+            {
+                "xpath": "metadata/variable/measured", 
+                "text": "Measured"
+            }, 
+            {
+                "xpath": "metadata/variable/samplingInstrument", 
+                "text": "Leica stereo microscope model EZ4D at 160X with camera attached"
+            }, 
+            {
+                "xpath": "metadata/variable/analyzingInstrument", 
+                "text": "Image J software"
+            }, 
+            {
+                "xpath": "metadata/variable/duration", 
+                "text": "56 days"
+            }, 
+            {
+                "xpath": "metadata/variable/detailedInfo", 
+                "text": "Each otolith was extracted from the fish, cleaned, dried and photographed under the microscope. Next the photos were analyzed using Image J software to detmine the area. In some case we were unable to locate one or both otoliths or they broke during extraction. Those samples were not used."
+            }, 
+            {
+                "xpath": "metadata/variable/replicate", 
+                "text": "Otoliths were removed once after the experiment was terminated"
+            }, 
+            {
+                "xpath": "metadata/variable/biologicalSubject", 
+                "text": "Scup"
+            }, 
+            {
+                "xpath": "metadata/variable/speciesID", 
+                "text": "Stenotomus chrysops"
+            }, 
+            {
+                "xpath": "metadata/variable/researcherName", 
+                "text": "Dean Perry"
+            }, 
+            {
+                "xpath": "metadata/variable/researcherInstitution", 
+                "text": "National Marine Fisheries Service"
+            }, 
+            {
+                "xpath": "metadata/variable/abbrev", 
+                "text": "Otolith #1 wgt. (g)"
+            }, 
+            {
+                "xpath": "metadata/variable/fullname", 
+                "text": "weight in grams of the first otolith that was removed from each fish after the experiment was terminated"
+            }, 
+            {
+                "xpath": "metadata/variable/observationType", 
+                "text": "Laboratory experiment"
+            }, 
+            {
+                "xpath": "metadata/variable/insitu", 
+                "text": "Response variable"
+            }, 
+            {
+                "xpath": "metadata/variable/unit", 
+                "text": "grams (g)"
+            }, 
+            {
+                "xpath": "metadata/variable/measured", 
+                "text": "Measured"
+            }, 
+            {
+                "xpath": "metadata/variable/samplingInstrument", 
+                "text": "Metler-Toledo balance model AB104-S/Fact balance"
+            }, 
+            {
+                "xpath": "metadata/variable/duration", 
+                "text": "56 days"
+            }, 
+            {
+                "xpath": "metadata/variable/detailedInfo", 
+                "text": "Each otolith was extracted from the fish, wiped cleaned, dried and weighed on the balance. In some cases one or both otoliths or they broke during extraction."
+            }, 
+            {
+                "xpath": "metadata/variable/replicate", 
+                "text": "Otoliths were removed once after the experiment was terminated"
+            }, 
+            {
+                "xpath": "metadata/variable/biologicalSubject", 
+                "text": "Scup"
+            }, 
+            {
+                "xpath": "metadata/variable/speciesID", 
+                "text": "Stenotomus chrysops"
+            }, 
+            {
+                "xpath": "metadata/variable/researcherName", 
+                "text": "Dean Perry"
+            }, 
+            {
+                "xpath": "metadata/variable/researcherInstitution", 
+                "text": "National Marine Fisheries Service"
+            }, 
+            {
+                "xpath": "metadata/variable/abbrev", 
+                "text": "Otolith #2 area mm2"
+            }, 
+            {
+                "xpath": "metadata/variable/fullname", 
+                "text": "Area in square millimeters of the second otolith that was removed from each fish after the experiment was terminated"
+            }, 
+            {
+                "xpath": "metadata/variable/observationType", 
+                "text": "Laboratory experiment"
+            }, 
+            {
+                "xpath": "metadata/variable/insitu", 
+                "text": "Response variable"
+            }, 
+            {
+                "xpath": "metadata/variable/unit", 
+                "text": "Square millimeters"
+            }, 
+            {
+                "xpath": "metadata/variable/measured", 
+                "text": "Measured"
+            }, 
+            {
+                "xpath": "metadata/variable/samplingInstrument", 
+                "text": "Leica stereo microscope model EZ4D at 160X with camera attached"
+            }, 
+            {
+                "xpath": "metadata/variable/analyzingInstrument", 
+                "text": "Image J software"
+            }, 
+            {
+                "xpath": "metadata/variable/duration", 
+                "text": "56 days"
+            }, 
+            {
+                "xpath": "metadata/variable/detailedInfo", 
+                "text": "Each otolith was extracted from the fish, cleaned, dried and photographed under the microscope. Next the photos were analyzed using Image J software to detmine the area. In some case we were unable to locate one or both otoliths or they broke during extraction. Those samples were not used."
+            }, 
+            {
+                "xpath": "metadata/variable/replicate", 
+                "text": "Otoliths were removed once after the experiment was terminated"
+            }, 
+            {
+                "xpath": "metadata/variable/biologicalSubject", 
+                "text": "Scup"
+            }, 
+            {
+                "xpath": "metadata/variable/speciesID", 
+                "text": "Stenotomus chrysops"
+            }, 
+            {
+                "xpath": "metadata/variable/researcherName", 
+                "text": "Dean Perry"
+            }, 
+            {
+                "xpath": "metadata/variable/researcherInstitution", 
+                "text": "National Marine Fisheries Service"
+            }, 
+            {
+                "xpath": "metadata/variable/abbrev", 
+                "text": "Otolith #2 wgt. (g)"
+            }, 
+            {
+                "xpath": "metadata/variable/fullname", 
+                "text": "weight in grams of the second otolith that was removed from each fish after the experiment was terminated"
+            }, 
+            {
+                "xpath": "metadata/variable/observationType", 
+                "text": "Laboratory experiment"
+            }, 
+            {
+                "xpath": "metadata/variable/insitu", 
+                "text": "Response variable"
+            }, 
+            {
+                "xpath": "metadata/variable/unit", 
+                "text": "grams (g)"
+            }, 
+            {
+                "xpath": "metadata/variable/measured", 
+                "text": "Measured"
+            }, 
+            {
+                "xpath": "metadata/variable/samplingInstrument", 
+                "text": "Metler-Toledo balance model AB104-S/Fact balance"
+            }, 
+            {
+                "xpath": "metadata/variable/duration", 
+                "text": "56 days"
+            }, 
+            {
+                "xpath": "metadata/variable/detailedInfo", 
+                "text": "Each otolith was extracted from the fish, wiped cleaned, dried and weighed on the balance. In some cases one or both otoliths were not found or they broke during extraction."
+            }, 
+            {
+                "xpath": "metadata/variable/replicate", 
+                "text": "Otoliths were removed once after the experiment was terminated"
+            }, 
+            {
+                "xpath": "metadata/variable/biologicalSubject", 
+                "text": "Scup"
+            }, 
+            {
+                "xpath": "metadata/variable/speciesID", 
+                "text": "Stenotomus chrysops"
+            }, 
+            {
+                "xpath": "metadata/variable/researcherName", 
+                "text": "Dean Perry"
+            }, 
+            {
+                "xpath": "metadata/variable/researcherInstitution", 
+                "text": "National Marine Fisheries Service"
+            }, 
+            {
+                "xpath": "metadata/submissionDate", 
+                "text": "15-Apr-2014"
+            }, 
+            {
+                "xpath": "metadata/update", 
+                "text": "30-Oct-2014"
+            }
+        ], 
+        "solr_identifier": "0af2ef22c638a2dbc08bd7cc3c2be5aa", 
+        "source_url": "http://www.nodc.noaa.gov/oceanacidification/data/0117506.xml"
+    }, 
+    "digest": "0af2ef22c638a2dbc08bd7cc3c2be5aa"
+}

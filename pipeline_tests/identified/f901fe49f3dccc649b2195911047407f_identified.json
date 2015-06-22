@@ -1,0 +1,16 @@
+{
+    "content": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <OpenSearchDescription xmlns=\"http://a9.com/-/spec/opensearch/1.1/\" xmlns:geo=\"http://a9.com/-/opensearch/extensions/geo/1.0/\" xmlns:time=\"http://a9.com/-/opensearch/extensions/time/1.0/\"> <ShortName>MODAPS Dataset Search</ShortName> <Description>Use MODAPS Dataset Search to obtain a list of Earth Science Data Sets</Description> <Tags>MODAPS Dataset Search</Tags> <Contact>MODAPSUSO@lists.nasa.gov</Contact> <Url type=\"application/atom+xml\" template=\"http://modwebsrv.modaps.eosdis.nasa.gov/axis2/services/MODAPSservices/searchDatasets?pattern={searchTerms}\"/> <Query role=\"example\" searchTerms=\"adjusted reflectance\"/> </OpenSearchDescription>", 
+    "sha": "50728bfa25843c8dfef341ff13d2c5cc1010fd5bfa517c20dd2dbb26", 
+    "identity": {
+        "subtype": "service", 
+        "is_error": false, 
+        "version": "1.1", 
+        "protocol": "OpenSearch", 
+        "language": "", 
+        "service": "OpenSearchDescription", 
+        "has_dataset": false, 
+        "has_metadata": false
+    }, 
+    "digest": "f901fe49f3dccc649b2195911047407f", 
+    "source_url": "http://ladsweb.nascom.nasa.gov/data/dataset_opensearch.xml"
+}

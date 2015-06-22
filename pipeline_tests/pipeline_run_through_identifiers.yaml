@@ -1,0 +1,6 @@
+init:
+  # clear_output_directories: true
+
+ExtractIdentifiers:
+  #output_directory: 'pipeline_tests/identifiers'
+  output_directory: 'solr_superset/identifiers'

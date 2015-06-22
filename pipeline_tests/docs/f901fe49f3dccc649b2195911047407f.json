@@ -1,0 +1,22 @@
+{
+    "xml_namespaces": [
+        "xmlns=\"http://a9.com/-/spec/opensearch/1.1/\"", 
+        "xmlns:geo=\"http://a9.com/-/opensearch/extensions/geo/1.0/\"", 
+        "xmlns:time=\"http://a9.com/-/opensearch/extensions/time/1.0/\""
+    ], 
+    "url": "http://ladsweb.nascom.nasa.gov/data/dataset_opensearch.xml", 
+    "lastModified": "2014-11-26T17:48:53Z", 
+    "contentLength": "750", 
+    "segment": "20150318210844", 
+    "tstamp": "2015-03-18T21:43:40.293Z", 
+    "content": "MODAPS Dataset Search Use MODAPS Dataset Search to obtain a list of Earth Science Data Sets MODAPS Dataset Search MODAPSUSO@lists.nasa.gov", 
+    "boost": 0.084279485, 
+    "date": "2014-11-26T17:48:53Z", 
+    "_version_": 1496024903138148353, 
+    "raw_content": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<OpenSearchDescription xmlns=\"http://a9.com/-/spec/opensearch/1.1/\"\n                       xmlns:geo=\"http://a9.com/-/opensearch/extensions/geo/1.0/\"\n                       xmlns:time=\"http://a9.com/-/opensearch/extensions/time/1.0/\">\n  <ShortName>MODAPS Dataset Search</ShortName>\n  <Description>Use MODAPS Dataset Search to obtain a list of Earth Science Data Sets</Description>\n  <Tags>MODAPS Dataset Search</Tags>\n  <Contact>MODAPSUSO@lists.nasa.gov</Contact>\n  <Url type=\"application/atom+xml\" \n    template=\"http://modwebsrv.modaps.eosdis.nasa.gov/axis2/services/MODAPSservices/searchDatasets?pattern={searchTerms}\"/>\n  <Query role=\"example\" searchTerms=\"adjusted reflectance\"/>\n</OpenSearchDescription>\n\n", 
+    "type": [
+        "application/xml"
+    ], 
+    "id": "http://ladsweb.nascom.nasa.gov/data/dataset_opensearch.xml", 
+    "digest": "f901fe49f3dccc649b2195911047407f"
+}

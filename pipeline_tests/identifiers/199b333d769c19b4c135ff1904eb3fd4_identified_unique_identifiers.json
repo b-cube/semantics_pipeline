@@ -1,0 +1,30 @@
+{
+    "content": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <WCS_Capabilities xmlns=\"http://www.opengis.net/wcs\" xmlns:gml=\"http://www.opengis.net/gml\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"1.0.0\"> <Service> <fees>NONE</fees> <accessConstraints>NONE</accessConstraints> </Service> <Capability> <Request> <GetCapabilities> <DCPType> <HTTP> <Get> <OnlineResource xlink:href=\"http://ferret.pmel.noaa.gov/thredds/wcs/las/woa01_annual/data_ferret.pmel.noaa.gov_thredds_dodsC_data_PMEL_WOA01_english_annual_sili_ann_stddev_1deg.nc.jnl\" /> </Get> </HTTP> </DCPType> </GetCapabilities> <DescribeCoverage> <DCPType> <HTTP> <Get> <OnlineResource xlink:href=\"http://ferret.pmel.noaa.gov/thredds/wcs/las/woa01_annual/data_ferret.pmel.noaa.gov_thredds_dodsC_data_PMEL_WOA01_english_annual_sili_ann_stddev_1deg.nc.jnl\" /> </Get> </HTTP> </DCPType> </DescribeCoverage> <GetCoverage> <DCPType> <HTTP> <Get> <OnlineResource xlink:href=\"http://ferret.pmel.noaa.gov/thredds/wcs/las/woa01_annual/data_ferret.pmel.noaa.gov_thredds_dodsC_data_PMEL_WOA01_english_annual_sili_ann_stddev_1deg.nc.jnl\" /> </Get> </HTTP> </DCPType> </GetCoverage> </Request> <Exception> <Format>application/vnd.ogc.se_xml</Format> </Exception> </Capability> <ContentMetadata> <CoverageOfferingBrief> <description>i00sd1 Standard deviation of data (uM) true silicate</description> <name>i00sd1</name> <label>silicate</label> <lonLatEnvelope srsName=\"urn:ogc:def:crs:OGC:1.3:CRS84\"> <gml:pos>0.5 -89.5</gml:pos> <gml:pos>359.5 89.5</gml:pos> </lonLatEnvelope> </CoverageOfferingBrief> </ContentMetadata> </WCS_Capabilities>", 
+    "sha": "9bfcc1a0dae2a39f5617b265f659daecfb9afa5328a6bb54ee83bcd1", 
+    "identity": {
+        "is_error": false, 
+        "protocol": "OGC:WCS", 
+        "language": "", 
+        "service": "GetCapabilities", 
+        "has_dataset": true, 
+        "has_metadata": false, 
+        "subtype": "service", 
+        "version": "1.0.0"
+    }, 
+    "identifiers": [
+        [
+            [
+                "url", 
+                "http://ferret.pmel.noaa.gov/thredds/wcs/las/woa01_annual/data_ferret.pmel.noaa.gov_thredds_dodsC_data_PMEL_WOA01_english_annual_sili_ann_stddev_1deg.nc.jnl"
+            ]
+        ], 
+        [
+            [
+                "url", 
+                "http://ferret.pmel.noaa.gov/thredds/wcs/las/woa01_annual/data_ferret.pmel.noaa.gov_thredds_dodsC_data_PMEL_WOA01_english_annual_sili_ann_stddev_1deg.nc.jnl"
+            ]
+        ]
+    ], 
+    "digest": "199b333d769c19b4c135ff1904eb3fd4", 
+    "source_url": "http://ferret.pmel.noaa.gov/thredds/wcs/las/woa01_annual/data_ferret.pmel.noaa.gov_thredds_dodsC_data_PMEL_WOA01_english_annual_sili_ann_stddev_1deg.nc.jnl?service=WCS&version=1.0.0&request=GetCapabilities"
+}

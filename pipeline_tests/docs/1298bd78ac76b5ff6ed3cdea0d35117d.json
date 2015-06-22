@@ -1,0 +1,24 @@
+{
+    "xml_namespaces": [
+        "xmlns:fn=\"http://www.w3.org/2005/02/xpath-functions\"", 
+        "xmlns:thredds=\"http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0\"", 
+        "xmlns:xlink=\"http://www.w3.org/1999/xlink\"", 
+        "xmlns:bes=\"http://xml.opendap.org/ns/bes/1.0#\""
+    ], 
+    "url": "http://stellwagen.er.usgs.gov/opendap/CC_MISC/catalog.xml", 
+    "segment": "20140731113511", 
+    "contentLength": "1237", 
+    "tstamp": "2014-07-31T12:15:49.179Z", 
+    "content": "50916 2013-02-12T11:07:40 49324 2013-02-12T11:07:40", 
+    "type": [
+        "application/xml", 
+        "application", 
+        "xml"
+    ], 
+    "date": "2014-07-31T12:15:49.179Z", 
+    "_version_": 1475153779730939904, 
+    "raw_content": "<![CDATA[<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n    <thredds:catalog xmlns:fn=\"http://www.w3.org/2005/02/xpath-functions\"\n                 xmlns:thredds=\"http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0\"\n                 xmlns:xlink=\"http://www.w3.org/1999/xlink\"\n                 xmlns:bes=\"http://xml.opendap.org/ns/bes/1.0#\">\n   <thredds:service name=\"dap\" serviceType=\"OPeNDAP\" base=\"/opendap\"/>\n   <thredds:service name=\"file\" serviceType=\"HTTPServer\" base=\"/opendap\"/>\n        <thredds:dataset name=\"/CC_MISC\" ID=\"/opendap/CC_MISC/\">\n            <thredds:dataset name=\"2011-A.cdf\" ID=\"/opendap/CC_MISC/2011-A.cdf\">\n         <thredds:dataSize units=\"bytes\">50916</thredds:dataSize>\n         <thredds:date type=\"modified\">2013-02-12T11:07:40</thredds:date>\n         <thredds:access serviceName=\"dap\" urlPath=\"/CC_MISC/2011-A.cdf\"/>\n      </thredds:dataset>\n            <thredds:dataset name=\"2021-A.cdf\" ID=\"/opendap/CC_MISC/2021-A.cdf\">\n         <thredds:dataSize units=\"bytes\">49324</thredds:dataSize>\n         <thredds:date type=\"modified\">2013-02-12T11:07:40</thredds:date>\n         <thredds:access serviceName=\"dap\" urlPath=\"/CC_MISC/2021-A.cdf\"/>\n      </thredds:dataset>\n        </thredds:dataset>\n    </thredds:catalog>\n]]>", 
+    "boost": 5.652684e-06, 
+    "id": "http://stellwagen.er.usgs.gov/opendap/CC_MISC/catalog.xml", 
+    "digest": "1298bd78ac76b5ff6ed3cdea0d35117d"
+}

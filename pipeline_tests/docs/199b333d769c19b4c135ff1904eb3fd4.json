@@ -1,0 +1,22 @@
+{
+    "xml_namespaces": [
+        "xmlns=\"http://www.opengis.net/wcs\"", 
+        "xmlns:gml=\"http://www.opengis.net/gml\"", 
+        "xmlns:xlink=\"http://www.w3.org/1999/xlink\""
+    ], 
+    "url": "http://ferret.pmel.noaa.gov/thredds/wcs/las/woa01_annual/data_ferret.pmel.noaa.gov_thredds_dodsC_data_PMEL_WOA01_english_annual_sili_ann_stddev_1deg.nc.jnl?service=WCS&version=1.0.0&request=GetCapabilities", 
+    "segment": "20141028155306", 
+    "tstamp": "2014-10-28T15:58:45.014Z", 
+    "content": "NONE NONE application/vnd.ogc.se_xml i00sd1 Standard deviation of data (uM) true silicate i00sd1 silicate 0.5 -89.5 359.5 89.5", 
+    "type": [
+        "application/xml", 
+        "application", 
+        "xml"
+    ], 
+    "date": "2014-10-28T15:58:45.014Z", 
+    "_version_": 1483231648905428993, 
+    "raw_content": "<![CDATA[<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<WCS_Capabilities xmlns=\"http://www.opengis.net/wcs\" xmlns:gml=\"http://www.opengis.net/gml\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"1.0.0\">\n  <Service>\n    <fees>NONE</fees>\n    <accessConstraints>NONE</accessConstraints>\n  </Service>\n  <Capability>\n    <Request>\n      <GetCapabilities>\n        <DCPType>\n          <HTTP>\n            <Get>\n              <OnlineResource xlink:href=\"http://ferret.pmel.noaa.gov/thredds/wcs/las/woa01_annual/data_ferret.pmel.noaa.gov_thredds_dodsC_data_PMEL_WOA01_english_annual_sili_ann_stddev_1deg.nc.jnl\" />\n            </Get>\n          </HTTP>\n        </DCPType>\n      </GetCapabilities>\n      <DescribeCoverage>\n        <DCPType>\n          <HTTP>\n            <Get>\n              <OnlineResource xlink:href=\"http://ferret.pmel.noaa.gov/thredds/wcs/las/woa01_annual/data_ferret.pmel.noaa.gov_thredds_dodsC_data_PMEL_WOA01_english_annual_sili_ann_stddev_1deg.nc.jnl\" />\n            </Get>\n          </HTTP>\n        </DCPType>\n      </DescribeCoverage>\n      <GetCoverage>\n        <DCPType>\n          <HTTP>\n            <Get>\n              <OnlineResource xlink:href=\"http://ferret.pmel.noaa.gov/thredds/wcs/las/woa01_annual/data_ferret.pmel.noaa.gov_thredds_dodsC_data_PMEL_WOA01_english_annual_sili_ann_stddev_1deg.nc.jnl\" />\n            </Get>\n          </HTTP>\n        </DCPType>\n      </GetCoverage>\n    </Request>\n    <Exception>\n      <Format>application/vnd.ogc.se_xml</Format>\n    </Exception>\n  </Capability>\n  <ContentMetadata>\n    <CoverageOfferingBrief>\n      <description>i00sd1                        Standard deviation of data (uM) true silicate</description>\n      <name>i00sd1</name>\n      <label>silicate</label>\n      <lonLatEnvelope srsName=\"urn:ogc:def:crs:OGC:1.3:CRS84\">\n        <gml:pos>0.5 -89.5</gml:pos>\n        <gml:pos>359.5 89.5</gml:pos>\n      </lonLatEnvelope>\n    </CoverageOfferingBrief>\n  </ContentMetadata>\n</WCS_Capabilities>\n]]>", 
+    "boost": 5.338529e-05, 
+    "id": "http://ferret.pmel.noaa.gov/thredds/wcs/las/woa01_annual/data_ferret.pmel.noaa.gov_thredds_dodsC_data_PMEL_WOA01_english_annual_sili_ann_stddev_1deg.nc.jnl?service=WCS&version=1.0.0&request=GetCapabilities", 
+    "digest": "199b333d769c19b4c135ff1904eb3fd4"
+}

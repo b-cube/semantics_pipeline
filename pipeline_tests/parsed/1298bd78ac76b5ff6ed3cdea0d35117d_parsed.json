@@ -1,0 +1,108 @@
+{
+    "source_url": "http://stellwagen.er.usgs.gov/opendap/CC_MISC/catalog.xml", 
+    "sha": "59090f54dbccfeed4f2959bc34e9655a0e3af92d06d5d43338fdb314", 
+    "identity": {
+        "is_error": false, 
+        "protocol": "UNIDATA", 
+        "language": "", 
+        "service": "THREDDS-Catalog", 
+        "has_dataset": true, 
+        "has_metadata": true, 
+        "subtype": "service", 
+        "version": "1.0"
+    }, 
+    "service_description": {
+        "solr_identifier": "1298bd78ac76b5ff6ed3cdea0d35117d", 
+        "service": {
+            "endpoints": [
+                {
+                    "name": "dap", 
+                    "url": "http://stellwagen.er.usgs.gov/opendap/CC_MISC/catalog.xml", 
+                    "actionable": 2, 
+                    "source": "service", 
+                    "type": "OPeNDAP", 
+                    "ID": "5d34f300"
+                }, 
+                {
+                    "name": "file", 
+                    "url": "http://stellwagen.er.usgs.gov/opendap/CC_MISC/catalog.xml", 
+                    "actionable": 2, 
+                    "source": "service", 
+                    "type": "HTTPServer", 
+                    "ID": "5fa75193"
+                }
+            ]
+        }, 
+        "source_url": "http://stellwagen.er.usgs.gov/opendap/CC_MISC/catalog.xml", 
+        "dataset": {
+            "endpoints": [
+                {
+                    "source": "dataset", 
+                    "parentOf": [
+                        "/opendap/CC_MISC/2011-A.cdf"
+                    ], 
+                    "children": [
+                        {
+                            "name": "2011-A.cdf", 
+                            "url": "http://stellwagen.er.usgs.gov/opendap/CC_MISC/catalog.xml", 
+                            "dataSize_units": "bytes", 
+                            "date_type": "modified", 
+                            "actionable": 2, 
+                            "date": "2013-02-12T11:07:40", 
+                            "access_serviceName": "dap", 
+                            "access_url": "/CC_MISC/2011-A.cdf", 
+                            "dataSize": "50916", 
+                            "ID": "/opendap/CC_MISC/2011-A.cdf"
+                        }, 
+                        {
+                            "name": "2021-A.cdf", 
+                            "url": "http://stellwagen.er.usgs.gov/opendap/CC_MISC/catalog.xml", 
+                            "dataSize_units": "bytes", 
+                            "date_type": "modified", 
+                            "actionable": 2, 
+                            "date": "2013-02-12T11:07:40", 
+                            "access_serviceName": "dap", 
+                            "access_url": "/CC_MISC/2021-A.cdf", 
+                            "dataSize": "49324", 
+                            "ID": "/opendap/CC_MISC/2021-A.cdf"
+                        }
+                    ], 
+                    "name": "/CC_MISC", 
+                    "ID": "/opendap/CC_MISC/"
+                }, 
+                {
+                    "name": "2011-A.cdf", 
+                    "url": "http://stellwagen.er.usgs.gov/opendap/CC_MISC/catalog.xml", 
+                    "dataSize_units": "bytes", 
+                    "date_type": "modified", 
+                    "actionable": 2, 
+                    "source": "dataset", 
+                    "childOf": "/opendap/CC_MISC/", 
+                    "date": "2013-02-12T11:07:40", 
+                    "access_serviceName": "dap", 
+                    "access_url": "/CC_MISC/2011-A.cdf", 
+                    "dataSize": "50916", 
+                    "ID": "/opendap/CC_MISC/2011-A.cdf"
+                }, 
+                {
+                    "name": "2021-A.cdf", 
+                    "url": "http://stellwagen.er.usgs.gov/opendap/CC_MISC/catalog.xml", 
+                    "dataSize_units": "bytes", 
+                    "date_type": "modified", 
+                    "actionable": 2, 
+                    "source": "dataset", 
+                    "childOf": "/opendap/CC_MISC/", 
+                    "date": "2013-02-12T11:07:40", 
+                    "access_serviceName": "dap", 
+                    "access_url": "/CC_MISC/2021-A.cdf", 
+                    "dataSize": "49324", 
+                    "ID": "/opendap/CC_MISC/2021-A.cdf"
+                }
+            ]
+        }, 
+        "metadata": {
+            "endpoints": []
+        }
+    }, 
+    "digest": "1298bd78ac76b5ff6ed3cdea0d35117d"
+}

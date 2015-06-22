@@ -1,0 +1,118 @@
+{
+    "source_url": "http://www.dlib.org/dlib/december04/vandesompel/12vandesompel.meta.xml", 
+    "sha": "0e2ee4b16dc36889c897075db68eccf3c36a870dfd696b128bd17365", 
+    "identity": {
+        "is_error": false, 
+        "protocol": "", 
+        "language": "", 
+        "service": "", 
+        "has_dataset": false, 
+        "has_metadata": false, 
+        "subtype": "", 
+        "version": ""
+    }, 
+    "service_description": {
+        "remainder": [
+            {
+                "xpath": "dlib-meta0.1/title", 
+                "text": "Resource Harvesting within the OAI-PMH Framework"
+            }, 
+            {
+                "xpath": "dlib-meta0.1/creator", 
+                "text": "Herbert Van de Sompel"
+            }, 
+            {
+                "xpath": "dlib-meta0.1/creator", 
+                "text": "Michael L. Nelson"
+            }, 
+            {
+                "xpath": "dlib-meta0.1/creator", 
+                "text": "Carl Lagoze"
+            }, 
+            {
+                "xpath": "dlib-meta0.1/creator", 
+                "text": "Simeon Warner"
+            }, 
+            {
+                "xpath": "dlib-meta0.1/publisher", 
+                "text": "Corporation for National Research Initiatives"
+            }, 
+            {
+                "xpath": "dlib-meta0.1/date", 
+                "text": "December 2004", 
+                "attributes": [
+                    {
+                        "xpath": "dlib-meta0.1/date/@date-type", 
+                        "text": "publication"
+                    }
+                ]
+            }, 
+            {
+                "xpath": "dlib-meta0.1/type", 
+                "text": "article", 
+                "attributes": [
+                    {
+                        "xpath": "dlib-meta0.1/type/@resource-type", 
+                        "text": "work"
+                    }
+                ]
+            }, 
+            {
+                "xpath": "dlib-meta0.1/identifier", 
+                "text": "10.1045/december2004-vandesompel", 
+                "attributes": [
+                    {
+                        "xpath": "dlib-meta0.1/identifier/@uri-type", 
+                        "text": "DOI"
+                    }
+                ]
+            }, 
+            {
+                "xpath": "dlib-meta0.1/identifier", 
+                "text": "http://www.dlib.org/dlib/december04/vandesompel/12vandesompel.html", 
+                "attributes": [
+                    {
+                        "xpath": "dlib-meta0.1/identifier/@uri-type", 
+                        "text": "URL"
+                    }
+                ]
+            }, 
+            {
+                "xpath": "dlib-meta0.1/language", 
+                "text": "English"
+            }, 
+            {
+                "xpath": "dlib-meta0.1/relation", 
+                "attributes": [
+                    {
+                        "xpath": "dlib-meta0.1/relation/@rel-type", 
+                        "text": "InSerial"
+                    }
+                ]
+            }, 
+            {
+                "xpath": "dlib-meta0.1/relation/serial-name", 
+                "text": "D-Lib Magazine"
+            }, 
+            {
+                "xpath": "dlib-meta0.1/relation/issn", 
+                "text": "1082-9873"
+            }, 
+            {
+                "xpath": "dlib-meta0.1/relation/volume", 
+                "text": "10"
+            }, 
+            {
+                "xpath": "dlib-meta0.1/relation/issue", 
+                "text": "12"
+            }, 
+            {
+                "xpath": "dlib-meta0.1/rights", 
+                "text": "Copyright Herbert Van de Sompel, Michael L. Nelson, Carl Lagoze, and Simeon Warner"
+            }
+        ], 
+        "solr_identifier": "e37b233ee4d6cfce57dd02be98f96466", 
+        "source_url": "http://www.dlib.org/dlib/december04/vandesompel/12vandesompel.meta.xml"
+    }, 
+    "digest": "e37b233ee4d6cfce57dd02be98f96466"
+}

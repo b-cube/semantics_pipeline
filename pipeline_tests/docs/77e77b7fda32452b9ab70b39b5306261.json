@@ -1,0 +1,23 @@
+{
+    "xml_namespaces": [
+        "xmlns:fn=\"http://www.w3.org/2005/02/xpath-functions\"", 
+        "xmlns:thredds=\"http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0\"", 
+        "xmlns:xlink=\"http://www.w3.org/1999/xlink\"", 
+        "xmlns:bes=\"http://xml.opendap.org/ns/bes/1.0#\""
+    ], 
+    "url": "http://ladsweb.nascom.nasa.gov/opendap/subsets/ab_GC-NET_NASA-E/2013/catalog.xml", 
+    "segment": "20140731142727", 
+    "tstamp": "2014-07-31T14:52:40.752Z", 
+    "content": "1 2014-07-31T14:51:01", 
+    "type": [
+        "application/xml", 
+        "application", 
+        "xml"
+    ], 
+    "date": "2014-07-31T14:52:40.752Z", 
+    "_version_": 1475164219954429953, 
+    "raw_content": "<![CDATA[<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n    <thredds:catalog xmlns:fn=\"http://www.w3.org/2005/02/xpath-functions\"\n                 xmlns:thredds=\"http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0\"\n                 xmlns:xlink=\"http://www.w3.org/1999/xlink\"\n                 xmlns:bes=\"http://xml.opendap.org/ns/bes/1.0#\">\n   <thredds:service name=\"dap\" serviceType=\"OPeNDAP\" base=\"/opendap/hyrax\"/>\n   <thredds:service name=\"file\" serviceType=\"HTTPServer\" base=\"/opendap/hyrax\"/>\n        <thredds:dataset name=\"subsets/ab_GC-NET_NASA-E/2013\"\n                    ID=\"/opendap/hyrax//subsets/ab_GC-NET_NASA-E/2013\">\n      <thredds:dataSize units=\"bytes\">1</thredds:dataSize>\n      <thredds:date type=\"modified\">2014-07-31T14:51:01</thredds:date>\n      <thredds:access serviceName=\"file\" urlPath=\"//subsets/ab_GC-NET_NASA-E/2013\"/>\n   </thredds:dataset>\n    </thredds:catalog>\n]]>", 
+    "boost": 1.020836e-05, 
+    "id": "http://ladsweb.nascom.nasa.gov/opendap/subsets/ab_GC-NET_NASA-E/2013/catalog.xml", 
+    "digest": "77e77b7fda32452b9ab70b39b5306261"
+}

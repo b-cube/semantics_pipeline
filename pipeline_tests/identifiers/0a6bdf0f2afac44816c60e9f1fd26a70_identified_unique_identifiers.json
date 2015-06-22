@@ -1,0 +1,25 @@
+{
+    "content": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <thredds:catalog xmlns:thredds=\"http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" xmlns:bes=\"http://xml.opendap.org/ns/bes/1.0#\"> <thredds:service name=\"dap\" serviceType=\"OPeNDAP\" base=\"/opendap/hyrax\"/> <thredds:service name=\"file\" serviceType=\"HTTPServer\" base=\"/opendap/hyrax\"/> <thredds:dataset name=\"/allData/3000/NPP_MSRBTVIS_L3\" ID=\"/opendap/hyrax/allData/3000/NPP_MSRBTVIS_L3/\"> <thredds:catalogRef name=\"2013\" xlink:href=\"2013/catalog.xml\" xlink:title=\"2013\" xlink:type=\"simple\" ID=\"/opendap/hyrax/allData/3000/NPP_MSRBTVIS_L3/2013/\"/> <thredds:catalogRef name=\"2014\" xlink:href=\"2014/catalog.xml\" xlink:title=\"2014\" xlink:type=\"simple\" ID=\"/opendap/hyrax/allData/3000/NPP_MSRBTVIS_L3/2014/\"/> <thredds:catalogRef name=\"2015\" xlink:href=\"2015/catalog.xml\" xlink:title=\"2015\" xlink:type=\"simple\" ID=\"/opendap/hyrax/allData/3000/NPP_MSRBTVIS_L3/2015/\"/> <thredds:dataset name=\"NOTICE\" ID=\"/opendap/hyrax/allData/3000/NPP_MSRBTVIS_L3/NOTICE\"> <thredds:dataSize units=\"bytes\">1409</thredds:dataSize> <thredds:date type=\"modified\">2014-08-04T15:22:14</thredds:date> <thredds:access serviceName=\"file\" urlPath=\"/allData/3000/NPP_MSRBTVIS_L3/NOTICE\"/> </thredds:dataset> </thredds:dataset> </thredds:catalog>", 
+    "sha": "b6852ed9ef449b15bddd11b13e2770dabe2f005e464c3f6088463f9c", 
+    "identity": {
+        "is_error": false, 
+        "protocol": "UNIDATA", 
+        "language": "", 
+        "service": "THREDDS-Catalog", 
+        "has_dataset": true, 
+        "has_metadata": true, 
+        "subtype": "service", 
+        "version": "1.0"
+    }, 
+    "identifiers": [
+        [
+            [
+                "url", 
+                "http://ladsweb.nascom.nasa.gov/opendap/allData/3000/NPP_MSRBTVIS_L3/catalog.xml"
+            ]
+        ], 
+        []
+    ], 
+    "digest": "0a6bdf0f2afac44816c60e9f1fd26a70", 
+    "source_url": "http://ladsweb.nascom.nasa.gov/opendap/allData/3000/NPP_MSRBTVIS_L3/catalog.xml"
+}

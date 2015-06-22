@@ -1,0 +1,19 @@
+{
+    "url": "http://www.dlib.org/dlib/december04/vandesompel/12vandesompel.meta.xml", 
+    "lastModified": "2004-12-15T15:44:07Z", 
+    "contentLength": "984", 
+    "segment": "20141028102843", 
+    "raw_content": "<![CDATA[<?xml version=\"1.0\"?>\n<!DOCTYPE dlib-meta0.1 SYSTEM \"http://www.dlib.org/dlib/dlib-meta01.dtd\">\n<dlib-meta0.1>\n<title>Resource Harvesting within the OAI-PMH Framework</title>\n<creator>Herbert Van de Sompel</creator>\n<creator>Michael L. Nelson</creator>\n<creator>Carl Lagoze</creator>\n<creator>Simeon Warner</creator>\n<publisher>Corporation for National Research Initiatives</publisher>\n<date date-type = \"publication\">December 2004</date>\n<type resource-type = \"work\">article</type>\n<identifier uri-type = \"DOI\">10.1045/december2004-vandesompel</identifier>\n<identifier uri-type = \"URL\">http://www.dlib.org/dlib/december04/vandesompel/12vandesompel.html</identifier>\n<language>English</language>\n<relation rel-type = \"InSerial\">\n<serial-name>D-Lib Magazine</serial-name>\n<issn>1082-9873</issn>\n<volume>10</volume>\n<issue>12</issue>\n</relation>\n<rights>Copyright Herbert Van de Sompel, Michael L. Nelson, Carl Lagoze, and Simeon Warner</rights>\n</dlib-meta0.1>\n\n]]>", 
+    "content": "Resource Harvesting within the OAI-PMH Framework Herbert Van de Sompel Michael L. Nelson Carl Lagoze Simeon Warner Corporation for National Research Initiatives December 2004 article 10.1045/december2004-vandesompel http://www.dlib.org/dlib/december04/vandesompel/12vandesompel.html English D-Lib Magazine 1082-9873 10 12 Copyright Herbert Van de Sompel, Michael L. Nelson, Carl Lagoze, and Simeon Warner", 
+    "type": [
+        "application/xml", 
+        "application", 
+        "xml"
+    ], 
+    "date": "2004-12-15T15:44:07Z", 
+    "_version_": 1483211280642736130, 
+    "tstamp": "2014-10-28T10:31:00.348Z", 
+    "boost": 3.5258865e-05, 
+    "id": "http://www.dlib.org/dlib/december04/vandesompel/12vandesompel.meta.xml", 
+    "digest": "e37b233ee4d6cfce57dd02be98f96466"
+}

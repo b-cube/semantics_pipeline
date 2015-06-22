@@ -1,0 +1,345 @@
+{
+    "source_url": "http://ghrsst.jpl.nasa.gov/DSD_records/DSD-EUR-L4UHfnd-GAL-ODYSSEA-v1.0.xml", 
+    "sha": "8253ccec28c73a07e6de3633c28223fa2c06ea2b30801293e580383d", 
+    "identity": {
+        "is_error": false, 
+        "protocol": "", 
+        "language": "", 
+        "service": "", 
+        "has_dataset": false, 
+        "has_metadata": false, 
+        "subtype": "", 
+        "version": ""
+    }, 
+    "service_description": {
+        "remainder": [
+            {
+                "xpath": "MMR_DSD/Entry_ID", 
+                "text": "EUR-L4UHRfnd-GAL-ODYSSEA"
+            }, 
+            {
+                "xpath": "MMR_DSD/Entry_Title", 
+                "text": "Analysed L4 foundation sea surface temperature over Galapagos and Pacific Central America"
+            }, 
+            {
+                "xpath": "MMR_DSD/Data_Set_Citation/Dataset_Creator", 
+                "text": "IFREMER/CERSAT"
+            }, 
+            {
+                "xpath": "MMR_DSD/Data_Set_Citation/Dataset_Title", 
+                "text": "Analysed L4 foundation sea surface temperature over Galapagos and Pacific Central America"
+            }, 
+            {
+                "xpath": "MMR_DSD/Data_Set_Citation/Dataset_Series_Name", 
+                "text": "Galapagos L4 Ultra-high Resolution SSTfnd (L4UHRfnd)"
+            }, 
+            {
+                "xpath": "MMR_DSD/Data_Set_Citation/Dataset_Release_Date", 
+                "text": "20080114T000000Z"
+            }, 
+            {
+                "xpath": "MMR_DSD/Data_Set_Citation/Dataset_Release_Place", 
+                "text": "IFREMER/CERSAT, Bretagne, France"
+            }, 
+            {
+                "xpath": "MMR_DSD/Data_Set_Citation/Dataset_Publisher", 
+                "text": "Medspiration, IFREMER/CERSAT"
+            }, 
+            {
+                "xpath": "MMR_DSD/Data_Set_Citation/Version", 
+                "text": "1.0"
+            }, 
+            {
+                "xpath": "MMR_DSD/Data_Set_Citation/Other_Citation_Details", 
+                "text": "These data are produced by the ESA Medspiration project funded by the European Space Agency Data User Element (ESA-DUE)"
+            }, 
+            {
+                "xpath": "MMR_DSD/Data_Set_Citation/Online_Resource", 
+                "text": "ftp://ftp.ifremer.fr"
+            }, 
+            {
+                "xpath": "MMR_DSD/Parameters/Category", 
+                "text": "Earth Science"
+            }, 
+            {
+                "xpath": "MMR_DSD/Parameters/Topic", 
+                "text": "Oceans"
+            }, 
+            {
+                "xpath": "MMR_DSD/Parameters/Term", 
+                "text": "Ocean Temperature"
+            }, 
+            {
+                "xpath": "MMR_DSD/Parameters/Variable", 
+                "text": "Sea Surface Temperature"
+            }, 
+            {
+                "xpath": "MMR_DSD/Parameters/Detailed_Variable", 
+                "text": "Foundation Sea Surface Temperature (SSTfnd)"
+            }, 
+            {
+                "xpath": "MMR_DSD/Sensor_Name/Short_Name", 
+                "text": "AVHRR"
+            }, 
+            {
+                "xpath": "MMR_DSD/Sensor_Name/Long_Name", 
+                "text": "Advanced Very High Resolution Radiometer"
+            }, 
+            {
+                "xpath": "MMR_DSD/Sensor_Name/Short_Name", 
+                "text": "AMSRE"
+            }, 
+            {
+                "xpath": "MMR_DSD/Sensor_Name/Long_Name", 
+                "text": "Advanced Microwave Scanning Radiometer"
+            }, 
+            {
+                "xpath": "MMR_DSD/Sensor_Name/Short_Name", 
+                "text": "TMI"
+            }, 
+            {
+                "xpath": "MMR_DSD/Sensor_Name/Long_Name", 
+                "text": "Tropical rainfall measuring mission Microwave Imager"
+            }, 
+            {
+                "xpath": "MMR_DSD/Sensor_Name/Short_Name", 
+                "text": "AATSR"
+            }, 
+            {
+                "xpath": "MMR_DSD/Sensor_Name/Long_Name", 
+                "text": "Advanced Along-Track Scanning Radiometer"
+            }, 
+            {
+                "xpath": "MMR_DSD/Sensor_Name/Short_Name", 
+                "text": "SEVIRI"
+            }, 
+            {
+                "xpath": "MMR_DSD/Sensor_Name/Long_Name", 
+                "text": "Spinning Enhanced Visible and Infrared Imager"
+            }, 
+            {
+                "xpath": "MMR_DSD/Source_Name/Short_Name", 
+                "text": "Medspiration, IFREMER/CERSAT"
+            }, 
+            {
+                "xpath": "MMR_DSD/Source_Name/Long_Name", 
+                "text": "Institut Francais de Recherche pour l'Exploitation de la Mer / Centre ERS d'Archivage et de Traitement"
+            }, 
+            {
+                "xpath": "MMR_DSD/Temporal_Coverage/Start_Date", 
+                "text": "20080114T000000Z"
+            }, 
+            {
+                "xpath": "MMR_DSD/Spatial_Coverage/Southernmost_Latitude", 
+                "text": "-20.00"
+            }, 
+            {
+                "xpath": "MMR_DSD/Spatial_Coverage/Northernmost_Latitude", 
+                "text": "20.00"
+            }, 
+            {
+                "xpath": "MMR_DSD/Spatial_Coverage/Westernmost_Longitude", 
+                "text": "-120.00"
+            }, 
+            {
+                "xpath": "MMR_DSD/Spatial_Coverage/Easternmost_Longitude", 
+                "text": "-69.00"
+            }, 
+            {
+                "xpath": "MMR_DSD/Spatial_Coverage/Minimum_Altitude", 
+                "text": "0.00"
+            }, 
+            {
+                "xpath": "MMR_DSD/Spatial_Coverage/Maximum_Altitude", 
+                "text": "0.00"
+            }, 
+            {
+                "xpath": "MMR_DSD/Spatial_Coverage/Minimum_Depth", 
+                "text": "0.00"
+            }, 
+            {
+                "xpath": "MMR_DSD/Spatial_Coverage/Maximum_Depth", 
+                "text": "0.00"
+            }, 
+            {
+                "xpath": "MMR_DSD/Location/Location_Name", 
+                "text": "Galapagos and Central America"
+            }, 
+            {
+                "xpath": "MMR_DSD/Location/Detailed_Location", 
+                "text": "Pacific ocean restricted to Central America, Galapagos and Coco Islands area"
+            }, 
+            {
+                "xpath": "MMR_DSD/Projection_Information/Projection_Type", 
+                "text": "Grid"
+            }, 
+            {
+                "xpath": "MMR_DSD/Projection_Information/Other_Projection_Details", 
+                "text": "latitude longitude gridded analysis field"
+            }, 
+            {
+                "xpath": "MMR_DSD/Data_Resolution/Latitude_Resolution", 
+                "text": "0.02 degree"
+            }, 
+            {
+                "xpath": "MMR_DSD/Data_Resolution/Longitude_Resolution", 
+                "text": "0.02 degree"
+            }, 
+            {
+                "xpath": "MMR_DSD/Data_Resolution/Altitude_Resolution", 
+                "text": "0.00"
+            }, 
+            {
+                "xpath": "MMR_DSD/Data_Resolution/Temporal_Resolution", 
+                "text": "Daily"
+            }, 
+            {
+                "xpath": "MMR_DSD/Access_Constraints", 
+                "text": "None"
+            }, 
+            {
+                "xpath": "MMR_DSD/Use_Constraints", 
+                "text": "None"
+            }, 
+            {
+                "xpath": "MMR_DSD/Originating_Center", 
+                "text": "IFREMER"
+            }, 
+            {
+                "xpath": "MMR_DSD/Data_Center/Data_Center_Name/Short_Name", 
+                "text": "IFREMER/CERSAT"
+            }, 
+            {
+                "xpath": "MMR_DSD/Data_Center/Data_Center_Name/Long_Name", 
+                "text": "Institut Francais de Recherche pour l'Exploitation de la Mer, Center d'Exploitation et de Recherche Satellitaire"
+            }, 
+            {
+                "xpath": "MMR_DSD/Data_Center/Data_Center_URL", 
+                "text": "http://cersat.ifremer.fr"
+            }, 
+            {
+                "xpath": "MMR_DSD/Data_Center/Data_Set_ID", 
+                "text": "EUR-L4UHRfnd-GAL-ODYSSEA"
+            }, 
+            {
+                "xpath": "MMR_DSD/Data_Center/Personnel/Role", 
+                "text": "Technical Contact"
+            }, 
+            {
+                "xpath": "MMR_DSD/Data_Center/Personnel/First_Name", 
+                "text": "Jean-Francois"
+            }, 
+            {
+                "xpath": "MMR_DSD/Data_Center/Personnel/Last_Name", 
+                "text": "Piolle"
+            }, 
+            {
+                "xpath": "MMR_DSD/Data_Center/Personnel/Email", 
+                "text": "jfpiolle@ifremer.fr"
+            }, 
+            {
+                "xpath": "MMR_DSD/Data_Center/Personnel/Phone", 
+                "text": "+33-2-98224691"
+            }, 
+            {
+                "xpath": "MMR_DSD/Data_Center/Personnel/Fax", 
+                "text": "+33-2-98224533"
+            }, 
+            {
+                "xpath": "MMR_DSD/Data_Center/Personnel/Address", 
+                "text": "IFREMER CERSAT, Technopole Brest-Iroise, 29280 Plouzane, France"
+            }, 
+            {
+                "xpath": "MMR_DSD/Data_Center/Personnel/Role", 
+                "text": "Principal Investigator"
+            }, 
+            {
+                "xpath": "MMR_DSD/Data_Center/Personnel/First_Name", 
+                "text": "Emmanuelle"
+            }, 
+            {
+                "xpath": "MMR_DSD/Data_Center/Personnel/Last_Name", 
+                "text": "Autret"
+            }, 
+            {
+                "xpath": "MMR_DSD/Data_Center/Personnel/Email", 
+                "text": "eautret@ifremer.fr"
+            }, 
+            {
+                "xpath": "MMR_DSD/Data_Center/Personnel/Phone", 
+                "text": "+33-2-98224532"
+            }, 
+            {
+                "xpath": "MMR_DSD/Data_Center/Personnel/Fax", 
+                "text": "+33-2-98224533"
+            }, 
+            {
+                "xpath": "MMR_DSD/Data_Center/Personnel/Address", 
+                "text": "IFREMER CERSAT, Technopole Brest-Iroise, 29280 Plouzane, France"
+            }, 
+            {
+                "xpath": "MMR_DSD/Reference", 
+                "text": "MERSEA-WP02-IFR-STR-001-1A, J. F. Piolle,E. Autret, Septembre 2007"
+            }, 
+            {
+                "xpath": "MMR_DSD/Summary", 
+                "text": "The ODYSSEA Galapagos and Pacific Central America Sea Surface Temperature is produced at Ifremer/CERSAT. It provides a daily cloud-free field of foundation sea surface temperature at 2 km resolution (0.02 degree). It is generated by merging all available satellite sensors for sea surface temperature (micro-wave and infra-red), after careful intercalibration using AATSR sensor as reference (previously re-calibrated using all available in situ data). The development of this real-time sea surface temperature at Ifremer/CERSAT is supported by ESA initially in the frame of Medspiration project."
+            }, 
+            {
+                "xpath": "MMR_DSD/Related_URL/URL_Content_Type", 
+                "text": "Project Home Page"
+            }, 
+            {
+                "xpath": "MMR_DSD/Related_URL/URL", 
+                "text": "http://www.medspiration.org"
+            }, 
+            {
+                "xpath": "MMR_DSD/Related_URL/Description", 
+                "text": "Description of the Medspiration project"
+            }, 
+            {
+                "xpath": "MMR_DSD/Related_URL/URL_Content_Type", 
+                "text": "Data access (OpenDAP)"
+            }, 
+            {
+                "xpath": "MMR_DSD/Related_URL/URL", 
+                "text": "ftp://ftp.ifremer.fr/ifremer/medspiration/data/l4uhrsstfnd/eurdac/gal"
+            }, 
+            {
+                "xpath": "MMR_DSD/Related_URL/Description", 
+                "text": "FTP Archive of the product. Access is anonymous and all archive is available online."
+            }, 
+            {
+                "xpath": "MMR_DSD/Related_URL/URL_Content_Type", 
+                "text": "Data access (FTP)"
+            }, 
+            {
+                "xpath": "MMR_DSD/Related_URL/URL", 
+                "text": "http://www.ifremer.fr/cgi-bin/nph-dods/data/satellite/medspiration/l4uhrsstfnd/eurdac/gal"
+            }, 
+            {
+                "xpath": "MMR_DSD/Related_URL/Description", 
+                "text": "Access to the data through OpenDAP protocol"
+            }, 
+            {
+                "xpath": "MMR_DSD/DSD_File_Version", 
+                "text": "1.0"
+            }, 
+            {
+                "xpath": "MMR_DSD/DSD_Creation_Date", 
+                "text": "20080127T000000Z"
+            }, 
+            {
+                "xpath": "MMR_DSD/DSD_Last_Revision_Date", 
+                "text": "20080127T000000Z"
+            }, 
+            {
+                "xpath": "MMR_DSD/DSD_Revision_History", 
+                "text": "2008-01-27 J.F.Piolle: Original;"
+            }
+        ], 
+        "solr_identifier": "be3555355269f84a786c005b76299bc2", 
+        "source_url": "http://ghrsst.jpl.nasa.gov/DSD_records/DSD-EUR-L4UHfnd-GAL-ODYSSEA-v1.0.xml"
+    }, 
+    "digest": "be3555355269f84a786c005b76299bc2"
+}

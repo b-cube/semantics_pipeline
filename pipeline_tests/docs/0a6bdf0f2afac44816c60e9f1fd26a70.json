@@ -1,0 +1,21 @@
+{
+    "xml_namespaces": [
+        "xmlns:thredds=\"http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0\"", 
+        "xmlns:xlink=\"http://www.w3.org/1999/xlink\"", 
+        "xmlns:bes=\"http://xml.opendap.org/ns/bes/1.0#\""
+    ], 
+    "url": "http://ladsweb.nascom.nasa.gov/opendap/allData/3000/NPP_MSRBTVIS_L3/catalog.xml", 
+    "segment": "20150319113747", 
+    "contentLength": "1628", 
+    "tstamp": "2015-03-19T11:57:06.832Z", 
+    "content": "1409 2014-08-04T15:22:14", 
+    "boost": 0.00041692192, 
+    "date": "2015-03-19T11:57:06.832Z", 
+    "_version_": 1496082666250829826, 
+    "raw_content": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n    <thredds:catalog xmlns:thredds=\"http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0\"\n                 xmlns:xlink=\"http://www.w3.org/1999/xlink\"\n                 xmlns:bes=\"http://xml.opendap.org/ns/bes/1.0#\">\n   <thredds:service name=\"dap\" serviceType=\"OPeNDAP\" base=\"/opendap/hyrax\"/>\n   <thredds:service name=\"file\" serviceType=\"HTTPServer\" base=\"/opendap/hyrax\"/>\n        <thredds:dataset name=\"/allData/3000/NPP_MSRBTVIS_L3\"\n                    ID=\"/opendap/hyrax/allData/3000/NPP_MSRBTVIS_L3/\">\n            <thredds:catalogRef name=\"2013\" xlink:href=\"2013/catalog.xml\" xlink:title=\"2013\"\n                          xlink:type=\"simple\"\n                          ID=\"/opendap/hyrax/allData/3000/NPP_MSRBTVIS_L3/2013/\"/>\n            <thredds:catalogRef name=\"2014\" xlink:href=\"2014/catalog.xml\" xlink:title=\"2014\"\n                          xlink:type=\"simple\"\n                          ID=\"/opendap/hyrax/allData/3000/NPP_MSRBTVIS_L3/2014/\"/>\n            <thredds:catalogRef name=\"2015\" xlink:href=\"2015/catalog.xml\" xlink:title=\"2015\"\n                          xlink:type=\"simple\"\n                          ID=\"/opendap/hyrax/allData/3000/NPP_MSRBTVIS_L3/2015/\"/>\n            <thredds:dataset name=\"NOTICE\" ID=\"/opendap/hyrax/allData/3000/NPP_MSRBTVIS_L3/NOTICE\">\n         <thredds:dataSize units=\"bytes\">1409</thredds:dataSize>\n         <thredds:date type=\"modified\">2014-08-04T15:22:14</thredds:date>\n         <thredds:access serviceName=\"file\" urlPath=\"/allData/3000/NPP_MSRBTVIS_L3/NOTICE\"/>\n      </thredds:dataset>\n        </thredds:dataset>\n    </thredds:catalog>\n", 
+    "type": [
+        "application/xml"
+    ], 
+    "id": "http://ladsweb.nascom.nasa.gov/opendap/allData/3000/NPP_MSRBTVIS_L3/catalog.xml", 
+    "digest": "0a6bdf0f2afac44816c60e9f1fd26a70"
+}

@@ -1,0 +1,295 @@
+{
+    "source_url": "http://maps.devotes.eu/catalogue/csw?service=CSW&version=2.0.2&request=GetCapabilities", 
+    "sha": "9a39d27ce0028990006d8ef544e0fa90cf99a84502f888663d4e09f8", 
+    "identity": {
+        "is_error": false, 
+        "protocol": "OGC:CSW", 
+        "language": "", 
+        "service": "GetCapabilities", 
+        "has_dataset": false, 
+        "has_metadata": false, 
+        "subtype": "service", 
+        "version": "2.0.2"
+    }, 
+    "service_description": {
+        "solr_identifier": "4fae8c425742c252feb46604f3170afd", 
+        "service": {
+            "rights": [
+                "None"
+            ], 
+            "abstract": [
+                "GeoNode is an open source platform that facilitates the creation, sharing, and collaborative use of geospatial data"
+            ], 
+            "title": [
+                "GeoNode Catalogue"
+            ], 
+            "contact": [
+                "Lastname, Firstname"
+            ], 
+            "endpoints": [
+                {
+                    "mimeType": [
+                        "text/xml"
+                    ], 
+                    "protocol": "HTTP GET", 
+                    "name": "GetCapabilities", 
+                    "parameters": [
+                        {
+                            "type": "string", 
+                            "name": "service"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "request"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "version"
+                        }
+                    ], 
+                    "url": "http://maps.devotes.eu/catalogue/csw?SERVICE=CSW&VERSION=2.0.2&REQUEST=GetCapabilities", 
+                    "actionable": 1
+                }, 
+                {
+                    "mimeType": [
+                        "text/xml"
+                    ], 
+                    "protocol": "HTTP POST", 
+                    "name": "GetCapabilities", 
+                    "parameters": [
+                        {
+                            "type": "string", 
+                            "name": "service"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "request"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "version"
+                        }
+                    ], 
+                    "url": "http://maps.devotes.eu/catalogue/csw?SERVICE=CSW&VERSION=2.0.2&REQUEST=GetCapabilities", 
+                    "actionable": 1
+                }, 
+                {
+                    "mimeType": [
+                        "text/xml"
+                    ], 
+                    "protocol": "HTTP GET", 
+                    "name": "GetRepositoryItem", 
+                    "parameters": [
+                        {
+                            "type": "string", 
+                            "name": "service"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "request"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "version"
+                        }
+                    ], 
+                    "url": "http://maps.devotes.eu/catalogue/csw?SERVICE=CSW&VERSION=2.0.2&REQUEST=GetRepositoryItem", 
+                    "actionable": 2
+                }, 
+                {
+                    "mimeType": [
+                        "text/xml"
+                    ], 
+                    "protocol": "HTTP GET", 
+                    "name": "DescribeRecord", 
+                    "parameters": [
+                        {
+                            "type": "string", 
+                            "name": "service"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "request"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "version"
+                        }
+                    ], 
+                    "url": "http://maps.devotes.eu/catalogue/csw?SERVICE=CSW&VERSION=2.0.2&REQUEST=DescribeRecord", 
+                    "actionable": 2
+                }, 
+                {
+                    "mimeType": [
+                        "text/xml"
+                    ], 
+                    "protocol": "HTTP POST", 
+                    "name": "DescribeRecord", 
+                    "parameters": [
+                        {
+                            "type": "string", 
+                            "name": "service"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "request"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "version"
+                        }
+                    ], 
+                    "url": "http://maps.devotes.eu/catalogue/csw?SERVICE=CSW&VERSION=2.0.2&REQUEST=DescribeRecord", 
+                    "actionable": 2
+                }, 
+                {
+                    "mimeType": [
+                        "text/xml"
+                    ], 
+                    "protocol": "HTTP GET", 
+                    "name": "GetDomain", 
+                    "parameters": [
+                        {
+                            "type": "string", 
+                            "name": "service"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "request"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "version"
+                        }
+                    ], 
+                    "url": "http://maps.devotes.eu/catalogue/csw?SERVICE=CSW&VERSION=2.0.2&REQUEST=GetDomain", 
+                    "actionable": 2
+                }, 
+                {
+                    "mimeType": [
+                        "text/xml"
+                    ], 
+                    "protocol": "HTTP POST", 
+                    "name": "GetDomain", 
+                    "parameters": [
+                        {
+                            "type": "string", 
+                            "name": "service"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "request"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "version"
+                        }
+                    ], 
+                    "url": "http://maps.devotes.eu/catalogue/csw?SERVICE=CSW&VERSION=2.0.2&REQUEST=GetDomain", 
+                    "actionable": 2
+                }, 
+                {
+                    "mimeType": [
+                        "text/xml"
+                    ], 
+                    "protocol": "HTTP GET", 
+                    "name": "GetRecordById", 
+                    "parameters": [
+                        {
+                            "type": "string", 
+                            "name": "service"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "request"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "version"
+                        }
+                    ], 
+                    "url": "http://maps.devotes.eu/catalogue/csw?SERVICE=CSW&VERSION=2.0.2&REQUEST=GetRecordById", 
+                    "actionable": 2
+                }, 
+                {
+                    "mimeType": [
+                        "text/xml"
+                    ], 
+                    "protocol": "HTTP POST", 
+                    "name": "GetRecordById", 
+                    "parameters": [
+                        {
+                            "type": "string", 
+                            "name": "service"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "request"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "version"
+                        }
+                    ], 
+                    "url": "http://maps.devotes.eu/catalogue/csw?SERVICE=CSW&VERSION=2.0.2&REQUEST=GetRecordById", 
+                    "actionable": 2
+                }, 
+                {
+                    "mimeType": [
+                        "text/xml"
+                    ], 
+                    "protocol": "HTTP GET", 
+                    "name": "GetRecords", 
+                    "parameters": [
+                        {
+                            "type": "string", 
+                            "name": "service"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "request"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "version"
+                        }
+                    ], 
+                    "url": "http://maps.devotes.eu/catalogue/csw?SERVICE=CSW&VERSION=2.0.2&REQUEST=GetRecords", 
+                    "actionable": 2
+                }, 
+                {
+                    "mimeType": [
+                        "text/xml"
+                    ], 
+                    "protocol": "HTTP POST", 
+                    "name": "GetRecords", 
+                    "parameters": [
+                        {
+                            "type": "string", 
+                            "name": "service"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "request"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "version"
+                        }
+                    ], 
+                    "url": "http://maps.devotes.eu/catalogue/csw?SERVICE=CSW&VERSION=2.0.2&REQUEST=GetRecords", 
+                    "actionable": 2
+                }
+            ], 
+            "subject": [
+                "sdi", 
+                "catalogue", 
+                "discovery", 
+                "metadata", 
+                "GeoNode"
+            ]
+        }, 
+        "source_url": "http://maps.devotes.eu/catalogue/csw?service=CSW&version=2.0.2&request=GetCapabilities"
+    }, 
+    "digest": "4fae8c425742c252feb46604f3170afd"
+}

@@ -1,0 +1,73 @@
+{
+    "source_url": "http://www.ncdc.noaa.gov/temp-and-precip/climatological-rankings/download.xml?parameter=tmax&state=110&div=0&month=9&periods[]=1&year=2014", 
+    "sha": "95872849fd2c154005cf4a42f7ad21a4352e73331b7e85ea5400ed64", 
+    "identity": {
+        "is_error": false, 
+        "protocol": "", 
+        "language": "", 
+        "service": "", 
+        "has_dataset": false, 
+        "has_metadata": false, 
+        "subtype": "", 
+        "version": ""
+    }, 
+    "service_description": {
+        "remainder": [
+            {
+                "xpath": "dataCollection/title", 
+                "text": "Contiguous U.S. Maximum Temperature Rankings, September 2014"
+            }, 
+            {
+                "xpath": "dataCollection/units", 
+                "text": "Degrees Fahrenheit"
+            }, 
+            {
+                "xpath": "dataCollection/data/period", 
+                "text": "1"
+            }, 
+            {
+                "xpath": "dataCollection/data/value", 
+                "text": "78.26"
+            }, 
+            {
+                "xpath": "dataCollection/data/twentiethCenturyMean", 
+                "text": "77.81"
+            }, 
+            {
+                "xpath": "dataCollection/data/departure", 
+                "text": "0.45"
+            }, 
+            {
+                "xpath": "dataCollection/data/lowRank", 
+                "text": "68"
+            }, 
+            {
+                "xpath": "dataCollection/data/highRank", 
+                "text": "53"
+            }, 
+            {
+                "xpath": "dataCollection/data/recordLow", 
+                "text": "1965"
+            }, 
+            {
+                "xpath": "dataCollection/data/recordHigh", 
+                "text": "1998"
+            }, 
+            {
+                "xpath": "dataCollection/data/lowestSince", 
+                "text": "2008"
+            }, 
+            {
+                "xpath": "dataCollection/data/highestSince", 
+                "text": "2013"
+            }, 
+            {
+                "xpath": "dataCollection/data/percentile", 
+                "text": "normal"
+            }
+        ], 
+        "solr_identifier": "0b4bdef43b044034fd34ae0ed1ec0c9d", 
+        "source_url": "http://www.ncdc.noaa.gov/temp-and-precip/climatological-rankings/download.xml?parameter=tmax&state=110&div=0&month=9&periods[]=1&year=2014"
+    }, 
+    "digest": "0b4bdef43b044034fd34ae0ed1ec0c9d"
+}

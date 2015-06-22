@@ -1,0 +1,243 @@
+{
+    "source_url": "http://www.zenodo.org/oai2d?verb=ListRecords&metadataPrefix=oai_dc&set=user-coar", 
+    "sha": "967082f6d9463f4dead53e3423a1693a943a66cf9fcd86b54448ff48", 
+    "identity": {
+        "is_error": false, 
+        "protocol": "OAI-PMH", 
+        "language": "", 
+        "service": "", 
+        "has_dataset": false, 
+        "has_metadata": false, 
+        "subtype": "service", 
+        "version": ""
+    }, 
+    "service_description": {
+        "remainder": [
+            {
+                "xpath": "{http://www.openarchives.org/OAI/2.0/}OAI-PMH", 
+                "attributes": [
+                    {
+                        "xpath": "{http://www.openarchives.org/OAI/2.0/}OAI-PMH/@{http://www.w3.org/2001/XMLSchema-instance}schemaLocation", 
+                        "text": "http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"
+                    }
+                ]
+            }, 
+            {
+                "xpath": "{http://www.openarchives.org/OAI/2.0/}OAI-PMH/{http://www.openarchives.org/OAI/2.0/}responseDate", 
+                "text": "2014-10-30T01:04:52Z"
+            }, 
+            {
+                "xpath": "{http://www.openarchives.org/OAI/2.0/}OAI-PMH/{http://www.openarchives.org/OAI/2.0/}request", 
+                "text": "http://zenodo.org/oai2d", 
+                "attributes": [
+                    {
+                        "xpath": "{http://www.openarchives.org/OAI/2.0/}OAI-PMH/{http://www.openarchives.org/OAI/2.0/}request/@verb", 
+                        "text": "ListRecords"
+                    }, 
+                    {
+                        "xpath": "{http://www.openarchives.org/OAI/2.0/}OAI-PMH/{http://www.openarchives.org/OAI/2.0/}request/@set", 
+                        "text": "user-coar"
+                    }, 
+                    {
+                        "xpath": "{http://www.openarchives.org/OAI/2.0/}OAI-PMH/{http://www.openarchives.org/OAI/2.0/}request/@metadataPrefix", 
+                        "text": "oai_dc"
+                    }
+                ]
+            }, 
+            {
+                "xpath": "{http://www.openarchives.org/OAI/2.0/}OAI-PMH/{http://www.openarchives.org/OAI/2.0/}ListRecords/{http://www.openarchives.org/OAI/2.0/}record/{http://www.openarchives.org/OAI/2.0/}header/{http://www.openarchives.org/OAI/2.0/}identifier", 
+                "text": "oai:zenodo.org:12384"
+            }, 
+            {
+                "xpath": "{http://www.openarchives.org/OAI/2.0/}OAI-PMH/{http://www.openarchives.org/OAI/2.0/}ListRecords/{http://www.openarchives.org/OAI/2.0/}record/{http://www.openarchives.org/OAI/2.0/}header/{http://www.openarchives.org/OAI/2.0/}datestamp", 
+                "text": "2014-10-27T18:16:38Z"
+            }, 
+            {
+                "xpath": "{http://www.openarchives.org/OAI/2.0/}OAI-PMH/{http://www.openarchives.org/OAI/2.0/}ListRecords/{http://www.openarchives.org/OAI/2.0/}record/{http://www.openarchives.org/OAI/2.0/}header/{http://www.openarchives.org/OAI/2.0/}setSpec", 
+                "text": "user-coar"
+            }, 
+            {
+                "xpath": "{http://www.openarchives.org/OAI/2.0/}OAI-PMH/{http://www.openarchives.org/OAI/2.0/}ListRecords/{http://www.openarchives.org/OAI/2.0/}record/{http://www.openarchives.org/OAI/2.0/}header/{http://www.openarchives.org/OAI/2.0/}setSpec", 
+                "text": "user-zenodo"
+            }, 
+            {
+                "xpath": "{http://www.openarchives.org/OAI/2.0/}OAI-PMH/{http://www.openarchives.org/OAI/2.0/}ListRecords/{http://www.openarchives.org/OAI/2.0/}record/{http://www.openarchives.org/OAI/2.0/}header/{http://www.openarchives.org/OAI/2.0/}setSpec", 
+                "text": "openaire"
+            }, 
+            {
+                "xpath": "{http://www.openarchives.org/OAI/2.0/}OAI-PMH/{http://www.openarchives.org/OAI/2.0/}ListRecords/{http://www.openarchives.org/OAI/2.0/}record/{http://www.openarchives.org/OAI/2.0/}metadata/{http://www.openarchives.org/OAI/2.0/oai_dc/}dc", 
+                "attributes": [
+                    {
+                        "xpath": "{http://www.openarchives.org/OAI/2.0/}OAI-PMH/{http://www.openarchives.org/OAI/2.0/}ListRecords/{http://www.openarchives.org/OAI/2.0/}record/{http://www.openarchives.org/OAI/2.0/}metadata/{http://www.openarchives.org/OAI/2.0/oai_dc/}dc/@{http://www.w3.org/2001/XMLSchema-instance}schemaLocation", 
+                        "text": "http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd"
+                    }
+                ]
+            }, 
+            {
+                "xpath": "{http://www.openarchives.org/OAI/2.0/}OAI-PMH/{http://www.openarchives.org/OAI/2.0/}ListRecords/{http://www.openarchives.org/OAI/2.0/}record/{http://www.openarchives.org/OAI/2.0/}metadata/{http://www.openarchives.org/OAI/2.0/oai_dc/}dc/{http://purl.org/dc/elements/1.1/}creator", 
+                "text": "McCutcheon, Valerie"
+            }, 
+            {
+                "xpath": "{http://www.openarchives.org/OAI/2.0/}OAI-PMH/{http://www.openarchives.org/OAI/2.0/}ListRecords/{http://www.openarchives.org/OAI/2.0/}record/{http://www.openarchives.org/OAI/2.0/}metadata/{http://www.openarchives.org/OAI/2.0/oai_dc/}dc/{http://purl.org/dc/elements/1.1/}creator", 
+                "text": "Nixon, William"
+            }, 
+            {
+                "xpath": "{http://www.openarchives.org/OAI/2.0/}OAI-PMH/{http://www.openarchives.org/OAI/2.0/}ListRecords/{http://www.openarchives.org/OAI/2.0/}record/{http://www.openarchives.org/OAI/2.0/}metadata/{http://www.openarchives.org/OAI/2.0/oai_dc/}dc/{http://purl.org/dc/elements/1.1/}title", 
+                "text": "Repository Profile: University of Glasgow: \"Enlighten\" IR & Research System. COAR Repository Observatory"
+            }, 
+            {
+                "xpath": "{http://www.openarchives.org/OAI/2.0/}OAI-PMH/{http://www.openarchives.org/OAI/2.0/}ListRecords/{http://www.openarchives.org/OAI/2.0/}record/{http://www.openarchives.org/OAI/2.0/}metadata/{http://www.openarchives.org/OAI/2.0/oai_dc/}dc/{http://purl.org/dc/elements/1.1/}date", 
+                "text": "2014-10-16"
+            }, 
+            {
+                "xpath": "{http://www.openarchives.org/OAI/2.0/}OAI-PMH/{http://www.openarchives.org/OAI/2.0/}ListRecords/{http://www.openarchives.org/OAI/2.0/}record/{http://www.openarchives.org/OAI/2.0/}metadata/{http://www.openarchives.org/OAI/2.0/oai_dc/}dc/{http://purl.org/dc/elements/1.1/}subject", 
+                "text": "cc-by"
+            }, 
+            {
+                "xpath": "{http://www.openarchives.org/OAI/2.0/}OAI-PMH/{http://www.openarchives.org/OAI/2.0/}ListRecords/{http://www.openarchives.org/OAI/2.0/}record/{http://www.openarchives.org/OAI/2.0/}metadata/{http://www.openarchives.org/OAI/2.0/oai_dc/}dc/{http://purl.org/dc/elements/1.1/}identifier", 
+                "text": "http://zenodo.org/record/12384"
+            }, 
+            {
+                "xpath": "{http://www.openarchives.org/OAI/2.0/}OAI-PMH/{http://www.openarchives.org/OAI/2.0/}ListRecords/{http://www.openarchives.org/OAI/2.0/}record/{http://www.openarchives.org/OAI/2.0/}metadata/{http://www.openarchives.org/OAI/2.0/oai_dc/}dc/{http://purl.org/dc/elements/1.1/}identifier", 
+                "text": "doi:10.5281/zenodo.12384"
+            }, 
+            {
+                "xpath": "{http://www.openarchives.org/OAI/2.0/}OAI-PMH/{http://www.openarchives.org/OAI/2.0/}ListRecords/{http://www.openarchives.org/OAI/2.0/}record/{http://www.openarchives.org/OAI/2.0/}metadata/{http://www.openarchives.org/OAI/2.0/oai_dc/}dc/{http://purl.org/dc/elements/1.1/}description", 
+                "text": "The University of Glasgow has established the Enlighten IR and Research system. The IR holds 72,000 items for institutional peer-reviewed journal articles, published conference papers, books and book chapters. The Research System is an in-house-built system holding research information for institutional research activity, including people, organisations, projects and outputs. It is dynamically linked to the Enlighten IR."
+            }, 
+            {
+                "xpath": "{http://www.openarchives.org/OAI/2.0/}OAI-PMH/{http://www.openarchives.org/OAI/2.0/}ListRecords/{http://www.openarchives.org/OAI/2.0/}record/{http://www.openarchives.org/OAI/2.0/}metadata/{http://www.openarchives.org/OAI/2.0/oai_dc/}dc/{http://purl.org/dc/elements/1.1/}rights", 
+                "text": "info:eu-repo/semantics/openAccess"
+            }, 
+            {
+                "xpath": "{http://www.openarchives.org/OAI/2.0/}OAI-PMH/{http://www.openarchives.org/OAI/2.0/}ListRecords/{http://www.openarchives.org/OAI/2.0/}record/{http://www.openarchives.org/OAI/2.0/}metadata/{http://www.openarchives.org/OAI/2.0/oai_dc/}dc/{http://purl.org/dc/elements/1.1/}type", 
+                "text": "info:eu-repo/semantics/article"
+            }, 
+            {
+                "xpath": "{http://www.openarchives.org/OAI/2.0/}OAI-PMH/{http://www.openarchives.org/OAI/2.0/}ListRecords/{http://www.openarchives.org/OAI/2.0/}record/{http://www.openarchives.org/OAI/2.0/}header/{http://www.openarchives.org/OAI/2.0/}identifier", 
+                "text": "oai:zenodo.org:12475"
+            }, 
+            {
+                "xpath": "{http://www.openarchives.org/OAI/2.0/}OAI-PMH/{http://www.openarchives.org/OAI/2.0/}ListRecords/{http://www.openarchives.org/OAI/2.0/}record/{http://www.openarchives.org/OAI/2.0/}header/{http://www.openarchives.org/OAI/2.0/}datestamp", 
+                "text": "2014-10-29T15:19:00Z"
+            }, 
+            {
+                "xpath": "{http://www.openarchives.org/OAI/2.0/}OAI-PMH/{http://www.openarchives.org/OAI/2.0/}ListRecords/{http://www.openarchives.org/OAI/2.0/}record/{http://www.openarchives.org/OAI/2.0/}header/{http://www.openarchives.org/OAI/2.0/}setSpec", 
+                "text": "openaire"
+            }, 
+            {
+                "xpath": "{http://www.openarchives.org/OAI/2.0/}OAI-PMH/{http://www.openarchives.org/OAI/2.0/}ListRecords/{http://www.openarchives.org/OAI/2.0/}record/{http://www.openarchives.org/OAI/2.0/}header/{http://www.openarchives.org/OAI/2.0/}setSpec", 
+                "text": "user-coar"
+            }, 
+            {
+                "xpath": "{http://www.openarchives.org/OAI/2.0/}OAI-PMH/{http://www.openarchives.org/OAI/2.0/}ListRecords/{http://www.openarchives.org/OAI/2.0/}record/{http://www.openarchives.org/OAI/2.0/}metadata/{http://www.openarchives.org/OAI/2.0/oai_dc/}dc", 
+                "attributes": [
+                    {
+                        "xpath": "{http://www.openarchives.org/OAI/2.0/}OAI-PMH/{http://www.openarchives.org/OAI/2.0/}ListRecords/{http://www.openarchives.org/OAI/2.0/}record/{http://www.openarchives.org/OAI/2.0/}metadata/{http://www.openarchives.org/OAI/2.0/oai_dc/}dc/@{http://www.w3.org/2001/XMLSchema-instance}schemaLocation", 
+                        "text": "http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd"
+                    }
+                ]
+            }, 
+            {
+                "xpath": "{http://www.openarchives.org/OAI/2.0/}OAI-PMH/{http://www.openarchives.org/OAI/2.0/}ListRecords/{http://www.openarchives.org/OAI/2.0/}record/{http://www.openarchives.org/OAI/2.0/}metadata/{http://www.openarchives.org/OAI/2.0/oai_dc/}dc/{http://purl.org/dc/elements/1.1/}creator", 
+                "text": "Ribeiro, L gia Maria"
+            }, 
+            {
+                "xpath": "{http://www.openarchives.org/OAI/2.0/}OAI-PMH/{http://www.openarchives.org/OAI/2.0/}ListRecords/{http://www.openarchives.org/OAI/2.0/}record/{http://www.openarchives.org/OAI/2.0/}metadata/{http://www.openarchives.org/OAI/2.0/oai_dc/}dc/{http://purl.org/dc/elements/1.1/}title", 
+                "text": "Repository Profile: Repository and CRIS at the University of Porto. COAR Repository Observatory"
+            }, 
+            {
+                "xpath": "{http://www.openarchives.org/OAI/2.0/}OAI-PMH/{http://www.openarchives.org/OAI/2.0/}ListRecords/{http://www.openarchives.org/OAI/2.0/}record/{http://www.openarchives.org/OAI/2.0/}metadata/{http://www.openarchives.org/OAI/2.0/oai_dc/}dc/{http://purl.org/dc/elements/1.1/}date", 
+                "text": "2014-10-16"
+            }, 
+            {
+                "xpath": "{http://www.openarchives.org/OAI/2.0/}OAI-PMH/{http://www.openarchives.org/OAI/2.0/}ListRecords/{http://www.openarchives.org/OAI/2.0/}record/{http://www.openarchives.org/OAI/2.0/}metadata/{http://www.openarchives.org/OAI/2.0/oai_dc/}dc/{http://purl.org/dc/elements/1.1/}subject", 
+                "text": "cc-by"
+            }, 
+            {
+                "xpath": "{http://www.openarchives.org/OAI/2.0/}OAI-PMH/{http://www.openarchives.org/OAI/2.0/}ListRecords/{http://www.openarchives.org/OAI/2.0/}record/{http://www.openarchives.org/OAI/2.0/}metadata/{http://www.openarchives.org/OAI/2.0/oai_dc/}dc/{http://purl.org/dc/elements/1.1/}identifier", 
+                "text": "http://zenodo.org/record/12475"
+            }, 
+            {
+                "xpath": "{http://www.openarchives.org/OAI/2.0/}OAI-PMH/{http://www.openarchives.org/OAI/2.0/}ListRecords/{http://www.openarchives.org/OAI/2.0/}record/{http://www.openarchives.org/OAI/2.0/}metadata/{http://www.openarchives.org/OAI/2.0/oai_dc/}dc/{http://purl.org/dc/elements/1.1/}identifier", 
+                "text": "doi:10.5281/zenodo.12475"
+            }, 
+            {
+                "xpath": "{http://www.openarchives.org/OAI/2.0/}OAI-PMH/{http://www.openarchives.org/OAI/2.0/}ListRecords/{http://www.openarchives.org/OAI/2.0/}record/{http://www.openarchives.org/OAI/2.0/}metadata/{http://www.openarchives.org/OAI/2.0/oai_dc/}dc/{http://purl.org/dc/elements/1.1/}description", 
+                "text": "At the University of Porto (U.Porto) both repository and CRIS are being used as part of the local e-infrastructure. U.Porto Open Repository is the largest institutional repository on RCAAP, the Portuguese Open Access Scientific Repository, hosting 32.616 full text CC-BY works as of September 2014. SIGARRA-CRIS and U.Porto Open Repository are interoperable. When on the SIGARRA-CRIS the full text of a publication is registered and available on a CC BY basis both the corresponding metadata and the digital object are automatically transferred to the U.Porto Open Repository."
+            }, 
+            {
+                "xpath": "{http://www.openarchives.org/OAI/2.0/}OAI-PMH/{http://www.openarchives.org/OAI/2.0/}ListRecords/{http://www.openarchives.org/OAI/2.0/}record/{http://www.openarchives.org/OAI/2.0/}metadata/{http://www.openarchives.org/OAI/2.0/oai_dc/}dc/{http://purl.org/dc/elements/1.1/}rights", 
+                "text": "info:eu-repo/semantics/openAccess"
+            }, 
+            {
+                "xpath": "{http://www.openarchives.org/OAI/2.0/}OAI-PMH/{http://www.openarchives.org/OAI/2.0/}ListRecords/{http://www.openarchives.org/OAI/2.0/}record/{http://www.openarchives.org/OAI/2.0/}metadata/{http://www.openarchives.org/OAI/2.0/oai_dc/}dc/{http://purl.org/dc/elements/1.1/}type", 
+                "text": "info:eu-repo/semantics/article"
+            }, 
+            {
+                "xpath": "{http://www.openarchives.org/OAI/2.0/}OAI-PMH/{http://www.openarchives.org/OAI/2.0/}ListRecords/{http://www.openarchives.org/OAI/2.0/}record/{http://www.openarchives.org/OAI/2.0/}header/{http://www.openarchives.org/OAI/2.0/}identifier", 
+                "text": "oai:zenodo.org:12477"
+            }, 
+            {
+                "xpath": "{http://www.openarchives.org/OAI/2.0/}OAI-PMH/{http://www.openarchives.org/OAI/2.0/}ListRecords/{http://www.openarchives.org/OAI/2.0/}record/{http://www.openarchives.org/OAI/2.0/}header/{http://www.openarchives.org/OAI/2.0/}datestamp", 
+                "text": "2014-10-29T15:19:00Z"
+            }, 
+            {
+                "xpath": "{http://www.openarchives.org/OAI/2.0/}OAI-PMH/{http://www.openarchives.org/OAI/2.0/}ListRecords/{http://www.openarchives.org/OAI/2.0/}record/{http://www.openarchives.org/OAI/2.0/}header/{http://www.openarchives.org/OAI/2.0/}setSpec", 
+                "text": "openaire"
+            }, 
+            {
+                "xpath": "{http://www.openarchives.org/OAI/2.0/}OAI-PMH/{http://www.openarchives.org/OAI/2.0/}ListRecords/{http://www.openarchives.org/OAI/2.0/}record/{http://www.openarchives.org/OAI/2.0/}header/{http://www.openarchives.org/OAI/2.0/}setSpec", 
+                "text": "user-coar"
+            }, 
+            {
+                "xpath": "{http://www.openarchives.org/OAI/2.0/}OAI-PMH/{http://www.openarchives.org/OAI/2.0/}ListRecords/{http://www.openarchives.org/OAI/2.0/}record/{http://www.openarchives.org/OAI/2.0/}metadata/{http://www.openarchives.org/OAI/2.0/oai_dc/}dc", 
+                "attributes": [
+                    {
+                        "xpath": "{http://www.openarchives.org/OAI/2.0/}OAI-PMH/{http://www.openarchives.org/OAI/2.0/}ListRecords/{http://www.openarchives.org/OAI/2.0/}record/{http://www.openarchives.org/OAI/2.0/}metadata/{http://www.openarchives.org/OAI/2.0/oai_dc/}dc/@{http://www.w3.org/2001/XMLSchema-instance}schemaLocation", 
+                        "text": "http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd"
+                    }
+                ]
+            }, 
+            {
+                "xpath": "{http://www.openarchives.org/OAI/2.0/}OAI-PMH/{http://www.openarchives.org/OAI/2.0/}ListRecords/{http://www.openarchives.org/OAI/2.0/}record/{http://www.openarchives.org/OAI/2.0/}metadata/{http://www.openarchives.org/OAI/2.0/oai_dc/}dc/{http://purl.org/dc/elements/1.1/}creator", 
+                "text": "Moreira, Jo o"
+            }, 
+            {
+                "xpath": "{http://www.openarchives.org/OAI/2.0/}OAI-PMH/{http://www.openarchives.org/OAI/2.0/}ListRecords/{http://www.openarchives.org/OAI/2.0/}record/{http://www.openarchives.org/OAI/2.0/}metadata/{http://www.openarchives.org/OAI/2.0/oai_dc/}dc/{http://purl.org/dc/elements/1.1/}title", 
+                "text": "Repository Profile: RCAAP & PTCRIS. COAR Repository Observatory"
+            }, 
+            {
+                "xpath": "{http://www.openarchives.org/OAI/2.0/}OAI-PMH/{http://www.openarchives.org/OAI/2.0/}ListRecords/{http://www.openarchives.org/OAI/2.0/}record/{http://www.openarchives.org/OAI/2.0/}metadata/{http://www.openarchives.org/OAI/2.0/oai_dc/}dc/{http://purl.org/dc/elements/1.1/}date", 
+                "text": "2014-10-16"
+            }, 
+            {
+                "xpath": "{http://www.openarchives.org/OAI/2.0/}OAI-PMH/{http://www.openarchives.org/OAI/2.0/}ListRecords/{http://www.openarchives.org/OAI/2.0/}record/{http://www.openarchives.org/OAI/2.0/}metadata/{http://www.openarchives.org/OAI/2.0/oai_dc/}dc/{http://purl.org/dc/elements/1.1/}subject", 
+                "text": "cc-by"
+            }, 
+            {
+                "xpath": "{http://www.openarchives.org/OAI/2.0/}OAI-PMH/{http://www.openarchives.org/OAI/2.0/}ListRecords/{http://www.openarchives.org/OAI/2.0/}record/{http://www.openarchives.org/OAI/2.0/}metadata/{http://www.openarchives.org/OAI/2.0/oai_dc/}dc/{http://purl.org/dc/elements/1.1/}identifier", 
+                "text": "http://zenodo.org/record/12477"
+            }, 
+            {
+                "xpath": "{http://www.openarchives.org/OAI/2.0/}OAI-PMH/{http://www.openarchives.org/OAI/2.0/}ListRecords/{http://www.openarchives.org/OAI/2.0/}record/{http://www.openarchives.org/OAI/2.0/}metadata/{http://www.openarchives.org/OAI/2.0/oai_dc/}dc/{http://purl.org/dc/elements/1.1/}identifier", 
+                "text": "doi:10.5281/zenodo.12477"
+            }, 
+            {
+                "xpath": "{http://www.openarchives.org/OAI/2.0/}OAI-PMH/{http://www.openarchives.org/OAI/2.0/}ListRecords/{http://www.openarchives.org/OAI/2.0/}record/{http://www.openarchives.org/OAI/2.0/}metadata/{http://www.openarchives.org/OAI/2.0/oai_dc/}dc/{http://purl.org/dc/elements/1.1/}description", 
+                "text": "RCAAP (Repositrio Cientifico de Acesso Aberto de Portugal) is the main instrument for open access development in Portugal. It is a national open access initiative with 42 Institutional Repositories, one shared repository with 30 institutions, 30 Scientific journals and ore than 185.000 OA docs. PTCRIS is a program that aims to ensure the creation and sustained development of a national integrated information ecosystem (PTCRIS) to support research management."
+            }, 
+            {
+                "xpath": "{http://www.openarchives.org/OAI/2.0/}OAI-PMH/{http://www.openarchives.org/OAI/2.0/}ListRecords/{http://www.openarchives.org/OAI/2.0/}record/{http://www.openarchives.org/OAI/2.0/}metadata/{http://www.openarchives.org/OAI/2.0/oai_dc/}dc/{http://purl.org/dc/elements/1.1/}rights", 
+                "text": "info:eu-repo/semantics/openAccess"
+            }, 
+            {
+                "xpath": "{http://www.openarchives.org/OAI/2.0/}OAI-PMH/{http://www.openarchives.org/OAI/2.0/}ListRecords/{http://www.openarchives.org/OAI/2.0/}record/{http://www.openarchives.org/OAI/2.0/}metadata/{http://www.openarchives.org/OAI/2.0/oai_dc/}dc/{http://purl.org/dc/elements/1.1/}type", 
+                "text": "info:eu-repo/semantics/article"
+            }
+        ], 
+        "solr_identifier": "d01af93003bdabef9e4d3c8280cbdc8b", 
+        "source_url": "http://www.zenodo.org/oai2d?verb=ListRecords&metadataPrefix=oai_dc&set=user-coar"
+    }, 
+    "digest": "d01af93003bdabef9e4d3c8280cbdc8b"
+}

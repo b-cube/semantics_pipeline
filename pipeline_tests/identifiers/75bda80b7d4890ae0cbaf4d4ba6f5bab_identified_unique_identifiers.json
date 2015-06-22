@@ -1,0 +1,41 @@
+{
+    "content": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <?xml-model href=\"http://pds.jpl.nasa.gov/pds4/schema/released/pds/v1/PDS4_PDS_1201.sch\"?> <Product_Context xmlns=\"http://pds.nasa.gov/pds4/pds/v1\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://pds.nasa.gov/pds4/pds/v1 http://pds.jpl.nasa.gov/pds4/schema/released/pds/v1/PDS4_PDS_1201.xsd\"> <Identification_Area> <logical_identifier>urn:nasa:pds:context:instrument:instrument.atm__wff</logical_identifier> <version_id>1.0</version_id> <title>WALLOPS/GSFC AIRBORNE TOPOGRAPHIC MAPPER for WFF</title> <information_model_version>1.2.0.1</information_model_version> <product_class>Product_Context</product_class> <Modification_History> <Modification_Detail> <modification_date>2014-05-21</modification_date> <version_id>1.0</version_id> <description> extracted metadata from PDS3 catalog and modified to comply with PDS4 Information Model </description> </Modification_Detail> </Modification_History> </Identification_Area> <Reference_List> <Internal_Reference> <lidvid_reference>urn:nasa:pds:context:instrument_host:instrument_host.wff::1.0</lidvid_reference> <reference_type>instrument_to_instrument_host</reference_type> </Internal_Reference> <External_Reference> <reference_text>reference.KRABILLETAL1995</reference_text> <description> Krabill, W.B., R.H. Thomas, C.F. Martin, R.N. Swift, and E.B. Frederick, Accuracy of airborne laser altimetry over the Greenland ice sheet, Int. J. Remote Sens., Vol. 16, pp. 1211-1222, 2002. </description> </External_Reference> <External_Reference> <reference_text>reference.KRABILLETAL2002</reference_text> <description> Krabill, W.B., W. Abdalati, E.B. Frederick, S.S. Manizade, C.F. Martin, J.G. Sonntag, R.N. Swift, R.H. Thomas, and J.G. Yungel, Aircraft laser altimetry measurement of elevation changes of the Greenland ice sheet: technique and accuracy assessment, J. Geodynamics, Vol. 34, pp. 357-376, 2002. </description> </External_Reference> <External_Reference> <reference_text>reference.MEREDITHETAL1998</reference_text> <description> Meredith, A.W. et al., An Assessment of NASA&apos;s Airborne Topographic Mapper Instrument for Beach Topographic Mapping at Duck, North Carolina, Version 1.0, United States Department of Commerce, National Oceanic and Atmospheric Administration Coastal Services Center, Charleston, SC, CSC/9-98/001, 1998. </description> </External_Reference> </Reference_List> <Instrument> <name>WALLOPS/GSFC AIRBORNE TOPOGRAPHIC MAPPER</name> <type>Altimeter</type> <naif_instrument_id>not applicable</naif_instrument_id> <serial_number>not applicable</serial_number> <description> Instrument Overview =================== The following information comes from the ATM website (http://atm.wff.nasa.gov/): &apos;The Airborne Topographic Mapper (ATM) is a scanning LIDAR developed and used by NASA for observing the Earth&apos;s topography for several scientific applications, foremost of which is the measurement of changing arctic and antarctic icecaps and glaciers. It typically flies on aircraft at an altitude between 400 and 800 meters above ground level, and measures topography to an accuracy of ten to twenty centimeters by incorporating measurements from GPS (global positioning system) receivers and inertial navigation system (INS) attitude sensors. The current ATM is the latest in a series of instruments that trace their history back to the Airborne Oceanographic Lidar (AOL) project, which was conceived in 1975 as an airborne testbed for new applications of laser remote sensing. The topographic mapping and ocean fluorosensing functions of the AOL were separated in 1994 when the old AOL hardware was replaced by two new systems, now known as the ATM and the AOL. The ATM instruments commonly fly aboard the NASA P3-B based at Wallops Flight Facility, Virginia, and aboard several twin-otter (DHC-6) aircraft. A major task of the ATM since 1993 has been the measurement of the Greenland ice sheet with the goal of determining changes in the ice sheet elevation. Other uses have included verification of satellite altimeters, and the measurement of sea-ice thickness. The altimeter often flies in conjunction with other instruments, and has been used to measure sea-surface elevation and ocean wave characteristics. New applications are always being investigated.&apos; See [KRABILLETAL2002], [KRABILLETAL1995], and [MEREDITHETAL1998] for more information. </description> </Instrument> </Product_Context>", 
+    "sha": "d16739b3b4ebeae2999d97cecdfa5998bd79f37c3344afdd3ad0e7b3", 
+    "identity": {
+        "is_error": false, 
+        "protocol": "PDS", 
+        "language": "", 
+        "service": "", 
+        "has_dataset": false, 
+        "has_metadata": false, 
+        "subtype": "service", 
+        "version": ""
+    }, 
+    "identifiers": [
+        [
+            [
+                "urn", 
+                "urn:nasa:pds:context:instrument_host:instrument_host.wff::1.0"
+            ], 
+            [
+                "urn", 
+                "urn:nasa:pds:context:instrument:instrument.atm__wff"
+            ], 
+            [
+                "url", 
+                "https://starbase.jpl.nasa.gov/pds4/1201/PDS4_context_bundle_20140521/context_instrument/PDS4_201405/PDS4_inst_ATM"
+            ], 
+            [
+                "url", 
+                "http://atm.wff.nasa.gov/):"
+            ], 
+            [
+                "urn", 
+                "(http://atm.wff.nasa.gov/)"
+            ]
+        ], 
+        []
+    ], 
+    "digest": "75bda80b7d4890ae0cbaf4d4ba6f5bab", 
+    "source_url": "https://starbase.jpl.nasa.gov/pds4/1201/PDS4_context_bundle_20140521/context_instrument/PDS4_201405/PDS4_inst_ATM__WFF.xml"
+}

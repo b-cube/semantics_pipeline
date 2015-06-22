@@ -1,0 +1,83 @@
+{
+    "source_url": "http://disc1.sci.gsfc.nasa.gov/daac-bin/wms_trmm?service=wms&version=1.1.1&request=getcapabilities", 
+    "sha": "7bad507a55a4d9e5320f4b2d07220116f800d596bc7e2e23dacf7716", 
+    "identity": {
+        "is_error": false, 
+        "protocol": "OGC:WMS", 
+        "language": "", 
+        "service": "GetCapabilities", 
+        "has_dataset": false, 
+        "has_metadata": false, 
+        "subtype": "service", 
+        "version": "1.1.1"
+    }, 
+    "service_description": {
+        "solr_identifier": "84c091d6bac15a5c268ff056483291b9", 
+        "service": {
+            "endpoints": [
+                {
+                    "mimeType": [
+                        "application/vnd.ogc.wms_xml"
+                    ], 
+                    "protocol": "HTTP GET", 
+                    "name": "GetCapabilities", 
+                    "parameters": [
+                        {
+                            "type": "string", 
+                            "name": "service"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "request"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "version"
+                        }, 
+                        {}
+                    ], 
+                    "url": "http://disc1.sci.gsfc.nasa.gov/daac-bin/wms_trmm?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetCapabilities", 
+                    "actionable": 1
+                }, 
+                {
+                    "mimeType": [
+                        "application/vnd.ogc.wms_xml"
+                    ], 
+                    "protocol": "HTTP POST", 
+                    "name": "GetCapabilities", 
+                    "parameters": [
+                        {
+                            "type": "string", 
+                            "name": "service"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "request"
+                        }, 
+                        {
+                            "type": "string", 
+                            "name": "version"
+                        }, 
+                        {}
+                    ], 
+                    "url": "http://disc1.sci.gsfc.nasa.gov/daac-bin/wms_trmm?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetCapabilities", 
+                    "actionable": 1
+                }
+            ], 
+            "abstract": [
+                null
+            ], 
+            "rights": [
+                null
+            ], 
+            "contact": [
+                null
+            ], 
+            "title": [
+                "Tropical Rainfall Measuring Mission (TRMM) Data from NASA Goddard Earth Sciences Data and Information Services Center (GES DISC)"
+            ]
+        }, 
+        "source_url": "http://disc1.sci.gsfc.nasa.gov/daac-bin/wms_trmm?service=wms&version=1.1.1&request=getcapabilities"
+    }, 
+    "digest": "84c091d6bac15a5c268ff056483291b9"
+}

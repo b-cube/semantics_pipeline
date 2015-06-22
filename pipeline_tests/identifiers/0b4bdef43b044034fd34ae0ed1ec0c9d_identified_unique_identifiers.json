@@ -1,0 +1,25 @@
+{
+    "content": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <dataCollection> <title>Contiguous U.S. Maximum Temperature Rankings, September 2014</title> <units>Degrees Fahrenheit</units> <data> <period>1</period> <value>78.26</value> <twentiethCenturyMean>77.81</twentiethCenturyMean> <departure>0.45</departure> <lowRank>68</lowRank> <highRank>53</highRank> <recordLow>1965</recordLow> <recordHigh>1998</recordHigh> <lowestSince>2008</lowestSince> <highestSince>2013</highestSince> <percentile>normal</percentile> <ties></ties> </data> </dataCollection>", 
+    "sha": "95872849fd2c154005cf4a42f7ad21a4352e73331b7e85ea5400ed64", 
+    "identity": {
+        "is_error": false, 
+        "protocol": "", 
+        "language": "", 
+        "service": "", 
+        "has_dataset": false, 
+        "has_metadata": false, 
+        "subtype": "", 
+        "version": ""
+    }, 
+    "identifiers": [
+        [
+            [
+                "url", 
+                "http://www.ncdc.noaa.gov/temp-and-precip/climatological-rankings/download.xml"
+            ]
+        ], 
+        []
+    ], 
+    "digest": "0b4bdef43b044034fd34ae0ed1ec0c9d", 
+    "source_url": "http://www.ncdc.noaa.gov/temp-and-precip/climatological-rankings/download.xml?parameter=tmax&state=110&div=0&month=9&periods[]=1&year=2014"
+}

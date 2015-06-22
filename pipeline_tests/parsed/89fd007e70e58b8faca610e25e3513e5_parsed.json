@@ -1,0 +1,89 @@
+{
+    "source_url": "http://coast.noaa.gov/arcgis/services/ENOW_StoryMaps/OceanEmployment/MapServer/WMSServer?request=GetCapabilities&service=WMS", 
+    "sha": "092b3ea33001758bf9eff957baab5c90883f43948e963d40cad8a01d", 
+    "identity": {
+        "is_error": false, 
+        "protocol": "OGC:WMS", 
+        "language": "", 
+        "service": "GetCapabilities", 
+        "has_dataset": false, 
+        "has_metadata": false, 
+        "subtype": "service", 
+        "version": "1.3.0"
+    }, 
+    "service_description": {
+        "solr_identifier": "89fd007e70e58b8faca610e25e3513e5", 
+        "service": {
+            "rights": [
+                "None"
+            ], 
+            "abstract": [
+                "This is a map service for a story map on the ocean economy and total economy. NOAA provides the information as-is and shall incur no responsibility or liability as to the completeness or accuracy of this information."
+            ], 
+            "title": [
+                "Percent Ocean Employment (2011)"
+            ], 
+            "contact": [
+                "coastal.info@noaa.gov"
+            ], 
+            "endpoints": [
+                {
+                    "mimeType": [
+                        "application/vnd.ogc.wms_xml", 
+                        "text/xml"
+                    ], 
+                    "protocol": "HTTP GET", 
+                    "name": "GetCapabilities", 
+                    "url": "http://coast.noaa.gov/arcgis/services/ENOW_StoryMaps/OceanEmployment/MapServer/WmsServer?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetCapabilities", 
+                    "actionable": 1
+                }, 
+                {
+                    "mimeType": [
+                        "image/bmp", 
+                        "image/jpeg", 
+                        "image/tiff", 
+                        "image/png", 
+                        "image/png8", 
+                        "image/png24", 
+                        "image/png32", 
+                        "image/gif", 
+                        "image/svg+xml"
+                    ], 
+                    "protocol": "HTTP GET", 
+                    "name": "GetMap", 
+                    "url": "http://coast.noaa.gov/arcgis/services/ENOW_StoryMaps/OceanEmployment/MapServer/WmsServer?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap", 
+                    "actionable": 2
+                }, 
+                {
+                    "mimeType": [
+                        "application/vnd.esri.wms_raw_xml", 
+                        "application/vnd.esri.wms_featureinfo_xml", 
+                        "application/vnd.ogc.wms_xml", 
+                        "application/geojson", 
+                        "text/xml", 
+                        "text/html", 
+                        "text/plain"
+                    ], 
+                    "protocol": "HTTP GET", 
+                    "name": "GetFeatureInfo", 
+                    "url": "http://coast.noaa.gov/arcgis/services/ENOW_StoryMaps/OceanEmployment/MapServer/WmsServer?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetFeatureInfo", 
+                    "actionable": 2
+                }, 
+                {
+                    "mimeType": [
+                        "application/vnd.ogc.sld+xml"
+                    ], 
+                    "protocol": "HTTP GET", 
+                    "name": "GetStyles", 
+                    "url": "http://coast.noaa.gov/arcgis/services/ENOW_StoryMaps/OceanEmployment/MapServer/WmsServer?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetStyles", 
+                    "actionable": 2
+                }
+            ], 
+            "subject": [
+                "ocean employment, ocean jobs, employment, enow"
+            ]
+        }, 
+        "source_url": "http://coast.noaa.gov/arcgis/services/ENOW_StoryMaps/OceanEmployment/MapServer/WMSServer?request=GetCapabilities&service=WMS"
+    }, 
+    "digest": "89fd007e70e58b8faca610e25e3513e5"
+}

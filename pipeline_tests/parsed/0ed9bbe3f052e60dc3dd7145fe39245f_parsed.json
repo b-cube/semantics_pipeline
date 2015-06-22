@@ -1,0 +1,195 @@
+{
+    "source_url": "http://coastwatch.pfeg.noaa.gov/erddap/opensearch1.1/description.xml", 
+    "sha": "6986f8e38053c9af35feef1d150bb5e51652cab1b5b91e267d4006ba", 
+    "identity": {
+        "is_error": false, 
+        "protocol": "OpenSearch", 
+        "language": "en-us", 
+        "service": "OpenSearchDescription", 
+        "has_dataset": false, 
+        "has_metadata": false, 
+        "subtype": "service", 
+        "version": "1.1"
+    }, 
+    "service_description": {
+        "remainder": [
+            {
+                "xpath": "{http://a9.com/-/spec/opensearch/1.1/}OpenSearchDescription/{http://a9.com/-/spec/opensearch/1.1/}Contact", 
+                "text": "bob.simons@noaa.gov"
+            }, 
+            {
+                "xpath": "{http://a9.com/-/spec/opensearch/1.1/}OpenSearchDescription/{http://a9.com/-/spec/opensearch/1.1/}Image", 
+                "text": "http://coastwatch.pfeg.noaa.gov/erddap/images/nlogo.gif", 
+                "attributes": [
+                    {
+                        "xpath": "{http://a9.com/-/spec/opensearch/1.1/}OpenSearchDescription/{http://a9.com/-/spec/opensearch/1.1/}Image/@height", 
+                        "text": "56"
+                    }, 
+                    {
+                        "xpath": "{http://a9.com/-/spec/opensearch/1.1/}OpenSearchDescription/{http://a9.com/-/spec/opensearch/1.1/}Image/@width", 
+                        "text": "55"
+                    }
+                ]
+            }, 
+            {
+                "xpath": "{http://a9.com/-/spec/opensearch/1.1/}OpenSearchDescription/{http://a9.com/-/spec/opensearch/1.1/}Image", 
+                "text": "http://coastwatch.pfeg.noaa.gov/erddap/images/noaa_simple.gif", 
+                "attributes": [
+                    {
+                        "xpath": "{http://a9.com/-/spec/opensearch/1.1/}OpenSearchDescription/{http://a9.com/-/spec/opensearch/1.1/}Image/@height", 
+                        "text": "313"
+                    }, 
+                    {
+                        "xpath": "{http://a9.com/-/spec/opensearch/1.1/}OpenSearchDescription/{http://a9.com/-/spec/opensearch/1.1/}Image/@width", 
+                        "text": "313"
+                    }
+                ]
+            }, 
+            {
+                "xpath": "{http://a9.com/-/spec/opensearch/1.1/}OpenSearchDescription/{http://a9.com/-/spec/opensearch/1.1/}Image", 
+                "text": "http://coastwatch.pfeg.noaa.gov/erddap/images/noaa20.gif", 
+                "attributes": [
+                    {
+                        "xpath": "{http://a9.com/-/spec/opensearch/1.1/}OpenSearchDescription/{http://a9.com/-/spec/opensearch/1.1/}Image/@height", 
+                        "text": "20"
+                    }, 
+                    {
+                        "xpath": "{http://a9.com/-/spec/opensearch/1.1/}OpenSearchDescription/{http://a9.com/-/spec/opensearch/1.1/}Image/@width", 
+                        "text": "20"
+                    }
+                ]
+            }, 
+            {
+                "xpath": "{http://a9.com/-/spec/opensearch/1.1/}OpenSearchDescription/{http://a9.com/-/spec/opensearch/1.1/}Query", 
+                "attributes": [
+                    {
+                        "xpath": "{http://a9.com/-/spec/opensearch/1.1/}OpenSearchDescription/{http://a9.com/-/spec/opensearch/1.1/}Query/@role", 
+                        "text": "example"
+                    }, 
+                    {
+                        "xpath": "{http://a9.com/-/spec/opensearch/1.1/}OpenSearchDescription/{http://a9.com/-/spec/opensearch/1.1/}Query/@searchTerms", 
+                        "text": "temperature"
+                    }
+                ]
+            }, 
+            {
+                "xpath": "{http://a9.com/-/spec/opensearch/1.1/}OpenSearchDescription/{http://a9.com/-/spec/opensearch/1.1/}AdultContent", 
+                "text": "false"
+            }, 
+            {
+                "xpath": "{http://a9.com/-/spec/opensearch/1.1/}OpenSearchDescription/{http://a9.com/-/spec/opensearch/1.1/}Language", 
+                "text": "en-us"
+            }, 
+            {
+                "xpath": "{http://a9.com/-/spec/opensearch/1.1/}OpenSearchDescription/{http://a9.com/-/spec/opensearch/1.1/}InputEncoding", 
+                "text": "UTF-8"
+            }, 
+            {
+                "xpath": "{http://a9.com/-/spec/opensearch/1.1/}OpenSearchDescription/{http://a9.com/-/spec/opensearch/1.1/}OutputEncoding", 
+                "text": "UTF-8"
+            }
+        ], 
+        "solr_identifier": "0ed9bbe3f052e60dc3dd7145fe39245f", 
+        "service": {
+            "title": [
+                "ERDDAP"
+            ], 
+            "abstract": [
+                "ERDDAP", 
+                "The ERDDAP at NOAA NMFS SWFSC Environmental Research Division is a data server that gives you a simple, consistent way to download subsets of scientific datasets in common file formats and make graphs and maps."
+            ], 
+            "rights": [
+                "open"
+            ], 
+            "source": [
+                "NOAA NMFS SWFSC Environmental Research Division"
+            ], 
+            "contact": [
+                "Bob Simons (bob.simons at noaa.gov)"
+            ], 
+            "endpoints": [
+                {
+                    "url": "http://coastwatch.pfeg.noaa.gov/erddap/opensearch1.1/search?searchTerms={searchTerms}&page={startPage?}&itemsPerPage={count?}&format=atom", 
+                    "protocol": "application/atom+xml", 
+                    "parameters": [
+                        {
+                            "type": "{count?}", 
+                            "name": "itemsPerPage", 
+                            "namespaces": {
+                                "xml": "http://www.w3.org/XML/1998/namespace", 
+                                "default": "http://a9.com/-/spec/opensearch/1.1/"
+                            }
+                        }, 
+                        {
+                            "type": "{startPage?}", 
+                            "name": "page", 
+                            "namespaces": {
+                                "xml": "http://www.w3.org/XML/1998/namespace", 
+                                "default": "http://a9.com/-/spec/opensearch/1.1/"
+                            }
+                        }, 
+                        {
+                            "type": "{searchTerms}", 
+                            "name": "searchTerms", 
+                            "namespaces": {
+                                "xml": "http://www.w3.org/XML/1998/namespace", 
+                                "default": "http://a9.com/-/spec/opensearch/1.1/"
+                            }
+                        }, 
+                        {
+                            "type": "atom", 
+                            "name": "format", 
+                            "namespaces": {
+                                "xml": "http://www.w3.org/XML/1998/namespace", 
+                                "default": "http://a9.com/-/spec/opensearch/1.1/"
+                            }
+                        }
+                    ]
+                }, 
+                {
+                    "url": "http://coastwatch.pfeg.noaa.gov/erddap/opensearch1.1/search?searchTerms={searchTerms}&page={startPage?}&itemsPerPage={count?}&format=rss", 
+                    "protocol": "application/rss+xml", 
+                    "parameters": [
+                        {
+                            "type": "{count?}", 
+                            "name": "itemsPerPage", 
+                            "namespaces": {
+                                "xml": "http://www.w3.org/XML/1998/namespace", 
+                                "default": "http://a9.com/-/spec/opensearch/1.1/"
+                            }
+                        }, 
+                        {
+                            "type": "{startPage?}", 
+                            "name": "page", 
+                            "namespaces": {
+                                "xml": "http://www.w3.org/XML/1998/namespace", 
+                                "default": "http://a9.com/-/spec/opensearch/1.1/"
+                            }
+                        }, 
+                        {
+                            "type": "{searchTerms}", 
+                            "name": "searchTerms", 
+                            "namespaces": {
+                                "xml": "http://www.w3.org/XML/1998/namespace", 
+                                "default": "http://a9.com/-/spec/opensearch/1.1/"
+                            }
+                        }, 
+                        {
+                            "type": "rss", 
+                            "name": "format", 
+                            "namespaces": {
+                                "xml": "http://www.w3.org/XML/1998/namespace", 
+                                "default": "http://a9.com/-/spec/opensearch/1.1/"
+                            }
+                        }
+                    ]
+                }
+            ], 
+            "subject": [
+                "atmosphere biology biosphere earth environment ocean science"
+            ]
+        }, 
+        "source_url": "http://coastwatch.pfeg.noaa.gov/erddap/opensearch1.1/description.xml"
+    }, 
+    "digest": "0ed9bbe3f052e60dc3dd7145fe39245f"
+}
