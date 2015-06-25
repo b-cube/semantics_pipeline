@@ -3,19 +3,19 @@ import json
 import re
 from tasks.parse_tasks import ParseTask
 # from tasks.parse_tasks import ExtractXmlTask
-from lib.parser import Parser
-from lib.nlp_utils import normalize_subjects
-from lib.nlp_utils import is_english
-from lib.nlp_utils import collapse_to_bag
-from lib.nlp_utils import remove_punctuation
-from lib.nlp_utils import remove_stopwords
-from lib.nlp_utils import remove_tokens
-from lib.nlp_utils import remove_numeric
-from lib.nlp_utils import tokenize, tokenize_text
+from semproc.parser import Parser
+from semproc.nlp_utils import normalize_subjects
+from semproc.nlp_utils import is_english
+from semproc.nlp_utils import collapse_to_bag
+from semproc.nlp_utils import remove_punctuation
+from semproc.nlp_utils import remove_stopwords
+from semproc.nlp_utils import remove_tokens
+from semproc.nlp_utils import remove_numeric
+from semproc.nlp_utils import tokenize, tokenize_text
 from task_helpers import parse_yaml, extract_task_config
 from task_helpers import generate_output_filename
 from task_helpers import read_data
-from lib.unique_identifiers import extract_identifiers
+from semproc.unique_identifiers import extract_identifiers
 
 '''
 text processing tasks

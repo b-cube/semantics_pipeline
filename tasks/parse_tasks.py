@@ -1,9 +1,9 @@
 import luigi
-from lib.rawresponse import RawResponse
-from lib.parser import Parser
-from lib.identifier import Identify
-from lib.process_router import Processor
-from lib.utils import generate_sha
+from semproc.rawresponse import RawResponse
+from semproc.parser import Parser
+from semproc.identifier import Identify
+from semproc.process_router import Processor
+from semproc.utils import generate_sha
 import json
 from task_helpers import parse_yaml, extract_task_config
 from task_helpers import read_data, generate_output_filename

@@ -1,7 +1,7 @@
 import os
 import yaml
 import json
-from lib.yaml_configs import import_yaml_configs
+from semproc.yaml_configs import import_yaml_configs
 
 '''
 general task methods
