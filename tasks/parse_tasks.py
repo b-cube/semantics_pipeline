@@ -2,9 +2,10 @@ import luigi
 from semproc.rawresponse import RawResponse
 from semproc.parser import Parser
 from semproc.identifier import Identify
-from semproc.process_router import Processor
+from semproc.process_router import Router
 from semproc.utils import generate_sha
 import json
+import glob
 from task_helpers import parse_yaml, extract_task_config
 from task_helpers import read_data, generate_output_filename
 import subprocess
@@ -76,7 +77,8 @@ class ExtractXmlTask(luigi.Task):
     output_path = ''
 
     def requires(self):
-        return ResponseTask(input_file=self.input_file, yaml_file=self.yaml_file)
+        return ResponseTask(
+            input_file=self.input_file, yaml_file=self.yaml_file)
 
     def output(self):
         return luigi.LocalTarget(
@@ -117,7 +119,8 @@ class IdentifyTask(luigi.Task):
     identifiers = []
 
     def requires(self):
-        return ResponseTask(input_file=self.input_file, yaml_file=self.yaml_file)
+        return ResponseTask(
+            input_file=self.input_file, yaml_file=self.yaml_file)
 
     def output(self):
         return luigi.LocalTarget(
@@ -144,21 +147,23 @@ class IdentifyTask(luigi.Task):
         config = parse_yaml(self.yaml_file)
         config = extract_task_config(config, 'Identify')
         self.output_path = config.get('output_directory', '')
-        self.identifiers = config.get('identifiers', [])
+
+        if 'identifiers' in config:
+            if isinstance(config['identifiers'], list):
+                self.identifiers = config.get('identifiers', [])
+            else:
+                self.identifiers = glob.glob(config['identifiers'])
 
     def process_response(self, data):
         content = data['content'].encode('unicode_escape')
         url = data['source_url']
-        parser = Parser(content)
 
         identify = Identify(
             self.identifiers,
             content,
-            url,
-            **{'parser': parser, 'ignore_case': True}
+            url
         )
-        identify.identify()
-        data['identity'] = identify.to_json()
+        data['identity'] = identify.identify()
         return data
 
 
@@ -170,7 +175,8 @@ class ParseTask(luigi.Task):
     params = {}
 
     def requires(self):
-        return IdentifyTask(input_file=self.input_file, yaml_file=self.yaml_file)
+        return IdentifyTask(
+            input_file=self.input_file, yaml_file=self.yaml_file)
 
     def output(self):
         return luigi.LocalTarget(
@@ -208,7 +214,7 @@ class ParseTask(luigi.Task):
         #     print '######### not identified'
         #     return {}
 
-        processor = Processor(identity, content, url)
+        processor = Router(identity, content, url)
         if not processor:
             print '######### no processor'
             return {}
