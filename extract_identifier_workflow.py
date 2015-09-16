@@ -3,7 +3,7 @@ import glob
 import os
 from tasks.task_helpers import parse_yaml
 from tasks.task_helpers import run_init
-from tasks.text_tasks import ExtractIdentifiersTask
+# from tasks.text_tasks import ExtractIdentifiersTask
 
 
 class ExtractIdentifierWorkflow(luigi.Task):
@@ -15,10 +15,10 @@ class ExtractIdentifierWorkflow(luigi.Task):
 
     def requires(self):
         return [
-            ExtractIdentifiersTask(
-                input_file=f,
-                yaml_file=self.yaml_file
-            ) for f in self._iterator()
+            # ExtractIdentifiersTask(
+            #     input_file=f,
+            #     yaml_file=self.yaml_file
+            # ) for f in self._iterator()
         ]
 
     def output(self):

@@ -15,7 +15,7 @@ from semproc.nlp_utils import tokenize, tokenize_text
 from task_helpers import parse_yaml, extract_task_config
 from task_helpers import generate_output_filename
 from task_helpers import read_data
-from semproc.unique_identifiers import extract_identifiers
+# from semproc.unique_identifiers import extract_identifiers
 
 '''
 text processing tasks
@@ -333,7 +333,9 @@ class ExtractIdentifiersTask(luigi.Task):
         # extract things and default to handling in-element html
         url = data['source_url']
         content = data['content']
-        identifiers = extract_identifiers(url, content, True)
+        # TODO: reset this once the extraction code is functional
+        # identifiers = extract_identifiers(url, content, True)
+        identifiers = []
 
         data.update({'identifiers': identifiers[0], 'possible_match': identifiers[1]})
         return data
