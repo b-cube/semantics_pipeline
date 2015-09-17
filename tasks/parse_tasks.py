@@ -233,7 +233,8 @@ class ParseTask(luigi.Task):
 
         print '################## Parsed #####'
 
-        description = processor.reader.parse()
+        processor.reader.parse()
+        description = processor.reader.description
         description['solr_identifier'] = data['sha']
         description['source_url'] = url
 
