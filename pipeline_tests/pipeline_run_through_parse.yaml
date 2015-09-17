@@ -6,21 +6,23 @@ Clean:
 
 Identify:
   identifiers:
-    - rdf_identifier.yaml
-    - ogc_identifier.yaml
-    - opensearch_identifier.yaml
-    - iso_identifier.yaml
-    - oaipmh_identifier.yaml
-    - thredds_identifier.yaml
-    - atom_identifier.yaml
     - dc_identifier.yaml
     - dif_identifier.yaml
-    - fgdc_identifier.yaml
     - extra_identifier.yaml
+    - feed_identifier.yaml
+    - fgdc_identifier.yaml
+    - iso_identifier.yaml
+    - oaipmh_identifier.yaml
+    - ogc_identifier.yaml
     - opendap_identifier.yaml
-    - wsdl_identifier.yaml
+    - opensearch_identifier.yaml
+    - rdf_identifier.yaml
+    - thredds_identifier.yaml
     - wadl_identifier.yaml
+    - wsdl_identifier.yaml
   output_directory: 'pipeline_tests/identified'
 
 Parse:
   output_directory: 'pipeline_tests/parsed'
+
+
