@@ -225,6 +225,7 @@ class ParseTask(luigi.Task):
         #     print '######### not identified'
         #     return {}
 
+        # TODO: update this for the identity as list
         processor = Router(identity, content, url)
         if not processor:
             print '######### no processor'
@@ -232,7 +233,7 @@ class ParseTask(luigi.Task):
 
         print '################## Parsed #####'
 
-        description = processor.reader.parse_service()
+        description = processor.reader.parse()
         description['solr_identifier'] = data['digest']
         description['source_url'] = url
 
