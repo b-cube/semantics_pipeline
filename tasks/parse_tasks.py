@@ -234,7 +234,7 @@ class ParseTask(luigi.Task):
         print '################## Parsed #####'
 
         description = processor.reader.parse()
-        description['solr_identifier'] = data['digest']
+        description['solr_identifier'] = data['sha']
         description['source_url'] = url
 
         # drop the source for a decent non-xml embedded in my json file
