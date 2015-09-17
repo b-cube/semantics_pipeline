@@ -6,6 +6,7 @@ from semproc.process_router import Router
 from semproc.utils import generate_sha
 import json
 import glob
+import os
 from task_helpers import parse_yaml, extract_task_config
 from task_helpers import read_data, generate_output_filename
 import subprocess
@@ -143,6 +144,12 @@ class IdentifyTask(luigi.Task):
         with self.output().open('w') as out_file:
             out_file.write(json.dumps(identified, indent=4))
 
+    def _locate_in_configs(self, filename):
+        return os.path.join(
+            os.path.abspath(os.path.dirname(__file__)),
+            'configs'
+        )
+
     def _configure(self):
         config = parse_yaml(self.yaml_file)
         config = extract_task_config(config, 'Identify')
@@ -150,9 +157,12 @@ class IdentifyTask(luigi.Task):
 
         if 'identifiers' in config:
             if isinstance(config['identifiers'], list):
-                self.identifiers = config.get('identifiers', [])
+                identifiers = config.get('identifiers', [])
+                self.identifiers = [
+                    self._locate_in_configs(i) for i in identifiers]
             else:
-                self.identifiers = glob.glob(config['identifiers'])
+                # self.identifiers = glob.glob(config['identifiers'])
+                raise Exception('identifier file list not found')
 
     def process_response(self, data):
         content = data['content'].encode('unicode_escape')
