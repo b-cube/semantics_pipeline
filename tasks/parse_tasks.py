@@ -147,7 +147,8 @@ class IdentifyTask(luigi.Task):
     def _locate_in_configs(self, filename):
         return os.path.join(
             os.path.abspath(os.path.dirname(__file__)),
-            'configs'
+            'configs',
+            filename
         )
 
     def _configure(self):
