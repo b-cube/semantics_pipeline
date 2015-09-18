@@ -281,6 +281,9 @@ class TripleTask(luigi.Task):
         self.params = config.get('params', {})
 
     def process_response(self, data):
+        description = data.get('service_description', {})
+        if not description:
+            return ''
         graph = RdfGrapher(data)
         graph.serialize()
         return graph.emit_format()
