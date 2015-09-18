@@ -1,0 +1,41 @@
+{
+    "url_hash": "3583ca3a2a19a6b3ddde05f9fd2c20b1a8075249", 
+    "anchor": [
+        "Display \"CGCM3_A2_y2060.metadata.xml\""
+    ], 
+    "response_headers": [
+        "ETag: \"14ca-49f015f63c3c0-gzip\"", 
+        "Content-Length: 2101", 
+        "Last-Modified: Mon, 21 Mar 2011 17:22:31 GMT", 
+        "_fst_: 33", 
+        "nutch.segment.name: 20150717055813", 
+        "Connection: close", 
+        "Server: Apache/2.4.7 (Ubuntu)", 
+        "nutch.content.digest: a2e602adae3681ad632674948c92d8f7", 
+        "Date: Fri, 17 Jul 2015 05:54:14 GMT", 
+        "Vary: Accept-Encoding", 
+        "Content-Encoding: gzip", 
+        "Accept-Ranges: bytes", 
+        "Content-Type: application/xml"
+    ], 
+    "inlinks": [
+        "http://forest.moscowfsl.wsu.edu/climate/species/speciesDist/Emory-oak/"
+    ], 
+    "url": "http://forest.moscowfsl.wsu.edu/climate/species/speciesDist/Emory-oak/CGCM3_A2_y2060.metadata.xml", 
+    "lastModified": "2011-03-21T17:22:31Z", 
+    "contentLength": "2101", 
+    "segment": "20150717055813", 
+    "tstamp": "2015-07-17T06:01:13.635Z", 
+    "host": "forest.moscowfsl.wsu.edu", 
+    "type": [
+        "application/xml"
+    ], 
+    "date": "2011-03-21T17:22:31Z", 
+    "raw_content": "<?xml version=\"1.0\"?>\n<?xml-stylesheet href='../../../shared/NBII_classic.xsl' type='text/xsl'?>\n<metadata>\n  <idinfo>\n    <citation>\n      <citeinfo>\n        <origin>Nicholas L. Crookston</origin>\n        <pubdate> 2009-03-04</pubdate>\n        <pubtime></pubtime>\n        <title>Species-Climate Profile for Emory oak (Quercus emoryi)</title>\n        <edition></edition>\n        <geoform>raster digital data</geoform>\n        <serinfo>\n          <sername>Tree Species Climate Profiles</sername>\n          <issue></issue>\n        </serinfo>\n        <pubinfo>\n          <pubplace>Moscow, ID</pubplace>\n          <publish>Rocky Mountain Research Station</publish>\n        </pubinfo>\n        <othercit></othercit>\n        <onlink>http://forest.moscowfsl.wsu.edu/climate/species/index.php</onlink>\n      </citeinfo>\n    </citation>\n    <descript>\n      <abstract>\n          This map is part of a series that are all created using essentially \n          the same method, as outlined in section 2.2 of this paper: Crookston, \n          NL, GE Rehfeldt, GE Dixon, AR Weiskittel. 2010. Addressing climate \n          change in the forest vegetation simulator to assess impacts on \n          landscape forest dynamics. Forest Ecology and Management. 260:1198-1211.         \n          The values are species viability scores in the range of 0 \n          to 1, where low numbers indicate that the climate is not consistent \n          with where the species grows and high numbers indicates consistency.\n          </abstract>\n      <purpose>To show the spatial distribution of species climate profiles</purpose>\n      <supplinf>\n      </supplinf>\n    </descript>\n    <timeperd>\n      <timeinfo>\n        <sngdate>\n          <caldate>2060</caldate>\n          <time></time>\n        </sngdate>\n      </timeinfo>\n      <current>predicted values</current>\n    </timeperd>\n    <status>\n      <progress>Complete</progress>\n      <update>As needed</update>\n    </status>\n    <spdom>\n      <descgeog>Western United States</descgeog>\n      <bounding>\n        <westbc>-125.00000</westbc>\n        <eastbc>-102.00000</eastbc>\n        <northbc>51.00000</northbc>\n        <southbc>31.00000</southbc>\n      </bounding>\n      <dsgpoly />\n    </spdom>\n    <keywords>\n      <theme>\n        <themekt>None</themekt>\n        <themekey>Species, Climate, Trees</themekey>\n        <themekey>\n        </themekey>\n      </theme>\n    </keywords>\n    <accconst>None</accconst>\n    <useconst>None required, but we request you let us know how you use this data</useconst>\n    <secinfo>\n       <secclass>Unclassified</secclass>\n    </secinfo>\n    <datacred></datacred>\n    <native></native>\n  </idinfo>\n  <dataqual>\n    <attracc>\n      <attraccr>\n        The Spatial Accuracy is the same as the underlineing DEM from GLOBE. The prediction\n        accuracy depends on the accuracy of (1) the accuracy of the underlying climate\n        profile models, and (2) spline models representing contemporary climate. For maps\n        representing future climate, the following additional issues apply: (3)\n        the accuracy of the underlying GCM to predict future climate and (4) the accuracy of\n        the method used to down scale the GCM outputs. Other factors may also be material\n        in prediction errors for a given map.\n       </attraccr>\n      <qattracc>\n        <attraccv>0.051</attraccv>\n        <attracce>\n            Average prediction error based on a bootstrap sample of training\n            data and estimates of current climate for the sample locations.\n         </attracce>\n      </qattracc>\n    </attracc>\n    <complete>N/A</complete>\n  </dataqual>\n  <spdoinfo>\n    <indspref></indspref>\n    <direct>Raster</direct>\n    <rastinfo>\n      <rasttype>Grid Cell</rasttype>\n      <rowcount>2400</rowcount>\n      <colcount>2760</colcount>\n      <vrtcount>0</vrtcount>\n    </rastinfo>\n  </spdoinfo>\n  <spref>\n    <horizsys>\n      <geograph>\n        <latres>0.00833333</latres>\n        <longres>0.00833333</longres>\n        <geogunit>Decimal degrees</geogunit>\n      </geograph>\n      <geodetic>\n        <horizdn>World Geodetic System of 1984</horizdn>\n        <ellips>World Geodetic System of 1984</ellips>\n      </geodetic>\n    </horizsys>\n  </spref>\n  <eainfo>\n  </eainfo>\n  <distinfo>\n    <distrib>\n      <cntinfo>\n        <cntperp>\n          <cntper>Nicholas L. Crookston</cntper>\n          <cntorg>USDA Forest Service, Rocky Mountain Research Station</cntorg>\n        </cntperp>\n        <cntpos>Operations Research Analyst</cntpos>\n        <cntaddr>\n          <addrtype>mailing</addrtype>\n          <address>1221 S Main St.</address>\n          <city>Moscow</city>\n          <state>ID</state>\n          <postal>83843</postal>\n          <country>USA</country>\n        </cntaddr>\n        <cntvoice>208.883.2317</cntvoice>\n        <cnttdd></cnttdd>\n        <cntfax>208.883.2318</cntfax>\n        <cntemail>ncrookston@fs.fed.us</cntemail>\n        <hours>Pacific Time Hours</hours>\n        <cntinst>Email is best</cntinst>\n      </cntinfo>\n    </distrib>\n    <distliab>There is no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty.</distliab>\n  </distinfo>\n</metadata>\n", 
+    "boost": 1.0, 
+    "id": "http://forest.moscowfsl.wsu.edu/climate/species/speciesDist/Emory-oak/CGCM3_A2_y2060.metadata.xml", 
+    "digest": "a2e602adae3681ad632674948c92d8f7", 
+    "outlinks": [
+        "http://forest.moscowfsl.wsu.edu/climate/species/index.php"
+    ]
+}
