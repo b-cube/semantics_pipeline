@@ -247,7 +247,8 @@ class TripleTask(luigi.Task):
     params = {}
 
     def requires(self):
-        return []
+        return ParseTask(
+            input_file=self.input_file, yaml_file=self.yaml_file)
 
     def output(self):
         return luigi.LocalTarget(
