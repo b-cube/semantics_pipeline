@@ -284,6 +284,6 @@ class TripleTask(luigi.Task):
         description = data.get('service_description', {})
         if not description:
             return ''
-        graph = RdfGrapher(data)
+        graph = RdfGrapher(description)
         graph.serialize()
         return graph.emit_format()
