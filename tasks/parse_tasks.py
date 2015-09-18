@@ -263,6 +263,8 @@ class TripleTask(luigi.Task):
         '''  '''
         self._configure()
 
+        print '&&&&&&&&&&&&&&&&&&&&', self.input()
+
         f = self.input().open('r')
         data = json.loads(f.read())
         triples = self.process_response(data)
