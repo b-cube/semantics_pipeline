@@ -1,0 +1,16 @@
+init:
+  # clear_output_directories: true
+
+Clean:
+  output_directory: 'pipeline_tests/cleaned'
+
+Identify:
+  identifiers:
+    - fgdc_identifier.yaml
+  output_directory: 'pipeline_tests/fgdc_identified'
+
+Parse:
+  output_directory: 'pipeline_tests/fgdc_parsed'
+
+Triple:
+  output_directory: 'pipeline_tests/fgdc_triples'

@@ -4,12 +4,11 @@ from semproc.parser import Parser
 from semproc.identifier import Identify
 from semproc.process_router import Router
 from semproc.utils import generate_sha
+from semproc.serializers.rdfgraphs import RdfGrapher
 import json
-import glob
 import os
 from task_helpers import parse_yaml, extract_task_config
 from task_helpers import read_data, generate_output_filename
-import subprocess
 
 
 class ResponseTask(luigi.Task):
@@ -220,11 +219,6 @@ class ParseTask(luigi.Task):
         url = data['source_url']
         identity = data['identity']
 
-        # if not self.params.get('process_unidentified', False):
-        #     # do not generate the generic xml output if it's unknown
-        #     print '######### not identified'
-        #     return {}
-
         # TODO: update this for the identity as list
         processor = Router(identity, content, url)
         if not processor:
@@ -268,9 +262,10 @@ class TripleTask(luigi.Task):
     def run(self):
         '''  '''
         self._configure()
-        # the triple cli either outputs the file or posts to the
-        # triple store so not sure how this will work
-        triples = self.process_response(self.input_file)
+
+        f = self.input().open('r')
+        data = json.loads(f.read())
+        triples = self.process_response(data)
 
         if triples:
             with self.output().open('w') as out_file:
@@ -282,17 +277,7 @@ class TripleTask(luigi.Task):
         self.output_path = config.get('output_directory', '')
         self.params = config.get('params', {})
 
-    def process_response(self, file_path):
-        # from the input source/file, get the json and
-        # don't do that, just point the cli to the file
-        # also this is not the "right" way to do this
-        # so, you know, don't do this
-        args = ['python', '../semantics/lib/btriple.py', '-p', file_path]
-
-        if 'triplestore' in self.params:
-            args += ['-s', self.params['triplestore']]
-
-        # TODO: add the command to POST to parliament
-        process = subprocess.Popen(args, stdout=subprocess.PIPE)
-        triples = process.communicate()[0]
-        return triples
+    def process_response(self, data):
+        graph = RdfGrapher(data)
+        graph.serialize()
+        return graph.emit_format()
