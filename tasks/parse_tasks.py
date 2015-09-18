@@ -222,10 +222,7 @@ class ParseTask(luigi.Task):
         # TODO: update this for the identity as list
         processor = Router(identity, content, url)
         if not processor:
-            print '######### no processor'
             return {}
-
-        print '################## Parsed #####'
 
         processor.reader.parse()
         description = processor.reader.description
@@ -263,8 +260,6 @@ class TripleTask(luigi.Task):
     def run(self):
         '''  '''
         self._configure()
-
-        print '&&&&&&&&&&&&&&&&&&&&', self.input()
 
         f = self.input().open('r')
         data = json.loads(f.read())
