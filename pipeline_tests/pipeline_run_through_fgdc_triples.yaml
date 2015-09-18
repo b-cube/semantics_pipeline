@@ -11,6 +11,8 @@ Identify:
 
 Parse:
   output_directory: 'pipeline_tests/fgdc_parsed'
+  params:
+    parse_as_xml: False
 
 Triple:
   output_directory: 'pipeline_tests/fgdc_triples'

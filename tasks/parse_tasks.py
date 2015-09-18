@@ -220,7 +220,12 @@ class ParseTask(luigi.Task):
         identity = data['identity']
 
         # TODO: update this for the identity as list
-        processor = Router(identity, content, url)
+        processor = Router(
+            identity,
+            content,
+            url,
+            parse_as_xml=self.params.get('parse_as_xml', True)
+        )
         if not processor:
             return {}
 
