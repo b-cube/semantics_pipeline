@@ -8,3 +8,17 @@ init:
 
 Clean:
   output_directory: 'pipeline_tests/solr_cleaned'
+
+Identify:
+  identifiers:
+    - fgdc_identifier.yaml
+    - iso_identifier.yaml
+    - oaipmh_identifier.yaml
+    - ogc_identifier.yaml
+    - opendap_identifier.yaml
+    - opensearch_identifier.yaml
+    - thredds_identifier.yaml
+  output_directory: 'pipeline_tests/solr_identified'
+
+Parse:
+  output_directory: 'pipeline_tests/solr_parsed'
