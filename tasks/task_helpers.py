@@ -2,6 +2,7 @@ import os
 import yaml
 import json
 from semproc.yaml_configs import import_yaml_configs
+from tasks.solr_tasks import SolrBulkJob
 
 '''
 general task methods
@@ -25,13 +26,17 @@ def run_init(config):
     if not init_tasks:
         return
 
-    if 'clear_output_directories' in init_tasks:
-        # get the output dirs and delete any files
-        tasks = {k: v for k, v in config.iteritems() if k != 'init'}
-        output_dirs = [task['output_directory'] for task in tasks.values()
-                       if 'output_directory' in task]
-        for output_dir in output_dirs:
-            clear_directory(output_dir)
+    if 'query_solr' in init_tasks:
+        # pull data based on the query in the yaml
+        # that's a little unfortunate since we really
+        # don't want to pull 200K+ things down but
+        # again really don't care in favor of run it now
+        solr_query = init_tasks.get('query_solr').get('query', '')
+        solr_start = init_tasks.get('query_solr').get('start', '')
+        solr_end = init_tasks.get('query_solr').get('end', '')
+        solr_offset = init_tasks.get('query_solr').get('offset', '')
+        solr = SolrBulkJob(solr_query, solr_start, solr_end, solr_offset)
+        solr.run()
 
 
 def read_data(path):
@@ -44,7 +49,8 @@ def write_data(path, data):
         f.write(json.dumps(data, indent=4))
 
 
-def generate_output_filename(input_file, output_path, postfix, extension_overwrite=''):
+def generate_output_filename(
+        input_file, output_path, postfix, extension_overwrite=''):
     file_name, file_ext = os.path.splitext(os.path.basename(input_file))
     file_ext = extension_overwrite if extension_overwrite else file_ext
     return os.path.join(output_path, '_'.join([file_name, postfix]) + file_ext)
