@@ -32,10 +32,12 @@ def run_init(config):
         # don't want to pull 200K+ things down but
         # again really don't care in favor of run it now
         solr_query = init_tasks.get('query_solr').get('query', '')
+        solr_path = init_tasks.get('query_solr').get('output_path', '')
         solr_start = init_tasks.get('query_solr').get('start', '')
         solr_end = init_tasks.get('query_solr').get('end', '')
         solr_offset = init_tasks.get('query_solr').get('offset', '')
-        solr = SolrBulkJob(solr_query, solr_start, solr_end, solr_offset)
+        solr = SolrBulkJob(
+            solr_query, solr_path, solr_start, solr_end, solr_offset)
         solr.run()
 
 

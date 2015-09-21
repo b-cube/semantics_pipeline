@@ -1,0 +1,10 @@
+init:
+  query_solr:
+  	query: 'q=*%3A*&sort=date+desc&wt=json&indent=true'
+  	start: 0
+  	end: 100
+  	offset: 5
+  	output_path: pipeline_tests/solr_docs
+
+Clean:
+  output_directory: 'pipeline_tests/solr_cleaned'

@@ -10,9 +10,12 @@ class SolrBulkJob():
     that will then be sent to the initializing
     iterator instead of a glob. a remote glob.
     '''
-    output_path = ''
-
-    def __init__(self, solr_query, start=0, end=1000, interval=100):
+    def __init__(self,
+                 solr_query,
+                 output_path,
+                 start=0,
+                 end=1000,
+                 interval=100):
         # this is gross and i don't like it
         # but there's not a lot of time for
         # dicking around
@@ -24,6 +27,7 @@ class SolrBulkJob():
         self.start = start
         self.end = end
         self.interval = interval
+        self.output_path = output_path
 
     def _generate_query(self, limit, offset):
         # from the query without pagination,
