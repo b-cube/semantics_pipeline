@@ -120,8 +120,8 @@ def main():
         interval = int(options.interval)
         start = int(options.start)
         end = int(options.end)
-    except:
-        op.error('Invalid pagination integer')
+    except Exception as ex:
+        op.error('Invalid pagination integer: {0}'.format(ex))
 
     solr = SolrBulkJob(
         options.connection,

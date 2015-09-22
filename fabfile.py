@@ -132,8 +132,8 @@ def query_solr(conf):
         config = json.loads(f.read())
     solr = config.get('solr', {})
     _query_solr(
-        solr.get('connection'),
-        solr.get('query'),
+        '"{0}"'.format(solr.get('connection', '')),
+        '"{0}"'.format(solr.get('query', '')),
         solr.get('directory'),
         solr.get('interval'),
         solr.get('start'),
