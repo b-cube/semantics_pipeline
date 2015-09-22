@@ -57,7 +57,7 @@ class SolrBulkJob():
             self.connection.get('Host')
         )
 
-        if self.solr_port:
+        if self.connection.get('Port'):
             host += ':' + self.connection.get('Port')
 
         return '/'.join([
