@@ -100,7 +100,7 @@ def main():
     # and output directory for the docs
     op.add_option('--connection', '-c')
     op.add_option('--query', '-q', default='q=*%3A*&wt=json&indent=true')
-    os.add_option('--directory', '-d')
+    op.add_option('--directory', '-d')
     op.add_option('--interval', '-i', default=1000)
     op.add_option('--start', '-s', default=0)
     op.add_option('--end', '-e', default=10)
