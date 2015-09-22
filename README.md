@@ -15,9 +15,9 @@ First put together the conf file (JSON):
 	"solr": {
 		"query": "q=*%3A*&sort=date+desc&wt=json&indent=true",
 		"start": 0,
-		"end": 100,
-		"offset": 5,
-		"output_path": "local-to-ec2/path/docs",
+		"stop": 100,
+		"interval": 5,
+		"directory": "local-to-ec2/path/docs",
 		"connection": "Provider=http; User ID=USER; Password=PASSWORD; Host=localhost; Port=8080; Database=solr; Collection=collection1"
 	}
 }
