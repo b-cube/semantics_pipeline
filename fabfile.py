@@ -42,7 +42,6 @@ def _clear_outputs(empties):
     # list of directory paths (pipes/cleaned/*)
     with cd(_build_cwd('semantics_pipeline')):
         for empty in empties.split(';'):
-            print(blue('deleting {0}'.format(empty)))
             run('rm -rf %s' % empty)
 
 

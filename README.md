@@ -109,7 +109,13 @@ You can test your configuration by running the `set_server` task:
 >> fabfile set_server:path/to/settings.conf
 ```
 
-The fabfile also provides a task to clear a set of remote directories for new pipeline runs (luigi is idempotent). Use the `clear_pipeline` task with a semicolon-delimited list of paths. 
+The fabfile also provides a task to clear a set of remote directories for new pipeline runs (luigi is idempotent). Use the `clear_pipeline` task with a semicolon-delimited list of paths:
+
+```
+>> fabfile set_server:path/to/settings.conf clear_pipeline:"path/cleaned;path/identified;path/parsed"
+```
+
+Note that the `clear_pipeline` parameter is quoted!
 
 To run a deploy for any of the BCube-related dependencies:
 
