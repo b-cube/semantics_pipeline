@@ -83,7 +83,7 @@ class SolrBulkJob():
         output_pattern = os.path.join(self.output_path, '%s.json')
 
         for doc in contents.get('response', {}).get('docs', []):
-            response_sha = ''
+            response_sha = doc.get('url_hash')
             with open(output_pattern % response_sha, 'w') as f:
                 f.write(json.dumps(doc, indent=4))
 
