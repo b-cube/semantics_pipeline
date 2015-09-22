@@ -51,6 +51,18 @@ def _run_pipeline(workflow, local_config, local_directory, start, end, interval)
             workflow, local_directory, local_config, start, end, interval)
 
 
+def _query_solr(connection, query, directory, start, end, interval):
+    with cd(_build_cwd('semantics_pipeline')):
+        run('python local/solr_tasks.py -c {0} -q {1} -d {2} -i {3} -s {4} -e {5}'.format(
+            connection,
+            query,
+            directory,
+            interval,
+            start,
+            end
+        ))
+
+
 @task
 def set_server(conf):
     with open(conf, 'r') as f:
@@ -70,8 +82,8 @@ def clear_pipeline(clean_directories=""):
 
 
 @task
-def deploy_pipeline():
-    _update_pipeline()
+def deploy_pipeline(branch=""):
+    _update_pipeline(branch)
     print(green('semantics_pipeline deploy complete!'))
 
 
@@ -90,20 +102,28 @@ def deploy_owscapable(branch=""):
 
 
 @task
-def run_remote_pipeline(workflow, local_config, local_directory, start, end, interval):
-    _run_pipeline(workflow, local_config, local_directory, start, end, interval)
+def run_remote_pipeline(conf):
+    config = json.loads(conf)
+    workflow = config.get('workflow', {})
+    _run_pipeline(
+        workflow.get('workflow'),
+        workflow.get('local_config'),
+        workflow.get('local_directory'),
+        workflow.get('start'),
+        workflow.get('end'),
+        workflow.get('interval')
+    )
 
 
 @task
 def query_solr(conf):
     config = json.loads(conf)
     solr = config.get('solr', {})
-    with cd(_build_cwd('semantics_pipeline')):
-        run('python local/solr_tasks.py -c {0} -q {1} -d {2} -i {3} -s {4} -e {5}'.format(
-            solr.get('connection'),
-            solr.get('query'),
-            solr.get('directory'),
-            solr.get('interval'),
-            solr.get('start'),
-            solr.get('end')
-        ))
+    _query_solr(
+        solr.get('connection'),
+        solr.get('query'),
+        solr.get('directory'),
+        solr.get('interval'),
+        solr.get('start'),
+        solr.get('end')
+    )
