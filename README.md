@@ -74,8 +74,20 @@ Parse:
 
 ```
 
+Order doesn't matter (that's defined within the tasks currently). 
+
+To run the CLI, and we'll use the YAML example above as the workflow (in this case, the ParseWorkflow), run:
+
+```
+python workflow_manager.py -w ParseWorkflow -c parse.yaml -d data/solr_docs -s 0 -e 1000 -i 100
+```
+
+to execute a parse workflow from clean to identify to parse for the set of Solr docs in the solr_docs directory for the first thousand at 100 per iteration.
+
 
 **Running either remotely with fabric**
+
+You will need to have fabric installed.
 
 If running remotely, add a server section to your conf file:
 
@@ -89,6 +101,8 @@ If running remotely, add a server section to your conf file:
 }
 ```
 
+(We are assuming some AWS EC2 Ubuntu 14.04 instance.)
+
 You can test your configuration by running the `set_server` task:
 
 ```
@@ -96,6 +110,27 @@ You can test your configuration by running the `set_server` task:
 ```
 
 The fabfile also provides a task to clear a set of remote directories for new pipeline runs (luigi is idempotent). Use the `clear_pipeline` task with a comma-delimited list of paths. 
+
+To run a deploy for any of the BCube-related dependencies:
+
+```
+>> fabfile set_server:path/to/settings.conf deploy_owscapable 
+>> fabfile set_server:path/to/settings.conf deploy_processing:branch=iso-rdf-serializer
+>> fabfile set_server:path/to/settings.conf deploy_pipeline
+```
+
+The Solr CLI can also be run remotely:
+
+```
+>> fabfile set_server:path/to/settings.conf query_solr:path/to/local.conf
+```
+
+and the Workflow CLI:
+
+```
+>> fabfile set_server:path/to/settings.conf run_remote_pipeline:ParseWorkflow,pipeline/settings.conf,pipeline/solr_docs,0,1000,100
+```
+
 
 
 
