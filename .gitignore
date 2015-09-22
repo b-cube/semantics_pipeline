@@ -1,3 +1,4 @@
 *.pyc
 
 tasks/init_configs/
+local/*.conf
