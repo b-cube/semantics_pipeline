@@ -1,6 +1,7 @@
 from fabric.api import env, run, cd, sudo
 from fabric.api import task
 import json
+import os
 
 
 def _pull_git(cwd, branch=""):
@@ -39,7 +40,7 @@ def _build_owscapable():
 
 def _clear_outputs(empties):
     # list of directory paths (pipes/cleaned/*)
-    with cd("/home/%s/semantics_pipeline" % USER):
+    with cd(_build_cwd('semantics_pipeline')):
         for empty in empties.split(','):
             run('rm -rf %s' % empty)
 
@@ -52,7 +53,8 @@ def _run_pipeline(workflow, local_config, local_directory, start, end, interval)
 
 @task
 def set_server(conf):
-    config = json.loads(conf)
+    with open(conf, 'r') as f:
+        config = json.loads(f.read())
     env.user = config.get('server', {}).get('user')
     env.hosts = [config.get('server', {}).get('host')]
     env.key_filename = [config.get('server', {}).get('key_path')]
