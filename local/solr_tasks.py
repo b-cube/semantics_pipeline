@@ -70,7 +70,6 @@ class SolrBulkJob():
 
     def _query(self, query):
         url = self._generate_url(query)
-        print(url)
         req = requests.get(url, auth=self.solr_auth)
 
         if req.status_code != 200:
