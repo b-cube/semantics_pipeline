@@ -47,8 +47,8 @@ def _clear_outputs(empties):
 
 def _run_pipeline(workflow, local_config, local_directory, start, end, interval):
     with cd(_build_cwd('semantics_pipeline')):
-        run('python workflow_manager.py -w {0} -d {1} -c {2} -s {3} -e {4} -i {5}').format(
-            workflow, local_directory, local_config, start, end, interval)
+        run('python workflow_manager.py -w {0} -d {1} -c {2} -s {3} -e {4} -i {5}'.format(
+            workflow, local_directory, local_config, start, end, interval))
 
 
 def _query_solr(connection, query, directory, start, end, interval):
@@ -103,7 +103,8 @@ def deploy_owscapable(branch=""):
 
 @task
 def run_remote_pipeline(conf):
-    config = json.loads(conf)
+    with open(conf, 'r') as f:
+        config = json.loads(f.read())
     workflow = config.get('workflow', {})
     _run_pipeline(
         workflow.get('workflow'),
@@ -116,8 +117,19 @@ def run_remote_pipeline(conf):
 
 
 @task
+def return_pipeline_counts(directories):
+    counts = []
+    with cd(_build_cwd('semantics_pipeline')):
+        for d in directories.split(';'):
+            counts.append((d, run('ls -l {0} | wc -l'.format(d))))
+    for d, c in counts:
+        print(blue('{0} contains {1} files'.format(d, c)))
+
+
+@task
 def query_solr(conf):
-    config = json.loads(conf)
+    with open(conf, 'r') as f:
+        config = json.loads(f.read())
     solr = config.get('solr', {})
     _query_solr(
         solr.get('connection'),
