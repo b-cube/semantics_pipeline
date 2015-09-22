@@ -49,7 +49,7 @@ class SolrBulkJob():
         # multiple requests where i don't want
         # to unpack the query to understand
         return '?' + self.solr_query + \
-            '&limit={0}&offset={1}'.format(limit, offset)
+            '&rows={0}&start={1}'.format(limit, offset)
 
     def _generate_url(self, query):
         host = '{0}://{1}'.format(

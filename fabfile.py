@@ -52,6 +52,7 @@ def _run_pipeline(workflow, local_config, local_directory, start, end, interval)
 
 
 def _query_solr(connection, query, directory, start, end, interval):
+    print(red(directory))
     with cd(_build_cwd('semantics_pipeline')):
         run('python local/solr_tasks.py -c {0} -q {1} -d {2} -i {3} -s {4} -e {5}'.format(
             connection,
