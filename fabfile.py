@@ -1,7 +1,7 @@
 from fabric.api import env, run, cd, sudo
 from fabric.api import task
 import json
-import os
+from fabric.colors import green, blue, red
 
 
 def _pull_git(cwd, branch=""):
@@ -23,7 +23,7 @@ def _update_pipeline(branch=""):
 
 
 def _update_preprocessing(branch=''):
-    _pull_git('semantics_preprocessing', branch)
+    _pull_git('semantics-preprocessing', branch)
 
 
 def _update_owscapable(branch=''):
@@ -31,7 +31,7 @@ def _update_owscapable(branch=''):
 
 
 def _build_preprocessing():
-    _build_local('semantics_preprocessing')
+    _build_local('semantics-preprocessing')
 
 
 def _build_owscapable():
@@ -66,17 +66,21 @@ def deploy_pipeline(clean_directories=""):
     if clean_directories:
         _clear_outputs(clean_directories)
 
+    print(green('semantics_pipeline deploy complete!'))
+
 
 @task
 def deploy_processing(branch=""):
     _update_preprocessing(branch)
     _build_preprocessing()
+    print(green('semantics-preprocessing deploy complete!'))
 
 
 @task
 def deploy_owscapable(branch=""):
     _update_owscapable(branch)
     _build_owscapable()
+    print(green('OwsCapable deploy complete!'))
 
 
 @task
