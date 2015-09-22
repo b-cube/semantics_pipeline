@@ -82,8 +82,7 @@ class SolrBulkJob():
         # run through the docs array
         output_pattern = os.path.join(self.output_path, '%s.json')
 
-        responses = contents.get('responses', [])
-        for doc in responses.get('reponse', {}).get('docs', []):
+        for doc in contents.get('response', {}).get('docs', []):
             response_sha = ''
             with open(output_pattern % response_sha, 'w') as f:
                 f.write(json.dumps(doc, indent=4))
