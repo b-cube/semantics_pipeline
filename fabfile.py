@@ -135,7 +135,7 @@ def query_solr(conf):
         '"{0}"'.format(solr.get('connection', '')),
         '"{0}"'.format(solr.get('query', '')),
         solr.get('directory'),
-        solr.get('interval'),
         solr.get('start'),
-        solr.get('end')
+        solr.get('stop'),
+        solr.get('interval')
     )

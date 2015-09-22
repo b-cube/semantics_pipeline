@@ -51,7 +51,7 @@ class SolrBulkJob():
         return '?' + self.solr_query + \
             '&limit={0}&offset={1}'.format(limit, offset)
 
-    def _generate_url(self):
+    def _generate_url(self, query):
         host = '{0}://{1}'.format(
             self.connection.get('Provider'),
             self.connection.get('Host')
@@ -65,7 +65,7 @@ class SolrBulkJob():
             self.connection.get('Database'),
             self.connection.get('Collection'),
             'query',
-            self.solr_query
+            query
         ])
 
     def _query(self, query):
