@@ -154,10 +154,11 @@ class IdentifyTask(luigi.Task):
         config = parse_yaml(self.yaml_file)
         config = extract_task_config(config, 'Identify')
         self.output_path = config.get('output_directory', '')
+        self.params = config.get('params', {})
 
-        if 'identifiers' in config:
-            if isinstance(config['identifiers'], list):
-                identifiers = config.get('identifiers', [])
+        if 'identifiers' in self.params:
+            if isinstance(self.params['identifiers'], list):
+                identifiers = self.params.get('identifiers', [])
                 self.identifiers = [
                     self._locate_in_configs(i) for i in identifiers]
             else:

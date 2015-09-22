@@ -5,8 +5,9 @@ Clean:
   output_directory: 'pipeline_tests/fgdc_cleaned'
 
 Identify:
-  identifiers:
-    - fgdc_identifier.yaml
+  params:
+  	identifiers:
+      - fgdc_identifier.yaml
   output_directory: 'pipeline_tests/fgdc_identified'
 
 Parse:

@@ -61,11 +61,17 @@ def set_server(conf):
 
 
 @task
-def deploy_pipeline(clean_directories=""):
-    _update_pipeline()
-    if clean_directories:
-        _clear_outputs(clean_directories)
+def clear_pipeline(clean_directories=""):
+    if not clean_directories:
+        print(red('Directory list empty. No deletes.'))
+        return
 
+    _clear_outputs(clean_directories)
+
+
+@task
+def deploy_pipeline():
+    _update_pipeline()
     print(green('semantics_pipeline deploy complete!'))
 
 
