@@ -41,7 +41,7 @@ def _build_owscapable():
 def _clear_outputs(empties):
     # list of directory paths (pipes/cleaned/*)
     with cd(_build_cwd('semantics_pipeline')):
-        for empty in empties.split(','):
+        for empty in empties.split(';'):
             run('rm -rf %s' % empty)
 
 
