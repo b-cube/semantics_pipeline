@@ -52,19 +52,13 @@ class ResponseTask(luigi.Task):
         # do the response processing
         source_url = data['url']
         content = data['raw_content']
-        digest = data['digest']
-        url_sha = data.get('sha', generate_sha(source_url))
+        url_sha = data.get('url_hash', generate_sha(source_url))
 
-        rr = RawResponse(source_url.upper(), content, digest, **{})
+        rr = RawResponse(source_url.upper(), content, url_sha, **{})
         cleaned_text = rr.clean_raw_content()
 
-        # again sort of ridiculous
-        return {
-            "digest": digest,
-            "source_url": source_url,
-            "content": cleaned_text,
-            "sha": url_sha
-        }
+        data.update({"content": cleaned_text, "sha": url_sha})
+        return data
 
 
 class ExtractXmlTask(luigi.Task):
@@ -220,18 +214,24 @@ class ParseTask(luigi.Task):
         url = data['source_url']
         identity = data['identity']
 
+        harvest_details = {
+            "harvest_date": data['tstamp']
+        }
+
         # TODO: update this for the identity as list
         processor = Router(
             identity,
             content,
             url,
-            parse_as_xml=self.params.get('parse_as_xml', True)
+            harvest_details,
+            **{"parse_as_xml": self.params.get('parse_as_xml', True)}
         )
         if not processor:
             return {}
 
         processor.reader.parse()
         description = processor.reader.description
+        # TODO: i'm not sure these two assignments are relevant.
         description['solr_identifier'] = data['sha']
         description['source_url'] = url
 

@@ -72,6 +72,8 @@ class SolrBulkJob():
         url = self._generate_url(query)
         req = requests.get(url, auth=self.solr_auth)
 
+        print ('Querying: {0}'.format(url))
+
         if req.status_code != 200:
             raise Exception('Solr failed %s' % req.status_code)
 
