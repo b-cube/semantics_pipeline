@@ -64,7 +64,7 @@ class SolrBulkJob():
             host,
             self.connection.get('Database'),
             self.connection.get('Collection'),
-            'query',
+            'select',
             query
         ])
 
@@ -85,9 +85,17 @@ class SolrBulkJob():
         output_pattern = os.path.join(self.output_path, '%s.json')
 
         for doc in contents.get('response', {}).get('docs', []):
-            response_sha = doc.get('url_hash')
-            with open(output_pattern % response_sha, 'w') as f:
-                f.write(json.dumps(doc, indent=4))
+            try:
+                response_sha = doc.get('url_hash')
+            except:
+                print '\tNo sha for response'
+                continue
+            try:
+                with open(output_pattern % response_sha, 'w') as f:
+                    f.write(json.dumps(doc, indent=4))
+            except Exception as ex:
+                print 'Failed parse: ', ex
+                continue
 
     def run(self):
         for offset in xrange(self.start, self.end, self.interval):
@@ -98,7 +106,7 @@ class SolrBulkJob():
                 print '\tFailed _query at offset {0}'.format(offset)
                 print '\t', ex
                 raise ex
-            
+
             try:
                 self._parse_contents(contents)
             except Exception as ex:
