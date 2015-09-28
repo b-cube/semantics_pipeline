@@ -76,7 +76,6 @@ class SolrBulkJob():
 
         if req.status_code != 200:
             print '\tFailed request ({0}): {1}'.format(req.status_code, url)
-            raise Exception('Solr failed %s' % req.status_code)
 
         return req.json()
 
@@ -85,33 +84,15 @@ class SolrBulkJob():
         output_pattern = os.path.join(self.output_path, '%s.json')
 
         for doc in contents.get('response', {}).get('docs', []):
-            try:
-                response_sha = doc.get('url_hash')
-            except:
-                print '\tNo sha for response'
-                continue
-            try:
-                with open(output_pattern % response_sha, 'w') as f:
+            response_sha = doc.get('url_hash')
+            with open(output_pattern % response_sha, 'w') as f:
                     f.write(json.dumps(doc, indent=4))
-            except Exception as ex:
-                print 'Failed parse: ', ex
-                continue
 
     def run(self):
         for offset in xrange(self.start, self.end, self.interval):
             query = self._generate_query(self.interval, offset)
-            try:
-                contents = self._query(query)
-            except Exception as ex:
-                print '\tFailed _query at offset {0}'.format(offset)
-                print '\t', ex
-                raise ex
-
-            try:
-                self._parse_contents(contents)
-            except Exception as ex:
-                print '\tParse error'
-                raise ex
+            contents = self._query(query)
+            self._parse_contents(contents)
 
 
 def main():
