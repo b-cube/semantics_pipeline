@@ -3,7 +3,7 @@ from semproc.rawresponse import RawResponse
 from semproc.parser import Parser
 from semproc.identifier import Identify
 from semproc.process_router import Router
-from semproc.utils import generate_sha
+from semproc.utils import generate_sha, convert_header_list
 from semproc.serializers.rdfgraphs import RdfGrapher
 import json
 import os
@@ -52,12 +52,20 @@ class ResponseTask(luigi.Task):
         # do the response processing
         source_url = data['url']
         content = data['raw_content']
+        # TODO: this is a holdover from prev solr instance
         url_sha = data.get('url_hash', generate_sha(source_url))
+        headers = convert_header_list(data.get('response_headers', []))
+        content_type = headers.get('content-type', '')
 
-        rr = RawResponse(source_url.upper(), content, url_sha, **{})
+        rr = RawResponse(content, content_type)
         cleaned_text = rr.clean_raw_content()
+        datatype = rr.datatype
 
-        data.update({"content": cleaned_text, "sha": url_sha})
+        data.update({
+            "content": cleaned_text,
+            "sha": url_sha,
+            "response_datatype": datatype
+        })
         return data
 
 
