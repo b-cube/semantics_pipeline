@@ -7,6 +7,7 @@ from semproc.utils import generate_sha, convert_header_list
 from semproc.serializers.rdfgraphs import RdfGrapher
 import json
 import os
+import urlparse
 from task_helpers import parse_yaml, extract_task_config
 from task_helpers import read_data, generate_output_filename
 
@@ -61,10 +62,22 @@ class ResponseTask(luigi.Task):
         cleaned_text = rr.clean_raw_content()
         datatype = rr.datatype
 
+        # check for the host and add it if missing
+        host = data.get('host', '')
+        if not host:
+            parts = urlparse.urlparse(source_url)
+            # host = urlparse.urlunparse((
+            #     parts.scheme,
+            #     parts.netloc,
+            #     None, None, None, None
+            # ))
+            host = parts.netloc
+
         data.update({
             "content": cleaned_text,
             "sha": url_sha,
-            "response_datatype": datatype
+            "response_datatype": datatype,
+            "host": host
         })
         return data
 
@@ -169,7 +182,7 @@ class IdentifyTask(luigi.Task):
 
     def process_response(self, data):
         content = data['content'].encode('unicode_escape')
-        url = data['source_url']
+        url = data['url']
 
         identify = Identify(
             self.identifiers,

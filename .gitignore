@@ -2,3 +2,4 @@
 
 tasks/init_configs/
 local/*.conf
+local/*.py
