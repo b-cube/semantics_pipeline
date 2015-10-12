@@ -180,8 +180,14 @@ if __name__ == '__main__':
     except:
         op.error('Non-integer interval value')
 
-    start_index = int(options.start) if 'start' in options.keys() else 0
-    end_index = int(options.end) if 'end' in options.keys() else len(files)
+    try:
+        start_index = int(options.start)
+    except:
+        start_index = 0
+    try:
+        end_index = int(options.end)
+    except:
+        end_index = len(files)
 
     print 'Running {0} - {1}'.format(start_index, end_index)
     print '*' * 50
