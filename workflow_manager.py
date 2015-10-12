@@ -60,7 +60,7 @@ def main():
             doc_dir=options.directory,
             yaml_file=options.config,
             start_index=i,
-            end_index=(i + interval)
+            end_index=(i + interval) if (i + interval) < end_index else end_index
         )
         luigi.build([w], local_scheduler=True)
 
