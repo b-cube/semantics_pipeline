@@ -3,8 +3,8 @@ import glob
 import os
 from optparse import OptionParser
 import json
-from task_helpers import parse_yaml, extract_task_config
-from task_helpers import generate_output_filename
+from tasks.task_helpers import parse_yaml, extract_task_config
+from tasks.task_helpers import generate_output_filename
 from tasks.task_helpers import run_init
 from semproc.process_router import Router
 from semproc.serializers.rdfgraphs import RdfGrapher
