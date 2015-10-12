@@ -53,7 +53,7 @@ class FgdcParseTask(luigi.Task):
     def requires(self):
         # we have no previous task (just run from some
         # set of identified task output)
-        return None
+        return []
 
     def output(self):
         return luigi.LocalTarget(
