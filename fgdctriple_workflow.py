@@ -186,8 +186,13 @@ if __name__ == '__main__':
         start_index = 0
     try:
         end_index = int(options.end)
-    except:
+    except Exception as ex:
+        print ex
         end_index = len(files)
+
+    print options
+
+    sys.exit(0)
 
     for i in xrange(start_index, end_index, interval):
         w = FgdcTripleWorkflow(
