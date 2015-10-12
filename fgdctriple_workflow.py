@@ -170,9 +170,6 @@ if __name__ == '__main__':
     if not options.directory:
         op.error('No input file directory')
 
-    if not options.workflow:
-        op.error('No workflow specified')
-
     files = glob.glob(os.path.join(options.directory, '*.json'))
     if not files:
         op.error('Empty input file directory (no JSON)')
