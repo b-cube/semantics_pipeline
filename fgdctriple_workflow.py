@@ -187,19 +187,13 @@ if __name__ == '__main__':
     try:
         end_index = int(options.end)
     except Exception as ex:
-        print ex
         end_index = len(files)
-
-    print options
-    print start_index, end_index
-
-    sys.exit(0)
 
     for i in xrange(start_index, end_index, interval):
         w = FgdcTripleWorkflow(
             doc_dir=options.directory,
             yaml_file=options.config,
             start_index=i,
-            end_index=(i + interval)
+            end_index=(i + interval) if (i + interval) < end_index else end_index
         )
         luigi.build([w], local_scheduler=True)
