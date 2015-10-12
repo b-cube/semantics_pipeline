@@ -1,6 +1,7 @@
 import luigi
 import glob
 import os
+from optparse import OptionParser
 import json
 from task_helpers import parse_yaml, extract_task_config
 from task_helpers import generate_output_filename
@@ -153,3 +154,42 @@ class FgdcTripleTask(luigi.Task):
         graph = RdfGrapher(data)
         graph.serialize()
         return graph.emit_format()
+
+
+if __name__ == '__main__':
+    op = OptionParser()
+    op.add_option('--interval', '-i', default=1000)
+    op.add_option('--directory', '-d')
+    op.add_option('--config', '-c')
+    op.add_option('--start', '-s')
+    op.add_option('--end', '-e')
+    options, arguments = op.parse_args()
+
+    if not options.config:
+        op.error('No configuration YAML')
+    if not options.directory:
+        op.error('No input file directory')
+
+    if not options.workflow:
+        op.error('No workflow specified')
+
+    files = glob.glob(os.path.join(options.directory, '*.json'))
+    if not files:
+        op.error('Empty input file directory (no JSON)')
+
+    try:
+        interval = int(options.interval)
+    except:
+        op.error('Non-integer interval value')
+
+    start_index = int(arguments.start) if 'start' in arguments else 0
+    end_index = int(arguments.end) if 'end' in arguments else len(files)
+
+    for i in xrange(start_index, end_index, interval):
+        w = FgdcTripleWorkflow(
+            doc_dir=options.directory,
+            yaml_file=options.config,
+            start_index=i,
+            end_index=(i + interval)
+        )
+        luigi.build([w], local_scheduler=True)
