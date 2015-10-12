@@ -38,8 +38,14 @@ def main():
     except:
         op.error('Non-integer interval value')
 
-    start_index = int(arguments.start) if 'start' in options else 0
-    end_index = int(arguments.end) if 'end' in options else len(files)
+    try:
+        start_index = int(options.start)
+    except:
+        start_index = 0
+    try:
+        end_index = int(options.end)
+    except:
+        end_index = len(files)
 
     # this only works for the workflows imported above (and they
     # need to be imported, obv). things like the eda, which aren't
