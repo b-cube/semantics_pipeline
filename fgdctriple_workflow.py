@@ -185,6 +185,10 @@ if __name__ == '__main__':
 
     print 'Running {0} - {1}'.format(start_index, end_index)
     print '*' * 50
+    print arguments
+    print options
+
+    return
 
     for i in xrange(start_index, end_index, interval):
         w = FgdcTripleWorkflow(
