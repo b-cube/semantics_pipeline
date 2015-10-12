@@ -183,6 +183,9 @@ if __name__ == '__main__':
     start_index = int(arguments.start) if 'start' in arguments else 0
     end_index = int(arguments.end) if 'end' in arguments else len(files)
 
+    print 'Running {0} - {1}'.format(start_index, end_index)
+    print '*' * 50
+
     for i in xrange(start_index, end_index, interval):
         w = FgdcTripleWorkflow(
             doc_dir=options.directory,
