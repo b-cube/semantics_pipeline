@@ -191,6 +191,7 @@ if __name__ == '__main__':
         end_index = len(files)
 
     print options
+    print start_index, end_index
 
     sys.exit(0)
 
