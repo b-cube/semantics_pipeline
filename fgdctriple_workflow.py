@@ -151,7 +151,8 @@ class FgdcTripleTask(luigi.Task):
         self.params = config.get('params', {})
 
     def process_response(self, data):
-        graph = RdfGrapher(data)
+        description = data["service_description"]
+        graph = RdfGrapher(description)
         graph.serialize()
         return graph.emit_format()
 
