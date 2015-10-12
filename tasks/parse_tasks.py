@@ -232,7 +232,7 @@ class ParseTask(luigi.Task):
 
     def process_response(self, data):
         content = data['content'].encode('unicode_escape')
-        url = data['source_url']
+        url = data['url']
         identity = data['identity']
 
         harvest_details = {
@@ -252,9 +252,6 @@ class ParseTask(luigi.Task):
 
         processor.reader.parse()
         description = processor.reader.description
-        # TODO: i'm not sure these two assignments are relevant.
-        description['solr_identifier'] = data['sha']
-        description['source_url'] = url
 
         # drop the source for a decent non-xml embedded in my json file
         del data['content']
