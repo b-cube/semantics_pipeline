@@ -239,16 +239,19 @@ class ParseTask(luigi.Task):
             "harvest_date": data['tstamp']
         }
 
-        # TODO: update this for the identity as list
         processor = Router(
             identity,
             content,
             url,
             harvest_details,
-            **{"parse_as_xml": self.params.get('parse_as_xml', True)}
+            **{"parse_as_xml": self.params.get('parse_as_xml', False)}
         )
         if not processor:
             return {}
+
+        print '#' * 25
+        print identity
+        print processor.reader
 
         processor.reader.parse()
         description = processor.reader.description
