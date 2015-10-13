@@ -104,6 +104,6 @@ class SimpleParliamentWorkflow(luigi.Task):
 
     def _iterator(self):
         for f in glob.glob(
-            os.path.join(self.doc_dir, '*.json')
+            os.path.join(self.doc_dir, '*.ttl')
         )[self.start_index:self.end_index]:
             yield f
