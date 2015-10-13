@@ -249,10 +249,6 @@ class ParseTask(luigi.Task):
         if not processor:
             return {}
 
-        print '#' * 25
-        print identity
-        print processor.reader
-
         processor.reader.parse()
         description = processor.reader.description
 
