@@ -19,6 +19,7 @@ def main():
     op.add_option('--start', '-s')
     op.add_option('--end', '-e')
     op.add_option('--workflow', '-w')
+    op.add_option('--filetype', '-f', default='json')
 
     options, arguments = op.parse_args()
 
@@ -30,9 +31,15 @@ def main():
     if not options.workflow:
         op.error('No workflow specified')
 
-    files = glob.glob(os.path.join(options.directory, '*.json'))
+    files = glob.glob(
+        os.path.join(
+            options.directory, '*.{0}'.format(options.filetype)
+        )
+    )
     if not files:
-        op.error('Empty input file directory (no JSON)')
+        op.error(
+            'Empty input file directory (no {0})'.format(options.filetype)
+        )
 
     try:
         interval = int(options.interval)
