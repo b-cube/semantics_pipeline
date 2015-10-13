@@ -1,0 +1,116 @@
+@prefix bcube: <http://purl.org/BCube/#> .
+@prefix bibo: <http://purl.org/ontology/bibo/#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcat: <http://www.w3.org/TR/vocab-dcat/#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix esip: <http://purl.org/esip/#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://purl.org/net/provenance/ns#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vcard: <http://www.w3.org/TR/vcard-rdf/#> .
+@prefix vivo: <http://vivo.ufl.edu/ontology/vivo-ufl/#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:sha:37e30ba1d73bb075dcd11d2503cad52c1cb8e62dc3db678e2cea1fbb> owl:a bibo:WebPage ;
+    vcard:hasURL "http://irmafiles.nps.gov/Reference/Holding/370970/boundary2003.zip" .
+
+<urn:sha:726f154baeb42ca4e6eb6f8025d04feb4f029b751716bf83d86b6e9a> bcube:HTTPStatusFamilyCode 200 ;
+    bcube:HTTPStatusFamilyType "Success message" ;
+    bcube:atTime "2015-08-09T08:58:17.783Z" ;
+    bcube:dateCreated "2015-08-09T08:58:17.783Z" ;
+    bcube:hasConfidence "Good" ;
+    bcube:hasUrlSource "Harvested" ;
+    bcube:lastUpdated "2015-08-09T08:58:17.783Z" ;
+    bcube:reasonPhrase "OK" ;
+    bcube:statusCodeValue 200 ;
+    bcube:validatedOn "2015-08-09T08:58:17.783Z" ;
+    owl:a dcat:CatalogRecord ;
+    vcard:hasUrl "http://catalog.data.gov/harvest/object/22d6896c-033f-45c5-ac1d-0486fe77f515/original" ;
+    foaf:primaryTopic <urn:uuid:6cde0c6b-dc79-4c75-a086-8a34ee119502> .
+
+<urn:sha:c8bac9df7e5ce1c7f136b5b76e81e6af8ee7a32cab905e38827ea6c4> owl:a bibo:WebPage ;
+    vcard:hasURL "http://www.nps.gov/gis/available_data.html" .
+
+<urn:uuid:385483b1-57ce-4826-af9e-54556f633c47> bcube:hasValue "\"Boundaries\"" ;
+    dc:hasType "\"theme\"" ;
+    dc:partOf "\"ISO 19115 Topic Category\"" ;
+    owl:a bcube:thesaurusSubset .
+
+<urn:uuid:6bcef7ae-e748-42dc-99f7-02d8fe090dfe> bcube:hasValue "\"GLAC\"" ;
+    dc:hasType "\"place\"" ;
+    dc:partOf "\"National Park System Unit Code Thesaurus\"" ;
+    owl:a bcube:thesaurusSubset .
+
+<urn:uuid:6cde0c6b-dc79-4c75-a086-8a34ee119502> bcube:dateCreated "2015-08-09T08:58:17.783Z" ;
+    bcube:lastUpdated "2015-08-09T08:58:17.783Z" ;
+    dc:conformsTo <urn:uuid:385483b1-57ce-4826-af9e-54556f633c47>,
+        <urn:uuid:6bcef7ae-e748-42dc-99f7-02d8fe090dfe>,
+        <urn:uuid:a16586aa-e341-40be-9e21-c76cc72ac268>,
+        <urn:uuid:b2671b1c-1c18-400c-b8f2-7ddb2b438b46>,
+        <urn:uuid:d912c34f-74fe-40a9-8be5-d87dd2a23520>,
+        <urn:uuid:f31beb24-ac1f-4a0c-8595-412f18741963> ;
+    dc:description <urn:sha:726f154baeb42ca4e6eb6f8025d04feb4f029b751716bf83d86b6e9a>,
+        "\"The current administrative boundary of Glacier National Park, Montana. This data is based on 1:24000 scale USGS quad mapping published in 1968, but was revised in 2003 to reflec$
+    dc:relation <urn:sha:37e30ba1d73bb075dcd11d2503cad52c1cb8e62dc3db678e2cea1fbb>,
+        <urn:sha:c8bac9df7e5ce1c7f136b5b76e81e6af8ee7a32cab905e38827ea6c4> ;
+    dc:spatial "POLYGON ((-114.4745 48.2111,-114.4745 49.031,-113.2335 49.031,-113.2335 48.2111,-114.4745 48.2111))" ;
+    dct:title "\"Adminstrative Boundary for Glacier National Park, Montana\"" ;
+    esip:northBound "49.031"^^xsd:float ;
+    esip:southBound "48.2111"^^xsd:float ;
+    esip:startDate "2003-06-01"^^xsd:date ;
+    esip:westBound "-114.4745"^^xsd:float ;
+    owl:a dcat:Dataset ;
+    dcat:publisher <urn:uuid:dcde767f-d81b-4fd4-af5b-3d5333e3966e> .
+
+<urn:uuid:a16586aa-e341-40be-9e21-c76cc72ac268> bcube:hasValue "\"Flathead County\"",
+        "\"Glacier County\"",
+        "\"Glacier National Park\"",
+        "\"Montana\"",
+        "\"NPS\"",
+        "\"National Park Service\"",
+        "\"North America\"",
+        "\"USA\"",
+        "\"United States\"" ;
+    dc:hasType "\"place\"" ;
+    dc:partOf "\"None\"" ;
+    owl:a bcube:thesaurusSubset .
+
+        "\"Glacier County\"",
+        "\"Glacier National Park\"",
+        "\"Montana\"",
+        "\"NPS\"",
+        "\"National Park Service\"",
+        "\"North America\"",
+        "\"USA\"",
+        "\"United States\"" ;
+    dc:hasType "\"place\"" ;
+    dc:partOf "\"None\"" ;
+    owl:a bcube:thesaurusSubset .
+
+<urn:uuid:b2671b1c-1c18-400c-b8f2-7ddb2b438b46> bcube:hasValue "\"Glacier National Park\"" ;
+    dc:hasType "\"place\"" ;
+    dc:partOf "\"National Park System Unit Name Thesaurus\"" ;
+    owl:a bcube:thesaurusSubset .
+
+<urn:uuid:d912c34f-74fe-40a9-8be5-d87dd2a23520> bcube:hasValue "\"Boundary\"" ;
+    dc:hasType "\"theme\"" ;
+    dc:partOf "\"National Park Service Theme Category Thesaurus\"" ;
+    owl:a bcube:thesaurusSubset .
+
+<urn:uuid:dcde767f-d81b-4fd4-af5b-3d5333e3966e> dc:location "\"West Glacier, Montana\"" ;
+    owl:a dcat:publisher ;
+    foaf:name "\"Glacier National Park GIS Program\"" .
+    esip:eastBound "-113.2335"^^xsd:float ;
+
+<urn:uuid:f31beb24-ac1f-4a0c-8595-412f18741963> bcube:hasValue "\"Burlington Northern Santa Fe railroad\"",
+        "\"Glacier National Park\"",
+        "\"adminstrative boundary\"",
+        "\"boundary\"",
+        "\"railroad\"" ;
+    dc:hasType "\"theme\"" ;
+    dc:partOf "\"None\"" ;
+    owl:a bcube:thesaurusSubset .
+
