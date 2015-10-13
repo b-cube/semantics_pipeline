@@ -34,7 +34,7 @@ class SimpleParliamentTask(luigi.Task):
     params = {}
 
     def requires(self):
-        return None
+        return []
 
     def output(self):
         return luigi.LocalTarget(
