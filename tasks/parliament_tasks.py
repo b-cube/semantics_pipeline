@@ -52,7 +52,7 @@ class SimpleParliamentTask(luigi.Task):
         self._configure()
 
         # f = self.input().path
-        data = read_data(self.input_file)
+        data = read_data(self.input_file, False)
         self.process_response(data)
 
         # add a file as a flag basically
