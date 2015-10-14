@@ -27,9 +27,11 @@ def run_init(config):
         return
 
 
-def read_data(path):
+def read_data(path, is_json=True):
     with open(path, 'r') as f:
-        return json.loads(f.read())
+        if is_json:
+            return json.loads(f.read())
+        return f.read()
 
 
 def write_data(path, data):
