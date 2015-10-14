@@ -20,7 +20,7 @@ def insert(conn, filename):
     graph = Graph()
     graph.parse(filename, format="turtle")
     as_nt = graph.serialize(format="nt")
-    conn.update("INSERT GRAPH { %s }" % as_nt)
+    conn.update("INSERT DATA { %s }" % as_nt)
 
 
 class SimpleParliamentTask(luigi.Task):
