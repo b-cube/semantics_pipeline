@@ -72,6 +72,13 @@ Parse:
 	params:
 		parse_as_xml: False
 
+Parliament:
+	output_directory:
+	params:
+		endpoint: 'https://my.parliament.db/sparql'
+		named_graph: 'urn:graph:triples'
+		auth: 'user:password'
+
 ```
 
 Order doesn't matter (that's defined within the tasks currently). 
