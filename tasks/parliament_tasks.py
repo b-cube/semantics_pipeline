@@ -52,8 +52,8 @@ class SimpleParliamentTask(luigi.Task):
         self._configure()
 
         # f = self.input().path
-        data = read_data(self.input_file, False)
-        self.process_response(data)
+        # data = read_data(self.input_file, False)
+        self.process_response(self.input_file)
 
         # add a file as a flag basically
         with self.output().open('w') as out_file:
