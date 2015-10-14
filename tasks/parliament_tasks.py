@@ -2,6 +2,7 @@ import luigi
 from tasks.parse_tasks import TripleTask
 from task_helpers import parse_yaml, extract_task_config
 from task_helpers import generate_output_filename
+from task_helpers import read_data
 from rdflib.plugins.stores import sparqlstore
 from rdflib import Graph, URIRef
 
@@ -50,8 +51,9 @@ class SimpleParliamentTask(luigi.Task):
         '''  '''
         self._configure()
 
-        f = self.input().path
-        self.process_response(f)
+        # f = self.input().path
+        data = read_data(self.input_file)
+        self.process_response(data)
 
         # add a file as a flag basically
         with self.output().open('w') as out_file:
