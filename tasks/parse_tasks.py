@@ -235,6 +235,11 @@ class ParseTask(luigi.Task):
         url = data['url']
         identity = data['identity']
 
+        to_exclude = self.params.get('exclude', [])
+        protocol = next(iter(identity), {}).get('protocol')
+        if not protocol or protocol in to_exclude:
+            return {}
+
         harvest_details = {
             "harvest_date": data['tstamp']
         }
