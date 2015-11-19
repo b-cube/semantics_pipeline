@@ -155,8 +155,9 @@ class IdentifyTask(luigi.Task):
 
         identified = self.process_response(data)
 
-        with self.output().open('w') as out_file:
-            out_file.write(json.dumps(identified, indent=4))
+        if identified or self.params.get('save_unknown', False):
+            with self.output().open('w') as out_file:
+                out_file.write(json.dumps(identified, indent=4))
 
     def _locate_in_configs(self, filename):
         return os.path.join(
