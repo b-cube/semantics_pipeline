@@ -255,7 +255,6 @@ class ParseTask(luigi.Task):
         if not processor:
             return {}
 
-        processor.reader.parse()
         description = processor.reader.description
 
         # drop the source for a decent non-xml embedded in my json file
