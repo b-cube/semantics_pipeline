@@ -44,10 +44,11 @@ Supported Parameters
 
 - workflow (`-w`): the class name of the workflow to run. 
 - config (`-c`): the file path to the YAML configuration file.
-- directory (`-d`): the file path to the directory containing the input files
-- start (`-s`): the integer start index
-- end (`-e`): the integer end index
-- interval (`-i`): the integer interval for iteration
+- directory (`-d`): the file path to the directory containing the input files.
+- start (`-s`): the integer start index.
+- end (`-e`): the integer end index.
+- interval (`-i`): the integer interval for iteration.
+- filetype (`-f`): extension of the input files (default: json).
 
 
 Configuration Structure
@@ -64,16 +65,32 @@ Clean:
 Identify:
 	output_directory: path/to/identify/outputs
 	params:
+		# list of identifier yaml configuration files to use
+		# anything not found in these files in unknown
 	    identifiers:
 			- my_identifiers.yaml
+		# flag for capturing unknown xml types
+		# currently has no triple output structure
+		save_unknown: false
 
 Parse:
 	output_directory: path/to/parse/outputs
 	params:
+		# if unknown and saved, should it be parsed?
 		parse_as_xml: False
+		# list of protocols, as tagged in the configuration files
+		# to exclude from the json parsing even if identified
+		exclude:
+			- RDF
+			- OAI-PMH
 
+Triple:
+	output_directory: path/to/triples/directory
+
+# also works for SimpleParliament (just post
+# using the triples directory for inputs)
 Parliament:
-	output_directory:
+	output_directory: path/to/parliament/outputs
 	params:
 		endpoint: 'https://my.parliament.db/sparql'
 		named_graph: 'urn:graph:triples'
@@ -89,7 +106,19 @@ To run the CLI, and we'll use the YAML example above as the workflow (in this ca
 python workflow_manager.py -w ParseWorkflow -c parse.yaml -d data/solr_docs -s 0 -e 1000 -i 100
 ```
 
-to execute a parse workflow from clean to identify to parse for the set of Solr docs in the solr_docs directory for the first thousand at 100 per iteration.
+to execute a parse workflow from clean to identify to parse for the set of Solr docs in the solr_docs directory for the first thousand at 100 per iteration. Note for running the Parliament or SimpleParliament tasks (post to the triplestore), you need to set the filetype to `ttl`.
+
+I note also that luigi, as set up here, is not being used as intended, ie, not clustered and not through the server. It is less than ideal. As such, we have this workflow wrapper to iterate over a set of inputs. This batching hack is still prone to memory issues (building that dependency tree is non-trivial); we've found on a medium to large EC2, not high RAM, you can run 100K inputs in 2-4K intervals. 
+
+####The pipeline workflow
+
+The basic pipeline workflow is as follows:
+
+1. Extract the documents using the SOLR CLI described above. Depending on the current state of the index, you may be able to query the system from some date forward. 
+2. Write the workflow YAML describing the desired workflow, making sure that the output directories exist and have all required permissions.
+3. Execute the pipeline using the workflow_manager CLI, pointing to the output SOLR directory and using the desired workflow name.
+
+(Note: the pipeline codebase includes several tasks and/or workflows not described here. These can safely be ignored and, in some cases, the functionality is found in other processing code. See the Response-Identification-Info repository for more details.)
 
 
 **Running either remotely with fabric**
@@ -128,6 +157,8 @@ To run a deploy for any of the BCube-related dependencies:
 
 ```
 >> fabfile set_server:path/to/settings.conf deploy_owscapable 
+>> # note this identifies a branch for the build, but can be executed with the master branch from deploy_processing
+>> # and the branch option is available for any of the deploy_* methods
 >> fabfile set_server:path/to/settings.conf deploy_processing:branch=iso-rdf-serializer
 >> fabfile set_server:path/to/settings.conf deploy_pipeline
 ```
@@ -143,6 +174,9 @@ and the Workflow CLI:
 ```
 >> fabfile set_server:path/to/settings.conf run_remote_pipeline:ParseWorkflow,pipeline/settings.conf,pipeline/solr_docs,0,1000,100
 ```
+
+While you can run the workflows through this fabric option, it is not set up to handle screens. For short runs and testing, this is not an issue but for any significant processing, it is less than ideal. 
+
 
 
 
